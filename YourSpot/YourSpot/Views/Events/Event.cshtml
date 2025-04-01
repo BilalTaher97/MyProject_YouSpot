@@ -1,0 +1,227 @@
+﻿@model YourSpot.Models.EventsViewModel
+
+@section Style {
+
+    <link rel="stylesheet" href="/css/Event.css" asp-append-version="true" />
+
+}
+
+
+
+
+
+
+<section class="hero">
+    <div class="hero_group">
+        <div class="hero-Content">
+            <h1 class="hero_title">
+                Events
+            </h1>
+            <p class="hero_description">
+                Find the Perfect Venue at the Best Price for Your Special Event with YouSpot
+                Everything Just Got Easier
+            </p>
+            <a href="#Section-1">
+                <button class="button hero_button">
+                    Find Now!
+                </button>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="new-container" id="Section-1">
+    <h2 id="offer">Study House</h2>
+    <div class="container-withArrow">
+        <button class="arrow prev" id="prevBtn">❮</button>
+        <div class="offers arrows-Home">
+            @foreach (var item in Model.Event)
+            {
+                if (item.EstablishmentType == "Study House")
+                {
+                    <div class="home-box offer-box">
+                        <img src="~/images/fstViDQUANlIjV5C.jpeg" alt="" />
+                        <h3>@item.Name</h3>
+                        <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
+                        <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text">Show Details</span>
+                            </button>
+                        </a>
+
+                    </div>
+                }
+
+            }
+
+
+        </div>
+        <button class="arrow next">❯</button>
+    </div>
+</section>
+
+<section class="new-container" id="Section-2">
+    <h2 id="offer">Birthday party</h2>
+    <div class="container-withArrow">
+        <button class="arrow prev" id="prevBtn">❮</button>
+        <div class="offers arrows-Home">
+            @foreach (var item in Model.Event)
+            {
+                if (item.EstablishmentType == "Birthday party")
+                {
+                    <div class="home-box offer-box">
+                        <img src="~/images/bourj-al-hamam-amman.jpg" alt="" />
+                        <h3>@item.Name</h3>
+                        <i class="fa-solid fa-user"></i> <span>@item.Capacity</span>
+                        <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
+                        <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text">Show Details</span>
+                            </button>
+                        </a>
+                    </div>
+                }
+
+            }
+
+
+        </div>
+        <button class="arrow next">❯</button>
+    </div>
+</section>
+
+<section class="new-container" id="Section-3">
+    <h2 id="offer">Meetings and seminars</h2>
+    <div class="container-withArrow">
+        <button class="arrow prev" id="prevBtn">❮</button>
+        <div class="offers arrows-Home">
+            @foreach (var item in Model.Event)
+            {
+                if (item.EstablishmentType == "Meetings and seminars")
+                {
+                    <div class="home-box offer-box">
+                        <img src="~/images/bourj-al-hamam-amman.jpg" alt="" />
+                        <h3>@item.Name</h3>
+                        <i class="fa-solid fa-user"></i> <span>@item.Capacity</span>
+                        <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
+                        <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text">Show Details</span>
+                            </button>
+                        </a>
+                    </div>
+                }
+
+            }
+
+
+
+
+        </div>
+        <button class="arrow next">❯</button>
+    </div>
+
+</section>
+
+<div class="main">
+    <h1 class="End-Text">The highest-rated.</h1>
+    <div class="cards">
+        @foreach (var item in Model.SpecialEvent)
+        {
+            <div class="card">
+                <div class="card-img" style="background-image:url(../images/WhatsApp\ Image\ 2025-01-01\ at\ 13.25.16_a80d5a5b.jpg);">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">Show Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-content">
+                    <a href="#!">
+                        <h2>@item.Name</h2>
+                        <p>@item.Description</p>
+                    </a>
+                </div>
+            </div>
+
+        }
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+<script>
+    document.querySelectorAll(".container-withArrow").forEach((container) => {
+        const prevBtn = container.querySelector(".prev");
+        const nextBtn = container.querySelector(".next");
+        const scrollable = container.querySelector(".arrows-Home");
+
+        const scrollAmount = 300;
+
+        if (prevBtn && nextBtn && scrollable) {
+            prevBtn.style.visibility = "hidden";
+
+            prevBtn.addEventListener("click", () => {
+                scrollable.scrollBy({
+                    left: -scrollAmount,
+                    behavior: "smooth",
+                });
+
+                nextBtn.style.visibility = "visible";
+
+                if (scrollable.scrollLeft <= scrollAmount) {
+                    prevBtn.style.visibility = "hidden";
+                }
+            });
+
+            nextBtn.addEventListener("click", () => {
+                scrollable.scrollBy({
+                    left: scrollAmount,
+                    behavior: "smooth",
+                });
+
+                prevBtn.style.visibility = "visible";
+
+                const maxScrollLeft = scrollable.scrollWidth - scrollable.clientWidth;
+                if (scrollable.scrollLeft + scrollAmount >= maxScrollLeft) {
+                    nextBtn.style.visibility = "hidden";
+                }
+            });
+
+            scrollable.addEventListener("scroll", () => {
+                const maxScrollLeft = scrollable.scrollWidth - scrollable.clientWidth;
+
+                if (scrollable.scrollLeft > 0) {
+                    prevBtn.style.visibility = "visible";
+                } else {
+                    prevBtn.style.visibility = "hidden";
+                }
+
+                if (scrollable.scrollLeft < maxScrollLeft) {
+                    nextBtn.style.visibility = "visible";
+                } else {
+                    nextBtn.style.visibility = "hidden";
+                }
+            });
+        }
+    });
+</script>

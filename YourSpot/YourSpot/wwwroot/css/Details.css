@@ -1,0 +1,305 @@
+:root {
+    --white-100: hsl(206, 5%, 100%);
+    --white-200: hsl(206, 5%, 90%);
+    --white-300: hsl(206, 5%, 80%);
+    --white-400: hsl(206, 5%, 65%);
+    --white-500: hsl(206, 5%, 45%);
+
+    --black-100: hsl(210, 20%, 10%);
+    --black-200: hsl(210, 20%, 8%);
+    --black-300: hsl(210, 20%, 6%);
+    --black-400: hsl(210, 20%, 4%);
+    --black-500: hsl(210, 20%, 1%);
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 100%;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--black-500);
+    background-color: var(--white-100);
+}
+
+main {
+    overflow: hidden;
+}
+
+a,
+button {
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+} */
+
+/* Elements */
+.section {
+    margin: 0 auto;
+    padding-block: 5rem;
+}
+
+.container {
+    max-width: 75rem;
+    height: auto;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.75;
+    border-radius: 50%;
+    color: var(--white-100);
+    background: var(--black-300);
+}
+
+.mrg-left {
+
+    width: 30px;
+ 
+    margin-top: 5px;
+    margin-bottom: 32px;
+}
+
+.Maps {
+
+    position: relative;
+    left: 30%;
+}
+
+/* --------------------------------------------------------------- */
+
+
+.container_1 {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.address {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+    .address a {
+        color: #5bc1ac;
+        text-decoration: none;
+    }
+
+.info-cards {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #fff7eb;
+    padding: 15px;
+    border: 1px solid #f0e6d4;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.card span {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card strong {
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------- */
+
+
+.btn-Request {
+
+    position: relative;
+    left: 45%;
+}
+
+/* From Uiverse.io by cssbuttons-io */ 
+.button_1 {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid #4f4f4f;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    cursor: pointer;
+    color: black;
+    z-index: 1;
+  }
+  
+  .button_1:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button_1:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #39bda7;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button_1:hover {
+    color: #ffffff;
+    border: 1px solid #39bda7;
+  }
+  
+  .button_1:hover:before {
+    top: -35%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button_1:hover:after {
+    top: -45%;
+    background-color: #39bda7;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  /* ---------------------------------------------------------------------Fav---------------------------------------------------- */
+
+  .Fav {
+
+    position: relative;
+    left: 77%;
+   
+    bottom: -79px;
+  }
+
+  /* From Uiverse.io by Yaya12085 */ 
+.Favourit {
+    border: none;
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    background-color: #488aec;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    user-select: none;
+    gap: 0.75rem;
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    transition: all 0.6s ease;
+  }
+  
+  .Favourit:hover {
+    box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
+  }
+  
+  .Favourit:focus,
+  .Favourit:active {
+    opacity: 0.85;
+    box-shadow: none;
+  }
+  
+  .Favourit svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  

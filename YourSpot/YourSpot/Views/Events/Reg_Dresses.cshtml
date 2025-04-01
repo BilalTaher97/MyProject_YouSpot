@@ -1,0 +1,73 @@
+﻿@section Style {
+
+    <link rel="stylesheet" href="/css/AddPhotographyStyle.css" asp-append-version="true" />
+
+}
+
+
+
+<div class="container_Photo">
+    <form id="contact" asp-action="HandelAddDresses" method="post">
+        <h3>Be part of our family now!</h3>
+        
+        <fieldset>
+            <input placeholder="Your Name" name="Name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Email Address" name="Email" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+            <input type="password" style="font-size: 13px;" name="Password" class="form-control" placeholder="Password *" value="" required />
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Phone Number" name="Phone" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Price" class="price" type="number" tabindex="4" name="Price" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Size" type="text" tabindex="4" name="Size" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Brand" type="text" tabindex="4" name="Brand">
+        </fieldset>
+        <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+       
+    </form>
+
+
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var successMessage = '@TempData.Peek("SuccessMessage_2")';
+            var errorMessage = '@TempData.Peek("ErrorMessage_2")';
+
+            if (successMessage && successMessage !== '') {
+                Swal.fire({
+                    title: 'Request success!',
+                    text: successMessage,
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                });
+            }
+
+            if (errorMessage && errorMessage !== '') {
+                Swal.fire({
+                    title: 'Booking Failed!',
+                    text: errorMessage,
+                    icon: 'error',
+                    confirmButtonText: 'Try Again'
+                });
+            }
+        });
+
+                
+    </script>
+}
+

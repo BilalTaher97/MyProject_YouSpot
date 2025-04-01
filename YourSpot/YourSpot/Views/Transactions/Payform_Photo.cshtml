@@ -1,0 +1,58 @@
+﻿@section Style {
+
+    <link rel="stylesheet" href="/css/DonationStyle.css" asp-append-version="true" />
+
+}
+
+
+<div class="donation-container">
+    <h1 class="donation-title">Make a Donation</h1>
+
+    <form id="donationForm" asp-action="HandelPayform_photo" method="post">
+        
+
+        <div class="form-section">
+            <label class="section-label">Booking date</label>
+            <input type="date" name="bookingDate" class="input-field" required>
+        </div>
+
+        <div class="form-section">
+            <label class="section-label">Message</label>
+            <textarea name="message" class="textarea-field" placeholder="Write any message here"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Donation</button>
+
+       
+    </form>
+</div>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var successMessage = '@TempData.Peek("SuccessMessage_4")';
+            var errorMessage = '@TempData.Peek("ErrorMessage_4")';
+
+            if (successMessage && successMessage !== '') {
+                Swal.fire({
+                    title: 'Request success!',
+                    text: successMessage,
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                });
+            }
+
+            if (errorMessage && errorMessage !== '') {
+                Swal.fire({
+                    title: 'Booking Failed!',
+                    text: errorMessage,
+                    icon: 'error',
+                    confirmButtonText: 'Try Again'
+                });
+            }
+        });
+    </script>
+}

@@ -1,0 +1,142 @@
+﻿@section Style {
+
+	<link rel="stylesheet" href="/css/Register_Registration.css" asp-append-version="true" />
+
+}
+
+
+
+<div class="user-ragistration">
+	<div class="container register">
+		<div class="row">
+			<div class="col-md-3 register-left">
+				<img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+				<h3>Welcome</h3>
+				<p>Be part of our family and register now</p>
+				<div class="Img-Reg">
+					<img src="../images/Signing A Document.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-9 register-right">
+
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<h3 class="register-heading">Registration your Establishment</h3>
+						<form asp-action="HandelEstablishment" method="post">
+							<div class="row register-form">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" name="Name" class="form-control" placeholder="Full Name *" value="" required />
+									</div>
+									<div class="form-group">
+										<input type="text" name="Phone" class="form-control" placeholder="Phone *" value="" required />
+									</div>
+									<div class="form-group">
+										<input type="email" name="Email" class="form-control" placeholder="Email *" value="" required />
+									</div>
+									<div class="form-group">
+										<input type="password" name="Password" class="form-control" placeholder="Password *" value="" required />
+									</div>
+									<div class="form-group">
+										<input type="text" name="Address" class="form-control" placeholder="Address *" value="" required />
+									</div>
+
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="number" name="Price" class="form-control" placeholder="Min Spend *" value="" step="0.01" min="0" required />
+									</div>
+									<div class="form-group">
+										<input type="number" name="capacity" class="form-control" placeholder="capacity *" value="" required />
+									</div>
+									<div class="form-group">
+										<input type="text" name="EstablishmentName" class="form-control" placeholder="Establishment Name *"
+											   value="" required />
+									</div>
+									<div class="form-group">
+										<select id="EstablishmentType" name="EstablishmentType" class="List_1" onchange="toggleSubCategory()">
+											<option value="Wedding">Wedding</option>
+											<option value="Study House">Study House</option>
+											<option value="Birthday party">Birthday party</option>
+											<option value="Meetings and seminars">Meetings and seminars</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<select id="SubCategory" name="WeddingVenueType" class="List_1" disabled>
+											<option value="Hotel">Hotel</option>
+											<option value="Hall">Hall</option>
+											<option value="Farm">Farm</option>
+										</select>
+
+									</div>
+
+									<div class="Text-Area">
+										<textarea name="Description" id="Description" cols="81" rows="5"></textarea>
+									</div>
+
+									<input type="submit" class="btnRegister" value="Register" />
+
+								</div>
+								
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+@section Scripts {
+	
+
+	
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script>
+
+				document.addEventListener("DOMContentLoaded", function () {
+			        var successMessage = '@TempData.Peek("SuccessMessage_0")';
+					var errorMessage = '@TempData.Peek("ErrorMessage_0")';
+
+					if (successMessage && successMessage !== '') {
+						Swal.fire({
+							title: 'Request success!',
+							text: successMessage,
+							icon: 'success',
+							confirmButtonText: 'OK'
+						});
+					}
+
+					if (errorMessage && errorMessage !== '') {
+						Swal.fire({
+							title: 'Booking Failed!',
+							text: errorMessage,
+							icon: 'error',
+							confirmButtonText: 'Try Again'
+						});
+					}
+				});
+
+						
+
+				function toggleSubCategory() {
+					var establishmentType = document.getElementById("EstablishmentType").value;
+					var subCategory = document.getElementById("SubCategory");
+
+					if (establishmentType === "Wedding") {
+						subCategory.disabled = false;
+					} else {
+						subCategory.disabled = true;
+						subCategory.selectedIndex = 0;
+					}
+				}
+
+
+				document.addEventListener("DOMContentLoaded", function () {
+					toggleSubCategory();
+				});
+	</script>
+
+}

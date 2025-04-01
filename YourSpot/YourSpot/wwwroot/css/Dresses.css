@@ -1,0 +1,485 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.sl-container {
+    width: 100%;
+    height: 500px;
+    margin: 0px 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000;
+    position: relative;
+}
+
+.swipe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    overflow: hidden;
+}
+
+.panel {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.left {
+    left: -100%;
+}
+
+.right {
+    left: 100%;
+}
+
+.sl-info {
+    position: absolute;
+    width: 70%;
+    max-width: 500px;
+    bottom: 15%;
+    right: 5%;
+    pointer-events: none;
+}
+
+.inner {
+    position: relative;
+    padding: 0.5em 2em 1em;
+    background: #FFFFFF;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.inner h3 {
+    font-size: 1.7em;
+    font-weight: normal;
+    color: #5bc1ac;
+}
+
+.inner p {
+    font-family: Verdana, sans-serif;
+}
+
+.sl-info:before {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    transform: translate(-10px, -10px);
+    background: #5bc1ac;
+}
+
+.sl-buttons {
+    position: absolute;
+    bottom: -50px;
+    right: 5%;
+    pointer-events: all;
+}
+
+.sl-buttons button {
+    transition: ease .4s;
+}
+
+.sl-buttons button svg {
+    margin: 10px 0;
+}
+
+.sl-buttons .btn-prev,
+.sl-buttons .btn-next {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border: 2px solid #5bc1ac;
+    outline: none;
+    border-radius: 60px;
+    color: #FFFFFF;
+    background: #5bc1ac;
+    box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.sl-buttons button:hover {
+    box-shadow: 0px 3px 30px 3px rgba(0, 0, 0, .5);
+}
+
+.sl-buttons button:disabled {
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, .5);
+    background: rgb(218, 204, 178);
+    cursor: default;
+}
+
+.optional {
+    width: 80%;
+    max-width: 680px;
+    margin: 6em auto;
+    padding: 2em 3em;
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.16),
+        0 3px 12px rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 620px) {
+    body {
+        font-size: 13px;
+        line-height: 1.5em;
+    }
+
+    .sl-info {
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+        bottom: 0;
+        right: 0;
+    }
+
+    .inner {
+        padding: .5em 1.5em;
+        box-shadow: none;
+    }
+
+    .sl-buttons {
+        display: none;
+    }
+}
+
+
+.sl-buttons button svg {
+    margin: 0px -10px;
+}
+
+.swipe img {
+
+    width: 100%;
+    height: 110%;
+}
+
+.Content {
+    margin-top: 80px;
+}
+
+
+/* Card */
+
+.All-Cards {
+
+    margin-left: 50px;
+}
+
+.Cards {
+    margin-left: 80px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 27%);
+    row-gap: 20px;
+    column-gap: 120px;
+    justify-items: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+.wd-card-container {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:120px;
+}
+
+    .wd-card-container:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    }
+
+.wd-card-image-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.wd-card-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.wd-card-container:hover .wd-card-image {
+    transform: scale(1.1);
+}
+
+.wd-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0,0,0,0.7));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.wd-card-container:hover .wd-card-overlay {
+    opacity: 1;
+}
+
+.wd-card-details {
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.wd-card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.wd-card-container:hover .wd-card-title {
+    color: #34495e;
+}
+
+.wd-card-price-size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.wd-card-price {
+    font-size: 1.3rem;
+    color: #2ecc71;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.wd-card-container:hover .wd-card-price {
+    color: #27ae60;
+}
+
+.wd-card-size {
+    background-color: #f1f2f6;
+    color: #57606f;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.wd-card-container:hover .wd-card-size {
+    background-color: #eccc68;
+    color: #fff;
+}
+
+.wd-card-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5bc1ac;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+    .wd-card-button:hover {
+        background-color: #349581;
+        transform: scale(1.02);
+    }
+
+
+  /* ------------------------------------------------------ */
+
+  .wrapper{
+    margin: 60px auto;
+    text-align: center;
+  }
+  h1{
+    margin-bottom: 1.25em;
+  }
+  #pagination-demo{
+    display: inline-block;
+    margin-bottom: 1.75em;
+  }
+  #pagination-demo li{
+    display: inline-block;
+  }
+  
+  .page-content{
+    background: #eee;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    max-width: 660px;
+  }
+
+
+  .page-link {
+
+    color: rgba(90,111,128,1) !important;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-content {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.registration-section-wrapper {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #f8fbff;
+    font-family: inherit;
+}
+
+    .registration-section-wrapper * {
+        box-sizing: border-box;
+    }
+
+.registration-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 60px 20px;
+    position: relative;
+    background: aliceblue;
+}
+
+.registration-content {
+    width: 50%;
+    position: relative;
+    z-index: 5;
+    left: 200px;
+}
+
+.registration-title {
+    font-size: 2.5rem;
+    color: #4a5568;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.registration-subtitle {
+    font-size: 2rem;
+    color: #4a5568;
+    margin: 0 0 30px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.registration-btn {
+    display: inline-block;
+    background-color: #4a6178;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(74, 97, 120, 0.3);
+    border: none;
+    cursor: pointer;
+}
+
+    .registration-btn:hover {
+        background-color: #3c5060;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 15px rgba(74, 97, 120, 0.4);
+    }
+
+.registration-circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.registration-circle-1 {
+    width: 280px;
+    height: 280px;
+    background-color: #4ECDC4;
+    top: -120px;
+    left: -80px;
+    z-index: 1;
+}
+
+.registration-circle-2 {
+    width: 160px;
+    height: 160px;
+    background-color: rgba(78, 205, 196, 0.2);
+    bottom: -60px;
+    right: 10%;
+    z-index: 1;
+}
+
+
+
+@media (max-width: 768px) {
+    .registration-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .registration-content {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .registration-title {
+        font-size: 2rem;
+    }
+
+    .registration-subtitle {
+        font-size: 1.6rem;
+    }
+
+    .registration-icon {
+        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+    }
+
+        .registration-icon::before {
+            width: 95px;
+            height: 95px;
+        }

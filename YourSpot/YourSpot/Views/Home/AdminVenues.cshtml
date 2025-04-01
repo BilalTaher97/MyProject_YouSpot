@@ -1,0 +1,111 @@
+﻿@model YourSpot.Models.Venue
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@section Style {
+
+    <link rel="stylesheet" href="~/css/FormStyle.css" asp-append-version="true" />
+
+}
+
+<div class="container">
+    <div class="header">
+        <h1>Establishment Information</h1>
+       
+        <div class="wave"></div>
+    </div>
+
+    <div class="form-container">
+        <form id="editProfileForm" asp-action="HandelAdminVenues" asp-controller="Home" method="post">
+
+            <div class="form-row">
+                <div class="form-column">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <div class="icon-input">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="name" class="form-control" name="Name" value="@Model.Name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <div class="icon-input">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" class="form-control" name="Email" value="@Model.Email" readonly required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <div class="icon-input">
+                            <i class="fas fa-phone"></i>
+                            <input type="tel" id="phone" class="form-control" name="Phone" value="@Model.Phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <div class="icon-input">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" id="address" class="form-control" name="Address" value="@Model.Address" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-column">
+                    <div class="form-group">
+                        <label for="establishment_name">Establishment Name</label>
+                        <div class="icon-input">
+                            <i class="fas fa-building"></i>
+                            <input type="text" id="establishment_name" class="form-control" name="EstablishmentName" value="@Model.EstablishmentName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="establishment_type">Establishment Type</label>
+                        <div class="icon-input">
+                            <i class="fas fa-briefcase"></i>
+                            <input type="text" id="establishment_type" class="form-control" name="EstablishmentType" value="@Model.EstablishmentType" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <div class="icon-input">
+                            <i class="fas fa-dollar-sign"></i>
+                            <input type="number" id="price" class="form-control" name="Price" value="@Model.Price" step="0.01" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="capacity">Capacity</label>
+                        <div class="icon-input">
+                            <i class="fas fa-users"></i>
+                            <input type="number" id="capacity" class="form-control" name="Capacity" value="@Model.Capacity" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" class="form-control description-area" name="Description" rows="4">@Model.Description</textarea>
+            </div>
+
+            <div class="actions">
+               
+                <button type="submit" class="btn_Form" style="margin-right:10px;">
+                    <i class="fas fa-save"></i> Save Changes
+                </button>
+
+              
+
+            </div>
+        </form>
+    </div>
+</div>
+

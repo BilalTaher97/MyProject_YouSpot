@@ -1,0 +1,458 @@
+﻿@model YourSpot.Models.UsersViewModel
+
+@section Style {
+
+	<link rel="stylesheet" href="/css/Profile.css" asp-append-version="true" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+}
+
+
+
+<div class="container">
+
+	<!-- Breadcrumb -->
+	<nav aria-label="breadcrumb" class="main-breadcrumb">
+		<ol class="breadcrumb">
+			<a href="../index.html">
+			<li class="breadcrumb-item"><a href="index.html">Home</a></li></a>
+			<li class="breadcrumb-item active" aria-current="page">Profile</li>
+		</ol>
+	</nav>
+	<!-- /Breadcrumb -->
+
+	<div class="row gutters-sm">
+		<div class="col-md-4 d-none d-md-block">
+			<div class="card">
+				<div class="card-body">
+					<nav class="nav flex-column nav-pills nav-gap-y-1">
+						<a href="#profile" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded active">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+								 class="feather feather-user mr-2">
+								<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+								<circle cx="12" cy="7" r="4"></circle>
+							</svg>Profile Information
+						</a>
+						<a href="#account" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+								 class="feather feather-settings mr-2">
+								<circle cx="12" cy="12" r="3"></circle>
+								<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+								</path>
+							</svg>Account Settings
+						</a>
+						<a href="#security" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+								 class="feather feather-shield mr-2">
+								<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+							</svg>Security
+						</a>
+						<a href="#billing" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+								 class="feather feather-credit-card mr-2">
+								<rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+								<line x1="1" y1="10" x2="23" y2="10"></line>
+							</svg>My Bookings
+						</a>
+						<a href="#Favourit" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+								 class="feather feather-settings mr-2">
+								<circle cx="12" cy="12" r="3"></circle>
+								<path d="M12 21l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.18L12 21z">
+								</path>
+							</svg>Favorites
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<div class="card">
+				<div class="card-header border-bottom mb-3 d-flex d-md-none">
+					<ul class="nav nav-tabs card-header-tabs nav-gap-x-1" role="tablist">
+						<li class="nav-item">
+							<a href="#profile" data-toggle="tab" class="nav-link has-icon active">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+									 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+									 class="feather feather-user">
+									<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+									<circle cx="12" cy="7" r="4"></circle>
+								</svg>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#account" data-toggle="tab" class="nav-link has-icon">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+									 stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings">
+									<circle cx="12" cy="12" r="3"></circle>
+									<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+									</path>
+								</svg>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#security" data-toggle="tab" class="nav-link has-icon">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+									 stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield">
+									<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+								</svg>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#billing" data-toggle="tab" class="nav-link has-icon">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+									 stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card">
+									<rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+									<line x1="1" y1="10" x2="23" y2="10"></line>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="card-body tab-content">
+					<div class="tab-pane active" id="profile">
+						<h6>YOUR PROFILE INFORMATION</h6>
+						<hr>
+						<form>
+							<div class="form-group">
+								<label for="fullName">Name</label>
+								<input type="text" class="form-control" id="fullName" aria-describedby="fullNameHelp"
+									   value="@Model.InfoUser.Name" readonly>
+							</div>
+							<div class="form-group">
+								<label for="fullName">Email</label>
+								<input type="email" class="form-control" id="Email" value="@Model.InfoUser.Email" readonly>
+							</div>
+							<div class="form-group">
+								<label for="UserName">Phone</label>
+								<input type="text" class="form-control" id="UserName" value="@Model.InfoUser.Phone" readonly>
+							</div>
+
+						</form>
+					</div>
+					<div class="tab-pane" id="account">
+						<h6>ACCOUNT SETTINGS</h6>
+						<hr>
+						<form asp-action="EditProfile" method="post">
+
+							<input type="hidden" name="id" value="@Model.InfoUser.Id" />
+							<div class="form-group">
+								<label for="fullName">Name</label>
+								<input type="text" class="form-control" name="name" id="fullName" aria-describedby="fullNameHelp"
+									   value="@Model.InfoUser.Name">
+							</div>
+							<div class="form-group">
+								<label for="UserName">Phone</label>
+								<input type="text" class="form-control" name="Phone" id="UserName" value="@Model.InfoUser.Phone">
+							</div>
+
+							<button class="btn btn-success" style="margin-top: 20px;" type="submit">Save Change</button>
+						</form>
+					</div>
+					<div class="tab-pane" id="security">
+						<h6>SECURITY SETTINGS</h6>
+						<hr>
+						<form id="changePasswordForm" asp-action="EditPassword" method="post" onsubmit="return submitPasswordChangeForm();">
+							<div class="form-group">
+								<input type="hidden" name="id" value="@Model.InfoUser.Id">
+								<label for="currentPassword">Current Password</label>
+								<input type="password" class="form-control" name="currentPassword" required>
+							</div>
+							<div class="form-group">
+								<label for="newPassword">New Password</label>
+								<input type="password" class="form-control" name="newPassword" required>
+							</div>
+							<div class="form-group">
+								<label for="confirmPassword">Confirm Password</label>
+								<input type="password" class="form-control" name="confirmPassword" required>
+							</div>
+							<button class="btn btn-success" type="submit">Change Password</button>
+							<div id="passwordMessage" class="mt-2"></div>
+						</form>
+
+
+						<hr>
+					</div>
+					<div class="tab-pane" id="billing">
+						
+						<hr>
+						<h6 class="Title_Table">Venue Reservations</h6>
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Booking Date</th>
+									<th scope="col">Start Time</th>
+									<th scope="col">End Date</th>
+									<th scope="col">Type Booking</th>
+									<th scope="col">Status</th>
+									<th scope="col" colspan="2"></th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@{
+									int counter_0 = 1;
+								}
+								@foreach (var item in Model.booking)
+								{
+
+									if (item.TypeBook == "Venues")
+									{
+										<tr>
+											<th scope="row">@counter_0</th>
+											<td>@item.BookingDate</td>
+											<td>@item.StartTime</td>
+											<td>@item.EndTime</td>
+											<td>@item.TypeBook</td>
+											@if (item.Status == "Pending")
+											{
+												<td style="color:sandybrown;font-weight:bold">@item.Status</td>
+											}
+											else if (item.Status == "Approved")
+											{
+												<td style="color:#5bc1ac;font-weight:bold">@item.Status</td>
+											}
+											else if (item.Status == "Completed"){
+												<td style="color:forestgreen;font-weight:bold">@item.Status</td>
+											}else{
+												<td style="color:red;font-weight:bold">@item.Status</td>
+											}
+											
+											@if (item.Status == "Approved")
+											{
+												<td><a asp-action="Payment" asp-controller="Transactions" asp-route-id="@item.Id" class="btn btn-success">Confirm Payment</a></td>
+												<td><a asp-action="DeleteBooking" asp-controller="User" asp-route-id="@item.Id" class="btn btn-danger">Cancel</a></td>
+											}
+										</tr>
+
+										counter_0++;
+									}
+
+
+									
+								}
+
+
+							</tbody>
+						</table>
+						<h6 class="Title_Table">Service Bookings</h6>
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Booking Date</th>
+									<th scope="col">Type Booking</th>
+									<th scope="col">Status</th>
+									<th scope="col" colspan="2"></th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@{
+									int counter_1 = 1;
+								}
+								@foreach (var item in Model.booking)
+								{
+
+									if (item.TypeBook != "Venues")
+									{
+										<tr>
+											<th scope="row">@counter_1</th>
+											<td>@item.BookingDate</td>
+											<td>@item.TypeBook</td>
+											@if (item.Status == "Pending")
+											{
+												<td style="color:sandybrown;font-weight:bold">@item.Status</td>
+											}
+											else if (item.Status == "Approved")
+											{
+												<td style="color:#5bc1ac;font-weight:bold">@item.Status</td>
+											}
+											else if (item.Status == "Completed")
+											{
+												<td style="color:forestgreen;font-weight:bold">@item.Status</td>
+											}
+											else
+											{
+												<td style="color:red;font-weight:bold">@item.Status</td>
+											}
+											@if (item.Status == "Approved")
+											{
+												<td><a asp-action="Payment" asp-controller="Transactions" asp-route-id="@item.Id" class="btn btn-success">Confirm Payment</a></td>
+												<td><a asp-action="DeleteBooking" asp-controller="User" asp-route-id="@item.Id" class="btn btn-danger">Cancel</a></td>
+												
+											}
+										</tr>
+										counter_1++;
+									}
+
+
+
+								}
+
+
+							</tbody>
+						</table>
+					</div>
+					<div class="tab-pane" id="Favourit">
+						
+						<hr>
+
+
+
+
+						<h6 class="Title_Table">Venues Favorite</h6>
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Name</th>
+									<th scope="col">Type</th>
+									<th scope="col">Address</th>
+									<th scope="col">Min Spend</th>
+									<th scope="col">Capacity</th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@{
+									int counter_2 = 1;
+								}
+								@foreach (var item in Model.FavoriteVenues)
+								{
+
+
+									<tr>
+										<th scope="row">@counter_2</th>
+										<td>@item.EstablishmentName</td>
+										<td>@item.EstablishmentType</td>
+										<td>@item.Address</td>
+										<td>@item.Price</td>
+										<td>@item.Capacity</td>
+										<td><a asp-action="DeleteVenuesFav" asp-controller="User" asp-route-id="@item.Id" class="btn btn-danger">Remove</a></td>
+
+									</tr>
+
+
+
+									counter_2++;
+								}
+
+
+							</tbody>
+						</table>
+
+
+
+						<h6 class="Title_Table">Photographer Favorite</h6>
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Name</th>
+									<th scope="col">Email</th>
+									<th scope="col">Phone</th>
+									<th scope="col">Min Spend</th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@{int counter_3 = 1;}
+								@foreach (var item in Model.FavoritePhotography)
+								{
+
+
+									<tr>
+										<th scope="row">@counter_3</th>
+										<td>@item.Name</td>
+										<td>@item.Email</td>
+										<td>@item.Phone</td>
+										<td>@item.Price</td>>
+										<td><a asp-action="DeletePhotoFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 20%;" class="btn btn-danger">Remove</a></td>
+
+									</tr>
+
+
+
+									counter_3++;
+								}
+
+
+							</tbody>
+						</table>
+
+
+						<h6 class="Title_Table">Favorite Clothing</h6>
+						<table class="table">
+							<thead class="thead-dark">
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Name</th>
+									<th scope="col">Email</th>
+									<th scope="col">Phone</th>
+									<th scope="col">Min Spend</th>
+									<th scope="col">Size</th>
+									<th scope="col">Brand</th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody>
+
+								@{
+									int counter_4 = 1;
+								}
+								@foreach (var item in Model.FavoriteDresses)
+								{
+
+
+									<tr>
+										<th scope="row">@counter_4</th>
+										<td>@item.Name</td>
+										<td>@item.Email</td>
+										<td>@item.Phone</td>
+										<td>@item.Price</td>>
+										<td>@item.Size</td>>
+										<td>@item.Brand</td>>
+										<td>
+										<td><a asp-action="DeleteDressesFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 2%;" class="btn btn-danger">Remove</a></td>
+									
+
+									</tr>
+
+
+
+									counter_4++;
+								}
+
+
+							</tbody>
+						</table>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+
+</script>
+@section Scripts {
+
+	<script src="~/js/Profile.js" asp-append-version="true"></script>
+}

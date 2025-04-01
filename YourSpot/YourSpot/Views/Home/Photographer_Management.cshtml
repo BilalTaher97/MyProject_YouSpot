@@ -1,0 +1,82 @@
+﻿@model IEnumerable<YourSpot.Models.Photographer>
+
+
+
+@{
+	Layout = "~/Views/Shared/_SuperAdmin.cshtml";
+}
+
+
+
+
+
+<div class="tab-pane" id="billing" style="margin-left:160px;">
+
+	<hr>
+	<h6 class="Title_Table">Venue Reservations</h6>
+	<table class="table">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Email</th>
+				<th scope="col">Phone</th>
+				<th scope="col">price</th>
+				<th scope="col">IsActive</th>
+				<th scope="col">Status</th>
+				<th scope="col" colspan="2"></th>
+			</tr>
+		</thead>
+		<tbody>
+
+			@{
+				int counter_Photo = 1;
+			}
+			@foreach (var item in Model)
+			{
+
+
+				<tr>
+					<th scope="row">@counter_Photo</th>
+					<td>@item.Name</td>
+					<td>@item.Email</td>
+					<td>@item.Phone</td>
+					<td>@item.Price</td>
+
+					@if (item.IsActive == true)
+					{
+						<td>Yes</td>
+					}
+					else
+					{
+						<td>No</td>
+
+					}
+
+					<td style="font-weight:bold; color: @(item.Status == "Pending" ? "sandybrown"  : item.Status == "Accepted" ? "forestgreen" : "red")">
+						@item.Status
+					</td>
+					@if (item.Status == "Pending")
+					{
+						<td><a asp-action="HandelAcceptPhoto" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-success btn-sm">Approve</a></td>
+						<td><a asp-action="HandelRejectPhoto" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Reject</a></td>
+					}
+
+					@if (item.Status == "Accepted" && item.IsActive == true)
+					{
+						<td><a asp-action="HandelBlockPhoto" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Block</a></td>
+					}
+				</tr>
+
+				counter_Photo++;
+
+
+
+
+			}
+
+
+		</tbody>
+	</table>
+
+</div>

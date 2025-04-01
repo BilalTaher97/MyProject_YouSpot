@@ -1,0 +1,127 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/VerifyCodeStyle.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <a href="/User/Forgetpassword"><span class="close-btn">&times;</span></a>
+            <h2>Verify its you</h2>
+            <p>We sent verification code to JohnD@example.com. Please check your inbox and enter the code below.</p>
+            <p>6-digits code*</p>
+            <form asp-action="HandelCode" method="post">
+
+                <div id="code-inputs" class="code-inputs">
+                    <input type="text" name="code" id="code" maxlength="6" pattern="[0-9]*" inputmode="numeric">
+                    <div class="boxes">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
+                <button type="submit">Verify Code</button>
+
+            </form>
+
+            <p id="message" class="message"></p>
+        </div>
+    </div>
+
+
+    <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+            const codeInput = document.getElementById('code');
+            const boxes = document.querySelectorAll('.box');
+            const message = document.getElementById('message');
+            const correctCode = "123456";
+
+            codeInput.addEventListener('focus', () => {
+                updateActiveBox();
+            });
+
+            codeInput.addEventListener('blur', () => {
+                clearActiveBox();
+            });
+
+            codeInput.addEventListener('input', (e) => {
+                const value = e.target.value;
+                boxes.forEach((box, index) => {
+                    if (value[index]) {
+                        box.textContent = value[index];
+                    } else {
+                        box.textContent = '';
+                    }
+                });
+                updateActiveBox();
+            });
+
+            codeInput.addEventListener('click', () => {
+                codeInput.focus();
+                updateActiveBox();
+            });
+
+            function updateActiveBox() {
+                const valueLength = codeInput.value.length;
+                boxes.forEach((box, index) => {
+                    if (index === valueLength) {
+                        box.classList.add('active');
+                    } else {
+                        box.classList.remove('active');
+                    }
+                });
+            }
+
+            function clearActiveBox() {
+                boxes.forEach((box) => {
+                    box.classList.remove('active');
+                });
+            }
+
+            function showMessage(text, isSuccess) {
+                message.textContent = text;
+                if (isSuccess) {
+                    message.classList.remove('error');
+                    message.classList.add('success');
+                } else {
+                    message.classList.remove('success');
+                    message.classList.add('error');
+                }
+            }
+
+            window.verifyCode = function() {
+                const codeInputValue = codeInput.value;
+                if (codeInputValue === correctCode) {
+                    showMessage("Code verified: " + codeInputValue, true);
+                } else {
+                    showMessage("The code is wrong. Please try again.", false);
+                }
+            };
+        });
+
+    </script>
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+

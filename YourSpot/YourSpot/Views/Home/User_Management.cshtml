@@ -1,0 +1,70 @@
+﻿@model IEnumerable<YourSpot.Models.User>
+
+
+
+@{
+	Layout = "~/Views/Shared/_SuperAdmin.cshtml";
+}
+
+
+
+
+
+<div class="tab-pane" id="billing" style="margin-left: 300px;margin-top: 120px;">
+
+	<hr>
+	<h6 class="Title_Table">Venue Reservations</h6>
+	<table class="table">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Name</th>
+				<th scope="col">Email</th>
+				<th scope="col">Phone</th>
+				<th scope="col">IsActive</th>
+				<th scope="col" colspan="2"></th>
+			</tr>
+		</thead>
+		<tbody>
+
+			@{
+				int counter_Photo = 1;
+			}
+			@foreach (var item in Model)
+			{
+
+
+				<tr>
+					<th scope="row">@counter_Photo</th>
+					<td>@item.Name</td>
+					<td>@item.Email</td>
+					<td>@item.Phone</td>
+
+					@if (item.IsActive == true)
+					{
+						<td>Yes</td>
+					}
+					else
+					{
+						<td>No</td>
+
+					}
+
+					@if (item.IsActive == true)
+					{
+						<td><a asp-action="HandelBlockUser" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Block</a></td>
+					}
+				</tr>
+
+				counter_Photo++;
+
+
+
+
+			}
+
+
+		</tbody>
+	</table>
+
+</div>

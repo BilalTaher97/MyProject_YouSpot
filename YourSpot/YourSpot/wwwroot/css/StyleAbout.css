@@ -1,0 +1,494 @@
+
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    background: url(~/images/pexels-pietrozj-348517.jpg) no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .hero-section .overlay {
+        background-color: #5bc1acb8;
+        width: 100%;
+        height: 358px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+    .gallery img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.service {
+    text-align: center;
+    max-width: 300px;
+}
+
+    .service button {
+        background-color: #5e3dbb;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+        .service button:hover {
+            background-color: #462e8a;
+        }
+
+.categories {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+    .categories h2 {
+        margin-bottom: 20px;
+        color: #5e3dbb;
+    }
+
+.category {
+    margin-bottom: 20px;
+}
+
+    .category button {
+        background-color: #5e3dbb;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .category button:hover {
+            background-color: #462e8a;
+        }
+
+
+/* Start Container */
+.hero-section {
+    position: relative;
+    text-align: center;
+    background: url(~/images/pexels-pietrozj-348517.jpg) no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .hero-section h1 {
+        color: #0000007a;
+        position: relative;
+        top: 40%;
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -50px;
+}
+
+    .gallery img {
+        width: 230px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+.Content {
+    margin-top: 220px;
+    background-color: white;
+}
+
+.Content-2 {
+    margin-top: 200px;
+    background-color: #fdfdfd;
+}
+
+.container-1 {
+    margin-left: 290px;
+    margin-bottom: 120px;
+}
+
+.Specail-Text {
+    margin-left: 12px;
+}
+
+.card {
+    margin-right: 65px;
+}
+
+.Text-1 {
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+.sec-1 {
+    display: flex;
+}
+
+.Image-1 {
+    width: 400px;
+    height: 180px;
+}
+
+.Cont-1 {
+    margin-left: 50px;
+}
+
+    .Cont-1 p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #767676;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ys-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ys-container {
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.ys-btn {
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ys-btn-primary {
+    background-color: #4AC0A4;
+    color: white;
+    border: 1px solid #4AC0A4;
+}
+
+    .ys-btn-primary:hover {
+        background-color: #3aa189;
+    }
+
+.ys-hero-section {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/api/placeholder/900/500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.ys-hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.ys-image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.ys-gallery-image {
+    width: 150px;
+    height: 80px;
+    border-radius: 5px;
+    a overflow: hidden;
+}
+
+    .ys-gallery-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.ys-features-section {
+    padding: 80px 5%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.ys-feature-image {
+    flex: 1;
+}
+
+    .ys-feature-image img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.ys-feature-text {
+    flex: 1;
+}
+
+    .ys-feature-text h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .ys-feature-text p {
+        margin-bottom: 30px;
+        color: #666;
+    }
+
+.ys-service-section {
+    text-align: center;
+    padding: 80px 5%;
+    background-color: #f9f9f9;
+}
+
+    .ys-service-section h2 {
+        font-size: 36px;
+        margin-bottom: 60px;
+    }
+
+.ys-services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.ys-service-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+    .ys-service-card h3 {
+        margin: 20px 0;
+        color: #333;
+    }
+
+    .ys-service-card p {
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+.ys-tag {
+    display: inline-block;
+    background-color: #4AC0A4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.ys-intro-section {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+    .ys-intro-section h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+.ys-intro-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #555;
+}
+
+.ys-vision-mission {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 40px auto;
+    gap: 40px;
+}
+
+.ys-vision, .ys-mission {
+    flex: 1;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+    .ys-vision h3, .ys-mission h3 {
+        color: #4AC0A4;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+.ys-services-list {
+    padding: 60px 5%;
+    background-color: #f5f5f5;
+}
+
+    .ys-services-list h2 {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+.ys-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ys-service-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+}
+
+    .ys-service-item h3 {
+        color: #4AC0A4;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+.ys-why-us {
+    padding: 60px 5%;
+}
+
+    .ys-why-us h2 {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+.ys-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ys-feature-item {
+    text-align: center;
+    padding: 30px;
+}
+
+.ys-feature-icon {
+    font-size: 40px;
+    color: #4AC0A4;
+    margin-bottom: 20px;
+}
+
+.ys-contact-section {
+    padding: 60px 5%;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+    .ys-contact-section h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+.ys-contact-methods {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ys-contact-method {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+}
+
+.ys-contact-icon {
+    font-size: 30px;
+    color: #4AC0A4;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .ys-features-section {
+        flex-direction: column;
+    }
+
+    .ys-vision-mission {
+        flex-direction: column;
+    }
+
+    .ys-services-container {
+        flex-direction: column;
+    }
+}

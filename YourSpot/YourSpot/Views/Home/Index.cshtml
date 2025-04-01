@@ -1,0 +1,530 @@
+﻿@model IEnumerable<YourSpot.Models.Venue>
+
+
+
+
+
+
+<main>
+
+	<section class="hero-section hero-section-full-height" >
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-lg-12 col-12 p-0">
+					<div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="~/images/TorieKev-410-scaled.jpg" class="carousel-image img-fluid"
+									 alt="...">
+
+								<div class="carousel-caption d-flex flex-column justify-content-end">
+									<h1>Wedding party</h1>
+
+									<p>Get the best location for your wedding</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="~/images/7-Steps-to-Make-the-Best-Conference-Room-for-Your-Office.jpg"
+									 class="carousel-image img-fluid" alt="...">
+
+								<div class="carousel-caption d-flex flex-column justify-content-end">
+									<h1>Meetings</h1>
+
+									<p>Get the best place for your meeting</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="~/images/211029-gostudy-spaces-rm538-006_1635779970013_x4.jpg"
+									 class="carousel-image img-fluid" alt="...">
+
+								<div class="carousel-caption d-flex flex-column justify-content-end">
+									<h1>Study places</h1>
+
+									<p>Get a suitable place to study</p>
+								</div>
+							</div>
+						</div>
+
+						<button class="carousel-control-prev" type="button" data-bs-target="#hero-slide"
+								data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+
+						<button class="carousel-control-next" type="button" data-bs-target="#hero-slide"
+								data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section-padding">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-10 col-12 text-center mx-auto">
+					<h2 class="mb-5">Popular Event Type</h2>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+					<div class="featured-block d-flex justify-content-center align-items-center">
+						<a asp-action="Wedding" asp-controller="Events" class="d-block">
+							<img src="~/images/Wedding.png" class="featured-block-image img-fluid" alt="">
+
+							<p class="featured-block-text">Wedding <strong>party</strong></p>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+					<div class="featured-block d-flex justify-content-center align-items-center">
+						<a asp-action="Event" asp-controller="Events" class="d-block">
+							<img src="~/images/Meeting.png" class="featured-block-image img-fluid" alt="">
+
+							<p class="featured-block-text"><strong>Meetings</strong>&Seminars</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+					<div class="featured-block d-flex justify-content-center align-items-center">
+						<a asp-action="Event" asp-controller="Events" class="d-block">
+							<img src="~/images/Birth Date.png" class="featured-block-image img-fluid" alt="">
+
+							<p class="featured-block-text">Birthday <strong>party</strong></p>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+					<div class="featured-block d-flex justify-content-center align-items-center">
+						<a asp-action="Photography" asp-controller="Events" class="d-block">
+							<img src="~/images/Camera.png" class="featured-block-image img-fluid" alt="">
+
+							<p class="featured-block-text"><strong>Photo </strong>sessions</p>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section-padding section-bg" id="section_2">
+		<div class="container">
+			<div class="feat bg-gray pt-5 pb-5">
+				<div class="container">
+					<div class="row">
+						<div class="section-head col-sm-12">
+							<h4><span>Why </span> YourSpot?</h4>
+							<p>
+								Our mission is to connect people in best spaces for the events that matter. We make
+								it easier and quicker to book venue spaces to host more inspiring events.
+							</p>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="item">
+								<span class="icon feature_box_col_one">
+									<i class="fa fa-globe"
+									   style="color: #63E6BE;"></i>
+								</span>
+								<h6>Online booking</h6>
+								<p>A comprehensive booking platform that allows you to book online.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="item">
+								<span class="icon feature_box_col_two">
+									<i class="fa fa-anchor"
+									   style="color: #63E6BE;"></i>
+								</span>
+								<h6>Various online payment methods</h6>
+								<p>Various payment options to make your booking process easier.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="item">
+								<span class="icon feature_box_col_three">
+									<i class="fa fa-hourglass-half" style="color: #63E6BE;"></i>
+								</span>
+								<h6>Full supervision</h6>
+								<p>
+									Through your platform, you can oversee everything online and remotely, including
+									managing bookings, sales, payments, and more.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="item">
+								<span class="icon feature_box_col_four">
+									<i class="fa fa-database"
+									   style="color: #63E6BE;"></i>
+								</span>
+								<h6>Everything's online</h6>
+								<p>
+									Browse your venue hire options, chat directly with venues, enquire and book; all
+									from your phone or laptop
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="item">
+								<span class="icon feature_box_col_five">
+									<i class="fa fa-upload"
+									   style="color: #63E6BE;"></i>
+								</span>
+								<h6>Lowest price guaranteed</h6>
+								<p>
+									Compare quotes directly from multiple venues to get the best price. With no
+									hidden platform fees.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="item">
+								<span class="icon feature_box_col_six">
+									<i class="fa fa-camera"
+									   style="color: #63E6BE;"></i>
+								</span>
+								<h6>Hidden gems</h6>
+								<p>
+									Love is a special word, and I use it only when I mean it. You say the word too
+									much and it becomes cheap.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<section class="about-section section-padding" >
+		<div class="container">
+			<!-- Start Gallery -->
+			<div id="gallery" class="gallery-box">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="title-box">
+								<h2>Gallery</h2>
+								<p>You can see some pictures from our events </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<ul class="popup-gallery clearfix">
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/3dc429362695e9e9221defe6ba83adee (1).jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/3f12f336ef6254efe29a3f342cafe7ac.jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/d7dd8f87d0447e174c1ea5df919c9533.jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/75bb7ad43a5ce65090276c92d976f863.jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/33fb3a348a77bfb030926ed612495cb8.jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/99f75dd33c3e6dfb65bac663c010cb9b.jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/c7d1b8ae499d6e8e32ff91dcd0bc613b.jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img class="img-fluid" src="~/images/d9b929538f87a94e55ab16ea488b5b1e.jpg"
+										 alt="single image">
+									<span class="overlay"><img src="~/images/Heart.png" alt=""></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- End Gallery -->
+		</div>
+	</section>
+
+	<section class="cta-section section-padding section-bg">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+
+				<div class="col-lg-5 col-12 ms-auto">
+					<h2 class="mb-0">Join our family now <br> Register your place</h2>
+				</div>
+
+				<div class="col-lg-5 col-12">
+					<a asp-action="Establishment_Registration" asp-controller="User" class="custom-btn btn smoothscroll">Register Now</a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section-padding" id="section_3">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-12 col-12 text-center mb-4">
+					<h2>Venues of the month</h2>
+					<p>
+						These impressive spaces have earned a special mention. Here you'll find our favourite venues
+						across the Jordan, updated monthly.
+					</p>
+				</div>
+				@foreach (var venue in Model)
+				{
+					<div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 d-flex justify-content-center">
+						<div class="custom-block-wrap text-center">
+							<img src="~/images/le-royal-hotel-amman.jpg"
+								 class="custom-block-image img-fluid mx-auto" alt="">
+
+							<div class="custom-block">
+								<div class="custom-block-body">
+									<h5 class="mb-3">@venue.Name</h5>
+									<p>@venue.Description</p>
+
+									<div class="d-flex justify-content-between my-2">
+										<p class="mb-0">
+											<strong>Capacity:</strong> @venue.Capacity
+										</p>
+										<p class="mb-0">
+											<strong>Min Spend:</strong> JOD @venue.Price
+										</p>
+									</div>
+								</div>
+
+								<a href="./Details/Details.html" class="custom-btn btn">Show Now</a>
+							</div>
+						</div>
+					</div>
+				}
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="testimonial-section section-padding section-bg">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-8 col-12 mx-auto">
+					<h2 class="mb-lg-3">Happy Customers</h2>
+
+					<div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="carousel-caption">
+									<h4 class="carousel-title">It was easy to deal with you, thank you</h4>
+
+
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-caption">
+									<h4 class="carousel-title">I got the best place at the lowest possible price through you</h4>
+
+
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-caption">
+									<h4 class="carousel-title">Thank you for these services</h4>
+
+
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-caption">
+									<h4 class="carousel-title">Wonderful and excellent service</h4>
+
+
+								</div>
+							</div>
+
+							<ol class="carousel-indicators">
+								<li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
+									<img src="~/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+										 class="img-fluid rounded-circle avatar-image" alt="avatar">
+								</li>
+
+								<li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" class="">
+									<img src="~/images/avatar/portrait-young-redhead-bearded-male.jpg"
+										 class="img-fluid rounded-circle avatar-image" alt="avatar">
+								</li>
+
+								<li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" class="">
+									<img src="~/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg"
+										 class="img-fluid rounded-circle avatar-image" alt="avatar">
+								</li>
+
+								<li data-bs-target="#testimonial-carousel" data-bs-slide-to="3" class="">
+									<img src="~/images/avatar/studio-portrait-emotional-happy-funny.jpg"
+										 class="img-fluid rounded-circle avatar-image" alt="avatar">
+								</li>
+							</ol>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="contact-section section-padding" id="Section-6">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
+					<div class="contact-info-wrap">
+						<h2>Get in touch</h2>
+
+
+
+						<div class="contact-info">
+							<h5 class="mb-3">Contact Infomation</h5>
+
+							<p class="d-flex mb-2">
+								<i class="bi-geo-alt me-2"></i>
+								Jordan
+							</p>
+
+							<p class="d-flex mb-2">
+								<i class="bi-telephone me-2"></i>
+
+								<a href="tel: 120-240-9600">
+									+962786188639
+								</a>
+							</p>
+
+							<p class="d-flex">
+								<i class="bi-envelope me-2"></i>
+
+								<a href="mailto:info@yourgmail.com">
+									belalkhasawneh97@gmail.com
+								</a>
+							</p>
+
+							<a href="#" class="custom-btn btn mt-3">Get Direction</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-5 col-12 mx-auto">
+					<form id="feedbackForm" class="custom-form contact-form" asp-action="HandelFeedback" method="post" role="form">
+						<h2>Contact form</h2>
+						<p class="mb-4">Send us your feedback</p>
+
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-12">
+								<input type="text" name="first_name" id="first-name" class="form-control"
+									   placeholder="First Name" required>
+							</div>
+							<div class="col-lg-6 col-md-6 col-12">
+								<input type="text" name="last_name" id="last-name" class="form-control"
+									   placeholder="Last Name" required>
+							</div>
+						</div>
+
+						<input type="email" name="email" id="email" class="form-control"
+							   placeholder="Email" required>
+
+						<textarea name="message" rows="5" class="form-control" id="message"
+								  placeholder="What can we help you?"></textarea>
+
+						<button type="submit" class="form-control">Send Message</button>
+					</form>
+
+					<div id="responseMessage" class="mt-3"></div> 
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+</main>
+
+@section Scripts{
+
+	<script>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#feedbackForm").submit(function (event) {
+				event.preventDefault(); // منع إعادة تحميل الصفحة
+
+				$.ajax({
+					url: "/Home/HandelFeedback", // تأكد من أن هذا هو الرابط الصحيح
+					type: "POST",
+					data: $(this).serialize(), // أخذ بيانات الفورم وإرسالها
+					success: function (response) {
+						if (response.success) {
+							$("#responseMessage").html('<div class="alert alert-success">' + response.message + '</div>');
+							$("#feedbackForm")[0].reset(); // إعادة تعيين النموذج بعد الإرسال
+						} else {
+							$("#responseMessage").html('<div class="alert alert-danger">' + response.message + '</div>');
+						}
+					},
+					error: function () {
+						$("#responseMessage").html('<div class="alert alert-danger">حدث خطأ أثناء إرسال البيانات.</div>');
+					}
+				});
+			});
+		});
+	</script>
+
+	</script>
+}

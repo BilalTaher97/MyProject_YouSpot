@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>YourSpot</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+	<!-- CSS FILES -->
+	<link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true">
+	<link href="~/css/bootstrap-icons.css" rel="stylesheet" asp-append-version="true">
+	<link href="~/css/templatemo-kind-heart-charity.css" rel="stylesheet" asp-append-version="true">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	@RenderSection("Style", required: false)
+
+</head>
+<body>
+	<header class="site-header">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-8 col-12 d-flex flex-wrap">
+					<p class="d-flex me-4 mb-0">
+						<i class="bi-geo-alt me-2"></i>
+						Jordan,Amman
+					</p>
+
+					<p class="d-flex mb-0">
+						<i class="bi-envelope me-2"></i>
+
+						<a href="mailto:info@company.com">
+							belalkhasawneh97@gmail.com
+						</a>
+					</p>
+				</div>
+
+				<div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+					<ul class="social-icon">
+
+						<li class="social-icon-item">
+							<a href="https://www.facebook.com/share/1ELJS22cpH/" class="social-icon-link bi-facebook"></a>
+						</li>
+
+						<li class="social-icon-item">
+							<a href="https://www.instagram.com/belal___khasawneh/profilecard/?igsh=MWRlNWd0enJld292dw==" class="social-icon-link bi-instagram"></a>
+						</li>
+
+						<li class="social-icon-item">
+							<a href="https://wa.me/962786188639" class="social-icon-link bi-whatsapp"></a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<nav class="navbar navbar-expand-lg bg-light shadow-lg">
+		<div class="container">
+			<a class="navbar-brand" asp-action="Index" asp-controller="Home">
+				<img src="~/images/YourSpot-removebg-preview.png" class="logo img-fluid" alt="Kind Heart Charity">
+				<span>
+					YourSpot
+					<small>The right place for you</small>
+				</span>
+			</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link click-scroll" asp-action="Index" asp-controller="Home">Home</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link click-scroll dropdown-toggle" href="javascript:void(0);"
+						   id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+						   aria-expanded="false">Events</a>
+
+						<ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+							<li><a class="dropdown-item" asp-action="Wedding" asp-controller="Events">Wedding</a></li>
+							<li><a class="dropdown-item" asp-action="Event" asp-controller="Events" asp-fragment="Section-1">Study House</a></li>
+							<li><a class="dropdown-item" asp-action="Event" asp-controller="Events" asp-fragment="Section-2">Birthday party</a></li>
+							<li><a class="dropdown-item" asp-action="Event" asp-controller="Events" asp-fragment="Section-3">Meetings</a></li>
+						</ul>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link click-scroll" asp-action="Photography" asp-controller="Events">Photographers</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link click-scroll" asp-action="Dresses_Gallery" asp-controller="Events">Dresses Gallery</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link click-scroll" asp-action="About" asp-controller="Home">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link click-scroll" asp-action="Index" asp-controller="Home" asp-fragment="Section-6">Contact</a>
+					</li>
+					@if (Context.Session.GetString("id") == null)
+					{
+						<li class="nav-item ms-3">
+							<a class="nav-link custom-btn custom-border-btn btn" asp-action="Log_Reg" asp-controller="User">Login</a>
+						</li>
+						<li class="nav-item ms-3">
+							<a class="nav-link custom-btn custom-border-btn btn" asp-action="Log_Reg" asp-controller="User">Sign up</a>
+						</li>
+					}
+					else
+					{
+						<li class="nav-item ms-3">
+							<a class="nav-link custom-btn custom-border-btn btn" asp-action="Logout" asp-controller="User">Logout</a>
+						</li>
+						<li class="nav-item ms-3">
+							<a class="nav-link custom-btn custom-border-btn btn" asp-action="Profile" asp-controller="User">Profile</a>
+						</li>
+					}
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="full-screen-container">
+		@RenderBody()
+	</div>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-12 mb-4">
+					<img src="~/images/YourSpot-removebg-preview.png" class="logo img-fluid" alt="">
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-12 mb-4">
+					<h5 class="site-footer-title mb-3">YourSpot</h5>
+
+					<ul class="footer-menu">
+						<li class="footer-menu-item"><a asp-action="Index" asp-controller="Home" class="footer-menu-link">Home</a></li>
+
+						<li class="footer-menu-item"><a asp-action="Wedding" asp-controller="Events" class="footer-menu-link">Wedding</a></li>
+
+						<li class="footer-menu-item"><a asp-action="Event" asp-controller="Events" class="footer-menu-link">Events</a></li>
+
+						<li class="footer-menu-item"><a asp-action="Photography" asp-controller="Events" class="footer-menu-link">Photographers</a></li>
+
+						<li class="footer-menu-item"><a asp-action="Dresses_Gallery" asp-controller="Events" class="footer-menu-link">Dresses</a></li>
+						<li class="footer-menu-item"><a asp-action="Event" asp-controller="Events" asp-fragment="Section-3" class="footer-menu-link">Meeting</a></li>
+					</ul>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-12 mx-auto">
+					<h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+					<p class="text-white d-flex mb-2">
+						<i class="bi-telephone me-2"></i>
+
+						<a href="tel: 120-240-9600" class="site-footer-link">
+							+962786188639
+						</a>
+					</p>
+
+					<p class="text-white d-flex">
+						<i class="bi-envelope me-2"></i>
+
+						<a href="mailto:info@yourgmail.com" class="site-footer-link">
+							belalkhasawneh97@gmail.com
+						</a>
+					</p>
+
+					<p class="text-white d-flex mt-3">
+						<i class="bi-geo-alt me-2"></i>
+						Jordan,Amman
+					</p>
+
+					<a href="#" class="custom-btn btn mt-3">Get Direction</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="site-footer-bottom">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-6 col-md-7 col-12">
+						<p class="copyright-text mb-0">
+							Copyright © 2025 <a href="#">YourSpot</a>
+							Design: <a href="https://templatemo.com" target="_blank">Bilal</a>
+						</p>
+					</div>
+
+					<div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+						<ul class="social-icon">
+							<li class="social-icon-item">
+								<a href="#" class="social-icon-link bi-twitter"></a>
+							</li>
+
+							<li class="social-icon-item">
+								<a href="https://www.facebook.com/share/1ELJS22cpH/" class="social-icon-link bi-facebook"></a>
+							</li>
+
+							<li class="social-icon-item">
+								<a href="https://www.instagram.com/belal___khasawneh/profilecard/?igsh=MWRlNWd0enJld292dw==" class="social-icon-link bi-instagram"></a>
+							</li>
+
+							<li class="social-icon-item">
+								<a href="https://www.linkedin.com/in/bilal-khasawneh/" class="social-icon-link bi-linkedin"></a>
+							</li>
+
+							<li class="social-icon-item">
+								<a href="https://youtu.be/kebq86BTZFA?si=II_jt7icPkrp8cpA" class="social-icon-link bi-youtube"></a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- تحميل ملفات JavaScript بشكل صحيح -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+
+	@* <script src="~/js/jquery.min.js" asp-append-version="true"></script> *@
+	@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

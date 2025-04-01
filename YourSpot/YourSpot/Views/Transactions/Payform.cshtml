@@ -1,0 +1,91 @@
+﻿@section Style {
+
+    <link rel="stylesheet" href="/css/DonationStyle.css" asp-append-version="true" />
+
+}
+
+
+
+
+
+    <div class="donation-container">
+        <h1 class="donation-title">Make a Donation</h1>
+
+    <form id="donationForm" asp-action="HandelPayform" method="post">
+            <div class="form-section">
+                <label class="section-label">Full Name</label>
+                <input type="text" name="fullName" class="input-field" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-section">
+                <label class="section-label">Time Selection</label>
+                <div class="row">
+                    <div class="col-half">
+                        <label class="time-label">Start Time</label>
+                        <input type="time" name="startTime" class="input-field" required>
+                    </div>
+                    <div class="col-half">
+                        <label class="time-label">End Time</label>
+                        <input type="time" name="endTime" class="input-field" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <label class="section-label">Contact Information</label>
+                <div class="row">
+                    <div class="col-half">
+                        <input type="email" name="email" class="input-field" placeholder="Email" required>
+                    </div>
+                    <div class="col-half">
+                        <input type="tel" name="phone" class="input-field" placeholder="Phone">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <label class="section-label">Event Date</label>
+                <input type="date" name="eventDate" class="input-field" required>
+            </div>
+
+            <div class="form-section">
+                <label class="section-label">Message</label>
+                <textarea name="message" class="textarea-field" placeholder="Write any message here"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Donation</button>
+
+       
+        
+        </form>
+    </div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var successMessage = '@TempData.Peek("SuccessMessage_3")';
+            var errorMessage = '@TempData.Peek("ErrorMessage_3")';
+
+            if (successMessage && successMessage !== '') {
+                Swal.fire({
+                    title: 'Request success!',
+                    text: successMessage,
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                });
+            }
+
+            if (errorMessage && errorMessage !== '') {
+                Swal.fire({
+                    title: 'Booking Failed!',
+                    text: errorMessage,
+                    icon: 'error',
+                    confirmButtonText: 'Try Again'
+                });
+            }
+        });
+    </script>
+}
+

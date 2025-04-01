@@ -1,0 +1,1197 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\YourSpot.bundle.scp.css",
+      "PackagePath": "staticwebassets\\YourSpot.0wjm67pv32.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\AddPhotographyStyle.css",
+      "PackagePath": "staticwebassets\\css\\AddPhotographyStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Details.css",
+      "PackagePath": "staticwebassets\\css\\Details.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\DonationStyle.css",
+      "PackagePath": "staticwebassets\\css\\DonationStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Dresses.css",
+      "PackagePath": "staticwebassets\\css\\Dresses.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Event.css",
+      "PackagePath": "staticwebassets\\css\\Event.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\ForgetPasswordStyle.css",
+      "PackagePath": "staticwebassets\\css\\ForgetPasswordStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\FormStyle.css",
+      "PackagePath": "staticwebassets\\css\\FormStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Login_Reg.css",
+      "PackagePath": "staticwebassets\\css\\Login_Reg.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\NewPasswordStyle.css",
+      "PackagePath": "staticwebassets\\css\\NewPasswordStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Payment.css",
+      "PackagePath": "staticwebassets\\css\\Payment.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Photography.css",
+      "PackagePath": "staticwebassets\\css\\Photography.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Profile.css",
+      "PackagePath": "staticwebassets\\css\\Profile.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Register_Registration.css",
+      "PackagePath": "staticwebassets\\css\\Register_Registration.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\StyleAbout.css",
+      "PackagePath": "staticwebassets\\css\\StyleAbout.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\StyleChangePasswordAd.css",
+      "PackagePath": "staticwebassets\\css\\StyleChangePasswordAd.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\StyleGallerycss.css",
+      "PackagePath": "staticwebassets\\css\\StyleGallerycss.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\VerifyCodeStyle.css",
+      "PackagePath": "staticwebassets\\css\\VerifyCodeStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Wedding.css",
+      "PackagePath": "staticwebassets\\css\\Wedding.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\templatemo-kind-heart-charity.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-kind-heart-charity.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\016A8881+(2).jpg",
+      "PackagePath": "staticwebassets\\images\\016A8881+(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\0399_638227785313520735.jpg",
+      "PackagePath": "staticwebassets\\images\\0399_638227785313520735.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\0_Pyramid-at-Louvre-Museum-with-The-Moon.webp",
+      "PackagePath": "staticwebassets\\images\\0_Pyramid-at-Louvre-Museum-with-The-Moon.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\16100-10.jpg",
+      "PackagePath": "staticwebassets\\images\\16100-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\1ab3a875c7d1cdff9a49cba65a4dca1c.jpg",
+      "PackagePath": "staticwebassets\\images\\1ab3a875c7d1cdff9a49cba65a4dca1c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\211029-gostudy-spaces-rm538-006_1635779970013_x4.jpg",
+      "PackagePath": "staticwebassets\\images\\211029-gostudy-spaces-rm538-006_1635779970013_x4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\230531120726-wedding-trends-restricted.jpg",
+      "PackagePath": "staticwebassets\\images\\230531120726-wedding-trends-restricted.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\247169023_2140662666089948_8039686418999896602_n.jpg",
+      "PackagePath": "staticwebassets\\images\\247169023_2140662666089948_8039686418999896602_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\2f5332dff4c597b0c8db16fb661d97f5.jpg",
+      "PackagePath": "staticwebassets\\images\\2f5332dff4c597b0c8db16fb661d97f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\2f83766d8c994a95b5574de67e853061.jpg",
+      "PackagePath": "staticwebassets\\images\\2f83766d8c994a95b5574de67e853061.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\31605ebec35df8da6ab2ecbfe619b578.jpg",
+      "PackagePath": "staticwebassets\\images\\31605ebec35df8da6ab2ecbfe619b578.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\33e9b92c6df9e3f46a1bd8074c3b9908.jpg",
+      "PackagePath": "staticwebassets\\images\\33e9b92c6df9e3f46a1bd8074c3b9908.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\33fb3a348a77bfb030926ed612495cb8.jpg",
+      "PackagePath": "staticwebassets\\images\\33fb3a348a77bfb030926ed612495cb8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\395775becb5107ceedeece55a5bc8008.jpg",
+      "PackagePath": "staticwebassets\\images\\395775becb5107ceedeece55a5bc8008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\3dc429362695e9e9221defe6ba83adee (1).jpg",
+      "PackagePath": "staticwebassets\\images\\3dc429362695e9e9221defe6ba83adee (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\3dc429362695e9e9221defe6ba83adee.jpg",
+      "PackagePath": "staticwebassets\\images\\3dc429362695e9e9221defe6ba83adee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\3f12f336ef6254efe29a3f342cafe7ac.jpg",
+      "PackagePath": "staticwebassets\\images\\3f12f336ef6254efe29a3f342cafe7ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\409531273_397102485980799_3489762122266991189_n.jpg",
+      "PackagePath": "staticwebassets\\images\\409531273_397102485980799_3489762122266991189_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\42b10a6d4ab063bd9edb96457e7c28db.jpg",
+      "PackagePath": "staticwebassets\\images\\42b10a6d4ab063bd9edb96457e7c28db.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\43d6277fed10fd782a4f4f27064c67ea.jpg",
+      "PackagePath": "staticwebassets\\images\\43d6277fed10fd782a4f4f27064c67ea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\4b8b8b08e8ce27736f5fa95679662693.jpg",
+      "PackagePath": "staticwebassets\\images\\4b8b8b08e8ce27736f5fa95679662693.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\4e47c04ce7cc85c2ef7c308df0d1eac9.jpg",
+      "PackagePath": "staticwebassets\\images\\4e47c04ce7cc85c2ef7c308df0d1eac9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\50cf6fa597ca58091bbffde4b1f819a9.jpg",
+      "PackagePath": "staticwebassets\\images\\50cf6fa597ca58091bbffde4b1f819a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\5145-13.jpg",
+      "PackagePath": "staticwebassets\\images\\5145-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\55c85be926efc0b1a90f64d607d3ec8e.jpg",
+      "PackagePath": "staticwebassets\\images\\55c85be926efc0b1a90f64d607d3ec8e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\5791cf7e2f8f61b4cd4231b565a280ad.jpg",
+      "PackagePath": "staticwebassets\\images\\5791cf7e2f8f61b4cd4231b565a280ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\5d38619976f998f3d0fdc342f9777f86.jpg",
+      "PackagePath": "staticwebassets\\images\\5d38619976f998f3d0fdc342f9777f86.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\6132496d710826f9150ed0789e4deafb.jpg",
+      "PackagePath": "staticwebassets\\images\\6132496d710826f9150ed0789e4deafb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\6902.jpg",
+      "PackagePath": "staticwebassets\\images\\6902.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\6970785cd9917f86ab90ad81242acd23.jpg",
+      "PackagePath": "staticwebassets\\images\\6970785cd9917f86ab90ad81242acd23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\69cb6bfb1c89d1a2d1226128e06e2b60.jpg",
+      "PackagePath": "staticwebassets\\images\\69cb6bfb1c89d1a2d1226128e06e2b60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\6d0b4cc63805d437f612a6cd950c7acf.jpg",
+      "PackagePath": "staticwebassets\\images\\6d0b4cc63805d437f612a6cd950c7acf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\6d4a342b7f71beb0b294dd28bcd3130a.jpg",
+      "PackagePath": "staticwebassets\\images\\6d4a342b7f71beb0b294dd28bcd3130a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\6e83fae5af0008477a2943a4dedf84b3.jpg",
+      "PackagePath": "staticwebassets\\images\\6e83fae5af0008477a2943a4dedf84b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\7-Steps-to-Make-the-Best-Conference-Room-for-Your-Office.jpg",
+      "PackagePath": "staticwebassets\\images\\7-Steps-to-Make-the-Best-Conference-Room-for-Your-Office.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\700ce3615dc5ceb71014436771629723.jpg",
+      "PackagePath": "staticwebassets\\images\\700ce3615dc5ceb71014436771629723.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\7268f44ff8069168eb78f200ac377af6.jpg",
+      "PackagePath": "staticwebassets\\images\\7268f44ff8069168eb78f200ac377af6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\747218d464ae552b18114abca1f43624.jpg",
+      "PackagePath": "staticwebassets\\images\\747218d464ae552b18114abca1f43624.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\75bb7ad43a5ce65090276c92d976f863.jpg",
+      "PackagePath": "staticwebassets\\images\\75bb7ad43a5ce65090276c92d976f863.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\7689d2afa54cb3121e8958eccbcb2391.jpg",
+      "PackagePath": "staticwebassets\\images\\7689d2afa54cb3121e8958eccbcb2391.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\776767bf7efd595b83867376618795ae.jpg",
+      "PackagePath": "staticwebassets\\images\\776767bf7efd595b83867376618795ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\7851bdb4e08b61ab5f20f6496623b201.jpg",
+      "PackagePath": "staticwebassets\\images\\7851bdb4e08b61ab5f20f6496623b201.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\7d769d3fe1341ab8d8ea66359dd5cfe7.jpg",
+      "PackagePath": "staticwebassets\\images\\7d769d3fe1341ab8d8ea66359dd5cfe7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\835a8e6cb4f795c87008576176781f56.jpg",
+      "PackagePath": "staticwebassets\\images\\835a8e6cb4f795c87008576176781f56.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\944-x-510---ahh.webp",
+      "PackagePath": "staticwebassets\\images\\944-x-510---ahh.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\94bc04fe8bed27fdf7ff7d7ab57c1eec.jpg",
+      "PackagePath": "staticwebassets\\images\\94bc04fe8bed27fdf7ff7d7ab57c1eec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\99f75dd33c3e6dfb65bac663c010cb9b.jpg",
+      "PackagePath": "staticwebassets\\images\\99f75dd33c3e6dfb65bac663c010cb9b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\9a72770f8d9d838b0f135502bf1d69f3.jpg",
+      "PackagePath": "staticwebassets\\images\\9a72770f8d9d838b0f135502bf1d69f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\AlexShan15.jpg",
+      "PackagePath": "staticwebassets\\images\\AlexShan15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Birth Date.png",
+      "PackagePath": "staticwebassets\\images\\Birth Date.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Camera.png",
+      "PackagePath": "staticwebassets\\images\\Camera.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Facebook.png",
+      "PackagePath": "staticwebassets\\images\\Facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Favorite.png",
+      "PackagePath": "staticwebassets\\images\\Favorite.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\HB-Helena-Laurent-565-L-selects-1024x682.png",
+      "PackagePath": "staticwebassets\\images\\HB-Helena-Laurent-565-L-selects-1024x682.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Heart.png",
+      "PackagePath": "staticwebassets\\images\\Heart.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Instagram.png",
+      "PackagePath": "staticwebassets\\images\\Instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Meeting Room.png",
+      "PackagePath": "staticwebassets\\images\\Meeting Room.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Meeting.png",
+      "PackagePath": "staticwebassets\\images\\Meeting.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Photo Gallery.png",
+      "PackagePath": "staticwebassets\\images\\Photo Gallery.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Profile.png",
+      "PackagePath": "staticwebassets\\images\\Profile.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Registration.png",
+      "PackagePath": "staticwebassets\\images\\Registration.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-24 141505.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-24 141505.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-26 234447.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-26 234447.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 000514.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 000514.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 000703.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 000703.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 000828.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 000828.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 000945.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 000945.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 001403.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 001403.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 001701.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 001701.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 001843.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 001843.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Screenshot 2025-01-27 002029.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-01-27 002029.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Signing A Document.png",
+      "PackagePath": "staticwebassets\\images\\Signing A Document.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Social-live-events.webp",
+      "PackagePath": "staticwebassets\\images\\Social-live-events.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Spaces_Cologne_Breite_Strasse_4956_Koln_Germany_Coworking_-_Gertrudenstrasse_30-36.webp",
+      "PackagePath": "staticwebassets\\images\\Spaces_Cologne_Breite_Strasse_4956_Koln_Germany_Coworking_-_Gertrudenstrasse_30-36.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Spaces_Marques_de_Pombal_4985_Lisboa_Portugal_GeneralOverview_Praca_Marques_de_Pombal_14.webp",
+      "PackagePath": "staticwebassets\\images\\Spaces_Marques_de_Pombal_4985_Lisboa_Portugal_GeneralOverview_Praca_Marques_de_Pombal_14.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Spaces_Spaces_Lincoln_Road-Center_5141_MiamiBeach_USA_Coworking_-_1111_Lincoln_Road.webp",
+      "PackagePath": "staticwebassets\\images\\Spaces_Spaces_Lincoln_Road-Center_5141_MiamiBeach_USA_Coworking_-_1111_Lincoln_Road.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Star Filled.png",
+      "PackagePath": "staticwebassets\\images\\Star Filled.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Study.png",
+      "PackagePath": "staticwebassets\\images\\Study.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Telegram App.png",
+      "PackagePath": "staticwebassets\\images\\Telegram App.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\TorieKev-410-scaled.jpg",
+      "PackagePath": "staticwebassets\\images\\TorieKev-410-scaled.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\V877_5_copy.jpg",
+      "PackagePath": "staticwebassets\\images\\V877_5_copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\Wedding.png",
+      "PackagePath": "staticwebassets\\images\\Wedding.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\WhatsApp Image 2025-01-01 at 13.25.16_a80d5a5b.jpg",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Image 2025-01-01 at 13.25.16_a80d5a5b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\WhatsApp.png",
+      "PackagePath": "staticwebassets\\images\\WhatsApp.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\YourSpot-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\YourSpot-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\ac65296e489835dfb3c1b1dd85d15e12.jpg",
+      "PackagePath": "staticwebassets\\images\\ac65296e489835dfb3c1b1dd85d15e12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\ajda.jpg",
+      "PackagePath": "staticwebassets\\images\\ajda.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\ajia-hotel-wedding-İstanbul.jpg",
+      "PackagePath": "staticwebassets\\images\\ajia-hotel-wedding-İstanbul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\portrait-beautiful-young-woman-standing-grey-wall.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\portrait-young-beautiful-woman-gesticulating.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\avatar\\portrait-young-redhead-bearded-male.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\portrait-young-redhead-bearded-male.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\pretty-blonde-woman-wearing-white-t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\studio-portrait-emotional-happy-funny.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\b239180a29666f6a45403e7fc95e5104.jpg",
+      "PackagePath": "staticwebassets\\images\\b239180a29666f6a45403e7fc95e5104.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\b4b24498ac45845ebf8be87a5e6cd642.jpg",
+      "PackagePath": "staticwebassets\\images\\b4b24498ac45845ebf8be87a5e6cd642.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\b8bc787693b63b45be118129f2ba1023.jpg",
+      "PackagePath": "staticwebassets\\images\\b8bc787693b63b45be118129f2ba1023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\bellevue_farm.jpg",
+      "PackagePath": "staticwebassets\\images\\bellevue_farm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\best-gowns-for-hourglass-figures.jpg",
+      "PackagePath": "staticwebassets\\images\\best-gowns-for-hourglass-figures.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\best-work-dresses-2024.png",
+      "PackagePath": "staticwebassets\\images\\best-work-dresses-2024.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\blue-dresses.jpeg",
+      "PackagePath": "staticwebassets\\images\\blue-dresses.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\blue_haven_farm_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\blue_haven_farm_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\bouquet-1571668_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\bouquet-1571668_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\bourj-al-hamam-amman.jpg",
+      "PackagePath": "staticwebassets\\images\\bourj-al-hamam-amman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\boutique-1024x768-1.png",
+      "PackagePath": "staticwebassets\\images\\boutique-1024x768-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\bridal-dresses-T212056-F.jpg",
+      "PackagePath": "staticwebassets\\images\\bridal-dresses-T212056-F.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\bride-3191129_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\bride-3191129_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\c4bb8879c0477109d0f76d49793d112d.jpg",
+      "PackagePath": "staticwebassets\\images\\c4bb8879c0477109d0f76d49793d112d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\c7d1b8ae499d6e8e32ff91dcd0bc613b.jpg",
+      "PackagePath": "staticwebassets\\images\\c7d1b8ae499d6e8e32ff91dcd0bc613b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\c95bc79ec925a7381ebe313898156f64.jpg",
+      "PackagePath": "staticwebassets\\images\\c95bc79ec925a7381ebe313898156f64.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\calla_farm.jpg",
+      "PackagePath": "staticwebassets\\images\\calla_farm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg",
+      "PackagePath": "staticwebassets\\images\\causes\\african-woman-pouring-water-recipient-outdoors.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\causes\\group-african-kids-paying-attention-class.jpg",
+      "PackagePath": "staticwebassets\\images\\causes\\group-african-kids-paying-attention-class.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg",
+      "PackagePath": "staticwebassets\\images\\causes\\poor-child-landfill-looks-forward-with-hope.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\cedar_farm.jpeg",
+      "PackagePath": "staticwebassets\\images\\cedar_farm.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\couch.png",
+      "PackagePath": "staticwebassets\\images\\couch.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\could-afternoon-plans.jpg",
+      "PackagePath": "staticwebassets\\images\\could-afternoon-plans.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\couple-1850073_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\couple-1850073_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\d2b18da3acc445810f6b96bee5b303ac.jpg",
+      "PackagePath": "staticwebassets\\images\\d2b18da3acc445810f6b96bee5b303ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\d528772d-2b47-11e9-9120-0a6baf2d8a84.webp",
+      "PackagePath": "staticwebassets\\images\\d528772d-2b47-11e9-9120-0a6baf2d8a84.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\d7dd8f87d0447e174c1ea5df919c9533.jpg",
+      "PackagePath": "staticwebassets\\images\\d7dd8f87d0447e174c1ea5df919c9533.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\d9294d60dc1c6b2bb013cc10a642d013.jpg",
+      "PackagePath": "staticwebassets\\images\\d9294d60dc1c6b2bb013cc10a642d013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\d9b929538f87a94e55ab16ea488b5b1e.jpg",
+      "PackagePath": "staticwebassets\\images\\d9b929538f87a94e55ab16ea488b5b1e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\different-people-doing-volunteer-work.jpg",
+      "PackagePath": "staticwebassets\\images\\different-people-doing-volunteer-work.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\dream_farm.jpg",
+      "PackagePath": "staticwebassets\\images\\dream_farm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\e223a7283d3dfb5a656d2bb2053dfdd6.jpg",
+      "PackagePath": "staticwebassets\\images\\e223a7283d3dfb5a656d2bb2053dfdd6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\events-1.png",
+      "PackagePath": "staticwebassets\\images\\events-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\events-site_header-image.webp",
+      "PackagePath": "staticwebassets\\images\\events-site_header-image.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\exterior.jpg",
+      "PackagePath": "staticwebassets\\images\\exterior.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\fdde6d47ffd66a242925e48a3bc4ed06.jpg",
+      "PackagePath": "staticwebassets\\images\\fdde6d47ffd66a242925e48a3bc4ed06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\fe882cc379a66572f2ca33907c1ce383.jpg",
+      "PackagePath": "staticwebassets\\images\\fe882cc379a66572f2ca33907c1ce383.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\footer-background.jpg",
+      "PackagePath": "staticwebassets\\images\\footer-background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\friendly-and-attentive.jpg",
+      "PackagePath": "staticwebassets\\images\\friendly-and-attentive.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\fstViDQUANlIjV5C.jpeg",
+      "PackagePath": "staticwebassets\\images\\fstViDQUANlIjV5C.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\grace-loves-lace-olive-1_0526f5ca-d0a0-4e37-ba2b-7209cc53864c.jpg",
+      "PackagePath": "staticwebassets\\images\\grace-loves-lace-olive-1_0526f5ca-d0a0-4e37-ba2b-7209cc53864c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\group-people-volunteering-foodbank-poor-people.jpg",
+      "PackagePath": "staticwebassets\\images\\group-people-volunteering-foodbank-poor-people.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\icons\\hands.png",
+      "PackagePath": "staticwebassets\\images\\icons\\hands.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\icons\\heart.png",
+      "PackagePath": "staticwebassets\\images\\icons\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\icons\\receive.png",
+      "PackagePath": "staticwebassets\\images\\icons\\receive.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\icons\\scholarship.png",
+      "PackagePath": "staticwebassets\\images\\icons\\scholarship.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\il_fullxfull.6039371834_7v2y.jpg",
+      "PackagePath": "staticwebassets\\images\\il_fullxfull.6039371834_7v2y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\img-1723832257458_b9a3840e-d79b-4492-be0f-babc8a177d05.jpg",
+      "PackagePath": "staticwebassets\\images\\img-1723832257458_b9a3840e-d79b-4492-be0f-babc8a177d05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\jude_farm.jpg",
+      "PackagePath": "staticwebassets\\images\\jude_farm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\la-capitale-by-night.jpg",
+      "PackagePath": "staticwebassets\\images\\la-capitale-by-night.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\le-royal-hotel-amman.jpg",
+      "PackagePath": "staticwebassets\\images\\le-royal-hotel-amman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\level_farm.jpg",
+      "PackagePath": "staticwebassets\\images\\level_farm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\love-6600904_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\love-6600904_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\love-6600904_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\love-6600904_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\market_segmentation.png",
+      "PackagePath": "staticwebassets\\images\\market_segmentation.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\meetbot3.webp",
+      "PackagePath": "staticwebassets\\images\\meetbot3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\naya_farm.jpg",
+      "PackagePath": "staticwebassets\\images\\naya_farm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\news\\africa-humanitarian-aid-doctor.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\africa-humanitarian-aid-doctor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\news\\close-up-happy-people-working-together.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\close-up-happy-people-working-together.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\close-up-volunteer-oganizing-stuff-donation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\news\\medium-shot-people-collecting-foodstuff.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\medium-shot-people-collecting-foodstuff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg",
+      "PackagePath": "staticwebassets\\images\\news\\medium-shot-volunteers-with-clothing-donations.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\nur-main-seating-area.jpg",
+      "PackagePath": "staticwebassets\\images\\nur-main-seating-area.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\online_radio.png",
+      "PackagePath": "staticwebassets\\images\\online_radio.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\p1.jpg",
+      "PackagePath": "staticwebassets\\images\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\p3.jpg",
+      "PackagePath": "staticwebassets\\images\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\p4.jpg",
+      "PackagePath": "staticwebassets\\images\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\p5.jpg",
+      "PackagePath": "staticwebassets\\images\\p5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\p6.jpg",
+      "PackagePath": "staticwebassets\\images\\p6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\paymate2.png",
+      "PackagePath": "staticwebassets\\images\\paymate2.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\pexels-amar-20025867.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-amar-20025867.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\pexels-joshsorenson-976866.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-joshsorenson-976866.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\pexels-photo-169198.jpeg",
+      "PackagePath": "staticwebassets\\images\\pexels-photo-169198.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\pexels-photo-976866.webp",
+      "PackagePath": "staticwebassets\\images\\pexels-photo-976866.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\pexels-pietrozj-348517.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-pietrozj-348517.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\portrait-volunteer-who-organized-donations-charity.jpg",
+      "PackagePath": "staticwebassets\\images\\portrait-volunteer-who-organized-donations-charity.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\run-successful-business-meeting.jpg",
+      "PackagePath": "staticwebassets\\images\\run-successful-business-meeting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\s-l1200.jpg",
+      "PackagePath": "staticwebassets\\images\\s-l1200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\slide\\medium-shot-people-collecting-donations.jpg",
+      "PackagePath": "staticwebassets\\images\\slide\\medium-shot-people-collecting-donations.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\slide\\volunteer-helping-with-donation-box.jpg",
+      "PackagePath": "staticwebassets\\images\\slide\\volunteer-helping-with-donation-box.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg",
+      "PackagePath": "staticwebassets\\images\\slide\\volunteer-selecting-organizing-clothes-donations-charity.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg",
+      "PackagePath": "staticwebassets\\images\\smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\students-using-facilities-1024x682.jpg",
+      "PackagePath": "staticwebassets\\images\\students-using-facilities-1024x682.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\sunset-698501_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\sunset-698501_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\treasure_chest.png",
+      "PackagePath": "staticwebassets\\images\\treasure_chest.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\v2-1wmyj-0110p.jpg",
+      "PackagePath": "staticwebassets\\images\\v2-1wmyj-0110p.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\v2-1wmyq-awv3h.jpg",
+      "PackagePath": "staticwebassets\\images\\v2-1wmyq-awv3h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\watchman.png",
+      "PackagePath": "staticwebassets\\images\\watchman.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\wedding-1836315_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\wedding-1836315_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\wedding-626020_1920.jpg",
+      "PackagePath": "staticwebassets\\images\\wedding-626020_1920.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\wedding-7442892_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\wedding-7442892_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\wedding-8028163_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\wedding-8028163_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\wedding-dress-1813568_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\wedding-dress-1813568_1280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\wedding-dresses-2024_0.jpg",
+      "PackagePath": "staticwebassets\\images\\wedding-dresses-2024_0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\wedding-dresses3.jpg",
+      "PackagePath": "staticwebassets\\images\\wedding-dresses3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\zoetryPDLBbeach-venue-1200x600.jpg",
+      "PackagePath": "staticwebassets\\images\\zoetryPDLBbeach-venue-1200x600.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\حقق-حلمك-وعمل-حفلة-عرسك-او-الخطوبة-بافضل-الاسعار-بقاعات-النعمان-هلا-بازار.jpg",
+      "PackagePath": "staticwebassets\\images\\حقق-حلمك-وعمل-حفلة-عرسك-او-الخطوبة-بافضل-الاسعار-بقاعات-النعمان-هلا-بازار.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\قاعات-النعمان-للاحتفالات.jpg",
+      "PackagePath": "staticwebassets\\images\\قاعات-النعمان-للاحتفالات.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\كيفية-استيراد-فساتين-زفاف-من-تركيا.jpeg",
+      "PackagePath": "staticwebassets\\images\\كيفية-استيراد-فساتين-زفاف-من-تركيا.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\images\\ما-هو-الهدف-من-استطلاع-رضا-العملاء؟.webp",
+      "PackagePath": "staticwebassets\\images\\ما-هو-الهدف-من-استطلاع-رضا-العملاء؟.webp"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\Profile.js",
+      "PackagePath": "staticwebassets\\js\\Profile.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\click-scroll.js",
+      "PackagePath": "staticwebassets\\js\\click-scroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\counter.js",
+      "PackagePath": "staticwebassets\\js\\counter.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\uploads\\1f495717-0154-4cbb-91c0-b8cc28540839_Screenshot 2024-12-06 201127.png",
+      "PackagePath": "staticwebassets\\uploads\\1f495717-0154-4cbb-91c0-b8cc28540839_Screenshot 2024-12-06 201127.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\uploads\\48ddbb81-2045-4ae8-bf8d-0590e41058d2_Screenshot 2024-12-05 124325.png",
+      "PackagePath": "staticwebassets\\uploads\\48ddbb81-2045-4ae8-bf8d-0590e41058d2_Screenshot 2024-12-05 124325.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\uploads\\8e2a693d-f9fa-4a0c-bebe-a237ab90fdef_Screenshot 2024-12-16 214420.png",
+      "PackagePath": "staticwebassets\\uploads\\8e2a693d-f9fa-4a0c-bebe-a237ab90fdef_Screenshot 2024-12-16 214420.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\uploads\\980f562b-099e-4306-8285-f3ab32e7e39f_Screenshot 2024-12-05 114910.png",
+      "PackagePath": "staticwebassets\\uploads\\980f562b-099e-4306-8285-f3ab32e7e39f_Screenshot 2024-12-05 114910.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\uploads\\aa683dbe-64e6-416c-9eda-431c05c2b92c_AboutUs1.png",
+      "PackagePath": "staticwebassets\\uploads\\aa683dbe-64e6-416c-9eda-431c05c2b92c_AboutUs1.png"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\uploads\\da1a025f-d358-42e6-9237-972542821ca3_Screenshot 2024-12-20 170208.png",
+      "PackagePath": "staticwebassets\\uploads\\da1a025f-d358-42e6-9237-972542821ca3_Screenshot 2024-12-20 170208.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.YourSpot.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.YourSpot.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.YourSpot.props",
+      "PackagePath": "build\\YourSpot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.YourSpot.props",
+      "PackagePath": "buildMultiTargeting\\YourSpot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.YourSpot.props",
+      "PackagePath": "buildTransitive\\YourSpot.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
