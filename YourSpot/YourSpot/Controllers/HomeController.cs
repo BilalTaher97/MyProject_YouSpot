@@ -28,10 +28,19 @@ namespace YourSpot.Controllers
             var venues = _context.Venues
                 .Where(v => specialVenues.Contains(v.Id))
                 .Take(3)
+                .Select(v => new HomeViewModel
+                {
+                    Venue = v,
+                    ImageUrl = _context.Images
+                        .Where(img => img.ServiceType == "Venue" && img.ServiceId == v.Id)
+                        .Select(img => img.ImageUrl)
+                        .FirstOrDefault() ?? "/uploads/default.jpg" 
+                })
                 .ToList();
 
             return View(venues);
         }
+
 
 
 

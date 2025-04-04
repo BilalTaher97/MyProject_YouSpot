@@ -1,4 +1,4 @@
-﻿@model YourSpot.Models.Dress
+﻿@model YourSpot.Models.DressDetailsViewModel
 
 
 @section Style {
@@ -10,7 +10,7 @@
 }
 
 <div class="Fav" style="width: fit-content;">
-    <a asp-action="HandelFav_Dresses" asp-controller="Transactions" asp-route-id="@Model.Id">
+    <a asp-action="HandelFav_Dresses" asp-controller="Transactions" asp-route-id="@Model.dress.Id" asp-route-type="Dress">
         <button class="Favourit">
             <svg aria-hidden="true" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
@@ -32,25 +32,15 @@
     <div class="container slider-column">
         <div class="swiper swiper-slider">
             <div class="swiper-wrapper" style="height:400px;">
-
-                <div class="swiper-slide">
-                    <img src="@Url.Content("~/images/1ab3a875c7d1cdff9a49cba65a4dca1c.jpg")" alt="Image 1" class="swiper-slide-image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="@Url.Content("~/images/2f5332dff4c597b0c8db16fb661d97f5.jpg")" alt="Image 2" class="swiper-slide-image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="@Url.Content("~/images/395775becb5107ceedeece55a5bc8008.jpg")" alt="Image 3" class="swiper-slide-image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="@Url.Content("~/images/7689d2afa54cb3121e8958eccbcb2391.jpg")" alt="Image 4" class="swiper-slide-image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="@Url.Content("~/images/31605ebec35df8da6ab2ecbfe619b578.jpg")" alt="Image 5" class="swiper-slide-image">
-                </div>
-                <div class="swiper-slide">
-                    <img src="@Url.Content("~/images/5d38619976f998f3d0fdc342f9777f86.jpg")" alt="Image 6" class="swiper-slide-image">
-                </div>
+                @foreach(var item in Model.images)
+                {
+                    <div class="swiper-slide">
+                        <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "/images/default-dress.jpg" : item.ImageUrl)"
+                             alt="Dress Image" class="swiper-slide-image">
+                    </div>
+                }
+               
+               
             </div>
             <span class="swiper-pagination"></span>
             <span class="swiper-button-prev"></span>
@@ -60,24 +50,24 @@
 </section>
 
 <div class="btn-Request" style="width: fit-content;">
-    <a asp-action="Payform_dresses" asp-controller="Transactions" asp-route-id="@Model.Id"><button class="button_1">Request pricing</button></a>
+    <a asp-action="Payform_dresses" asp-controller="Transactions" asp-route-id="@Model.dress.Id"><button class="button_1">Request pricing</button></a>
 </div>
 
 <div class="container_1">
-    <h1>@Model.Name</h1>
-    <p><strong>Email: <span style="color:#5bc1ac">@Model.Email</span></strong></p>
+    <h1>@Model.dress.Name</h1>
+    <p><strong>Email: <span style="color:#5bc1ac">@Model.dress.Email</span></strong></p>
     <div class="info-cards">
         <div class="card">
             <span>💰</span>
-            <p><br><strong>@Model.Price min spend</strong></p>
+            <p><br><strong>@Model.dress.Price min spend</strong></p>
         </div>
         <div class="card">
             <span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span>
-            <p><br><strong>@Model.Size</strong></p>
+            <p><br><strong>@Model.dress.Size</strong></p>
         </div>
         <div class="card">
             <span><i class="fa-solid fa-copyright"></i></span>
-            <p style="margin-top: 28px;"><strong>@Model.Brand</strong></p>
+            <p style="margin-top: 28px;"><strong>@Model.dress.Brand</strong></p>
 
         </div>
         <div class="card">

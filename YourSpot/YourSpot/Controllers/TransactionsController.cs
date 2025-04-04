@@ -12,22 +12,22 @@ namespace YourSpot.Controllers
         {
             _context = context;
         }
-        public IActionResult Details(int id)
+        public IActionResult Details(int id,string type)
         {
 
-            var Det_Venue = _context.Venues.FirstOrDefault(x => x.Id == id);
-
-
-            if (Det_Venue == null)
+            var DetailsVenue = new EventsDetailsViewModel()
             {
-                return NotFound();
-            }
+                venue = _context.Venues.Find(id),
 
-            return View(Det_Venue);
+                images = _context.Images.Where(i => i.ServiceId == id && i.ServiceType == type),
+
+            };
+
+            return View(DetailsVenue);
         }
 
 
-        public IActionResult HandelFav(int id)
+        public IActionResult HandelFav(int id,string type)
         {
 
             if (HttpContext.Session.GetInt32("id") == null)
@@ -53,10 +53,10 @@ namespace YourSpot.Controllers
             TempData["SuccessMessage"] = "The item has been successfully added to favorites!";
 
 
-            return RedirectToAction("Details", new { id = id });
+            return RedirectToAction("Details", new { id, type });
         }
 
-        public IActionResult HandelFav_Photo(int id)
+        public IActionResult HandelFav_Photo(int id,string type)
         {
 
             if (HttpContext.Session.GetInt32("id") == null)
@@ -82,10 +82,10 @@ namespace YourSpot.Controllers
             TempData["SuccessMessage"] = "The item has been successfully added to favorites!";
 
 
-            return RedirectToAction("Details_Phtotography", new { id = id });
+            return RedirectToAction("Details_Phtotography", new { id, type });
         }
 
-        public IActionResult HandelFav_Dresses(int id)
+        public IActionResult HandelFav_Dresses(int id , string type)
         {
 
             if (HttpContext.Session.GetInt32("id") == null)
@@ -111,7 +111,8 @@ namespace YourSpot.Controllers
             TempData["SuccessMessage"] = "The item has been successfully added to favorites!";
 
 
-            return RedirectToAction("Details_Dresses", new { id = id });
+            return RedirectToAction("Details_Dresses", new { id, type });
+
         }
 
         public IActionResult Payment(int id)
@@ -308,22 +309,35 @@ namespace YourSpot.Controllers
             return View();
         }
 
-        public IActionResult Details_Phtotography(int id)
+        public IActionResult Details_Phtotography(int id,string type)
         {
-            var Photo_er = _context.Photographers.FirstOrDefault(x => x.Id == id);
+            var DetailsPhoto = new PhotoDetailsViewModel()
+            {
+                Photo = _context.Photographers.Find(id),
+
+                images = _context.Images.Where(i => i.ServiceId == id && i.ServiceType == type),
+
+            };
+
+
+
+            return View(DetailsPhoto);
+        }
+
+        public IActionResult Details_Dresses(int id,string type)
+        {
+            var Detailsdresse = new DressDetailsViewModel()
+            {
+                dress = _context.Dresses.Find(id),
+
+                images = _context.Images.Where(i => i.ServiceId == id && i.ServiceType == type),
+                
+            };
+
             
 
 
-            return View(Photo_er);
-        }
-
-        public IActionResult Details_Dresses(int id)
-        {
-            var dresses = _context.Dresses.FirstOrDefault(x => x.Id == id);
-
-
-
-            return View(dresses);
+            return View(Detailsdresse);
         }
 
     }

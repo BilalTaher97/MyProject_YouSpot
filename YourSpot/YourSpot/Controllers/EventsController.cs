@@ -15,54 +15,79 @@ namespace YourSpot.Controllers
         public IActionResult Wedding()
         {
 
-            var AllWedding = _context.Venues.Where(x => x.EstablishmentType == "Wedding").ToList();
+            var allVenue = _context.Venues
+                .Select(d => new WeddingViewModel
+                {
+                    Id = d.Id,
+                    Name = d.Name,
+                    EstablishmentName = d.EstablishmentName,
+                    EstablishmentType = d.EstablishmentType,
+                    Price = Convert.ToDecimal(d.Price),
+                    Capacity = Convert.ToInt32(d.Capacity),
+                    Address = d.Address,
+                    WeddingVenueTypeice = d.WeddingVenueType,
+                    Status = d.Status,
+                    FirstImagePath = _context.Images
+                        .Where(img => img.ServiceId == d.Id && img.ServiceType == "Venue")
+                        .OrderBy(img => img.Id)
+                        .Select(img => img.ImageUrl)
+                        .FirstOrDefault()
+                })
+                .ToList();
 
-
-            return View(AllWedding);
+            return View(allVenue);
         }
 
 
         public IActionResult Event()
         {
-            var specialVenues = _context.FeaturedItems
-                .Where(f => f.ItemType == "Venue")
-                .Select(f => f.ItemId)
-                .ToList();
+            var allEvent = _context.Venues
+               .Select(d => new EventViewModel
+               {
+                   Id = d.Id,
+                   Name = d.Name,
+                   EstablishmentName = d.EstablishmentName,
+                   EstablishmentType = d.EstablishmentType,
+                   Price = Convert.ToDecimal(d.Price),
+                   Capacity = Convert.ToInt32(d.Capacity),
+                   Address = d.Address,
+                   Status = d.Status,
+                   FirstImagePath = _context.Images
+                        .Where(img => img.ServiceId == d.Id && img.ServiceType == "Venue")
+                        .OrderBy(img => img.Id)
+                        .Select(img => img.ImageUrl)
+                        .FirstOrDefault()
+               })
+               .ToList();
 
-            var viewModel = new EventsViewModel
-            {
-                Event = _context.Venues.Where(_x => _x.EstablishmentType != "Wedding").ToList(),
-                SpecialEvent = _context.Venues 
-                .Where(v => specialVenues.Contains(v.Id))
-                .Take(3)
-                .ToList()
-            };
-
-            return View(viewModel);
+            return View(allEvent);
         }
+
 
         public IActionResult Photography()
         {
-            var specialVenues = _context.FeaturedItems
-                 .Where(f => f.ItemType == "Photographer")
-                 .Select(f => f.ItemId)
-                 .ToList();
+            var allPhoto = _context.Photographers
+                .Select(d => new PhotographerViewModel
+                {
+                    Id = d.Id,                
+                    Price = Convert.ToDecimal(d.Price),
+                    Status = d.Status,
+                    FirstImagePath = _context.Images
+                        .Where(img => img.ServiceId == d.Id && img.ServiceType == "Photogeapher")
+                        .OrderBy(img => img.Id)
+                        .Select(img => img.ImageUrl)
+                        .FirstOrDefault()
+                })
+                .ToList();
 
-            var viewModel = new PhotographerViewModel
-            {
-                AllPhoto = _context.Photographers.ToList(),
-                SpecialPhoto = _context.Photographers
-                .Where(v => specialVenues.Contains(v.Id))
-                .Take(3)
-                .ToList()
-            };
-
-            return View(viewModel);
+            return View(allPhoto);
         }
+
+
 
         public IActionResult Reg_Photography()
         {
-           
+
 
             return View();
         }
@@ -70,8 +95,8 @@ namespace YourSpot.Controllers
         [HttpPost]
         public IActionResult HandelAddPhotography(Photographer AddPhotographer)
         {
-            
-            if(ModelState.IsValid)
+
+            if (ModelState.IsValid)
             {
                 AddPhotographer.Status = "Pending";
                 AddPhotographer.IsActive = true;
@@ -87,9 +112,23 @@ namespace YourSpot.Controllers
 
         public IActionResult Dresses_Gallery()
         {
-            var AllDresses = _context.Dresses.ToList();
+            var allDresses = _context.Dresses
+                .Select(d => new DressWithImageViewModel
+                {
+                    Id = d.Id,
+                    Brand = d.Brand,
+                    Price = Convert.ToDecimal(d.Price),
+                    Size = d.Size,
+                    Status = d.Status,
+                    FirstImagePath = _context.Images
+                        .Where(img => img.ServiceId == d.Id && img.ServiceType == "Dress")
+                        .OrderBy(img => img.Id)
+                        .Select(img => img.ImageUrl)
+                        .FirstOrDefault()
+                })
+                .ToList();
 
-            return View(AllDresses);
+            return View(allDresses);
         }
 
         public IActionResult Reg_Dresses()

@@ -1,9 +1,9 @@
-﻿@model IEnumerable<YourSpot.Models.Dress>
+﻿@model IEnumerable<YourSpot.Models.DressWithImageViewModel>
 
 
 @section Style {
 
-    <link rel="stylesheet" href="/css/Dresses.css" asp-append-version="true" />
+	<link rel="stylesheet" href="/css/Dresses.css" asp-append-version="true" />
 
 }
 
@@ -12,74 +12,80 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <div class="sl-container">
-    <div class="swipe">
-        <div class="panel">
-            <img src="../images/v2-1wmyj-0110p.jpg" alt="">
-        </div>
-        <div class="panel"><img src="~/images/couple-1850073_1920.jpg" alt=""></div>
-        <div class="panel"><img src="~/images/bride-3191129_1920.jpg" alt=""></div>
-        <div class="panel"><img src="~/images/wedding-626020_1920.jpg" alt=""></div>
-        <div class="panel"><img src="~/images/bouquet-1571668_1920.jpg" alt=""></div>
-    </div>
+	<div class="swipe">
+		<div class="panel">
+			<img src="../images/v2-1wmyj-0110p.jpg" alt="">
+		</div>
+		<div class="panel"><img src="~/images/couple-1850073_1920.jpg" alt=""></div>
+		<div class="panel"><img src="~/images/bride-3191129_1920.jpg" alt=""></div>
+		<div class="panel"><img src="~/images/wedding-626020_1920.jpg" alt=""></div>
+		<div class="panel"><img src="~/images/bouquet-1571668_1920.jpg" alt=""></div>
+	</div>
 
 
-    <div class="sl-info">
-        <div class="inner">
-            <h3>Choose your dress with the best design and price.</h3>
-            <p>Browse through a variety of dresses and choose the one that suits you.</p>
-        </div>
-        <div class="sl-buttons">
-            <button class="btn-prev" disabled>
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
-                stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="15 18 9 12 15 6"></polyline>
-                </svg>
-            </button>
-            <button class="btn-next">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
-                stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="9 18 15 12 9 6"></polyline>
-                </svg>
-            </button>
-        </div>
-    </div>
+	<div class="sl-info">
+		<div class="inner">
+			<h3>Choose your dress with the best design and price.</h3>
+			<p>Browse through a variety of dresses and choose the one that suits you.</p>
+		</div>
+		<div class="sl-buttons">
+			<button class="btn-prev" disabled>
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+					 stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="15 18 9 12 15 6"></polyline>
+				</svg>
+			</button>
+			<button class="btn-next">
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+					 stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="9 18 15 12 9 6"></polyline>
+				</svg>
+			</button>
+		</div>
+	</div>
 </div>
 
 <hr>
 
 <div class="Content">
 
-    <div class="All-Cards">
+	<div class="All-Cards">
 
 
-        <div class="Cards">
+		<div class="Cards">
 
 
-            @foreach(var item in Model)
-            {
-                <div class="wd-card-container" style="margin-right:120px;">
-                    <div class="wd-card-image-wrapper">
-                        <div class="wd-card-overlay"></div>
-                        <img src="~/images/16100-10.jpg" alt="Luxurious Wedding Dress" class="wd-card-image">
-                    </div>
-                    <div class="wd-card-details">
-                        <h2 class="wd-card-title">@item.Brand</h2>
-                        <div class="wd-card-price-size">
-                            <span class="wd-card-price">$@item.Price</span>
-                            <span class="wd-card-size">Size @item.Size</span>
-                        </div>
-                        <a asp-action="Details_Dresses" asp-controller="Transactions" asp-route-id="@item.Id"><button class="wd-card-button">Show Details</button></a>
-                    </div>
-                </div>
-            }
-            
-           
+			@foreach (var item in Model)
+			{
+				if(item.Status == "Accepted")
+				{
+					<div class="wd-card-container" style="margin-right:120px;">
+						<div class="wd-card-image-wrapper">
+							<div class="wd-card-overlay"></div>
+							<img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-dress.jpg" : item.FirstImagePath)"
+								 alt="Dress Image" class="wd-card-image">
+						</div>
+						<div class="wd-card-details">
+							<h2 class="wd-card-title">@item.Brand</h2>
+							<div class="wd-card-price-size">
+								<span class="wd-card-price">$@item.Price</span>
+								<span class="wd-card-size">Size @item.Size</span>
+							</div>
+							<a asp-action="Details_Dresses" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Dress">
+								<button class="wd-card-button">Show Details</button>
+							</a>
+						</div>
+					</div>
+				}
+			}
 
 
 
-        </div>
 
-    </div>
+
+		</div>
+
+	</div>
 
 
 </div>
@@ -93,19 +99,19 @@
 <section class="registration-section">
 
 
-    <div class="registration-container">
-        <div class="registration-circle registration-circle-1"></div>
+	<div class="registration-container">
+		<div class="registration-circle registration-circle-1"></div>
 
-        <div class="registration-content">
-            <h2 class="registration-title">Display the dress you want to sell</h2>
-            <h3 class="registration-subtitle">View it now!</h3>
-            <a asp-action="Reg_Dresses" asp-controller="Events" class="registration-btn">Go Now</a>
-        </div>
+		<div class="registration-content">
+			<h2 class="registration-title">Display the dress you want to sell</h2>
+			<h3 class="registration-subtitle">View it now!</h3>
+			<a asp-action="Reg_Dresses" asp-controller="Events" class="registration-btn">Go Now</a>
+		</div>
 
-        <div class="registration-icon"></div>
+		<div class="registration-icon"></div>
 
-        <div class="registration-circle registration-circle-2"></div>
-    </div>
+		<div class="registration-circle registration-circle-2"></div>
+	</div>
 
 
 
@@ -114,95 +120,93 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.1/jquery.twbsPagination.min.js"></script>
 <script>
-    $(function () {
-        var tolerance = 100;
-        var speed = 650;
-        var interactiveElements = $('input, button, a');
-        var itemsLength = $('.panel').length;
-        var active = 1;
-        for (i = 1; i <= itemsLength; i++) {
-            var $layer = $(".panel:nth-child(" + i + ")");
-            var bgImg = $layer.attr("data-img");
-            $layer.css({
-                "background": "url(" + bgImg + ") no-repeat center / cover"
-            });
-        };
-        setTimeout(function () {
-            $(".panel").css({
-                "transition": "cubic-bezier(.4,.95,.5,1.5) " + speed + "ms"
-            });
-        }, 200);
-        $(".panel:not(:first)").addClass("right");
-        function swipeScreen() {
-            $('.swipe').on('mousedown touchstart', function (e) {
+	$(function () {
+		var tolerance = 100;
+		var speed = 650;
+		var interactiveElements = $('input, button, a');
+		var itemsLength = $('.panel').length;
+		var active = 1;
+		for (i = 1; i <= itemsLength; i++) {
+			var $layer = $(".panel:nth-child(" + i + ")");
+			var bgImg = $layer.attr("data-img");
+			$layer.css({
+				"background": "url(" + bgImg + ") no-repeat center / cover"
+			});
+		};
+		setTimeout(function () {
+			$(".panel").css({
+				"transition": "cubic-bezier(.4,.95,.5,1.5) " + speed + "ms"
+			});
+		}, 200);
+		$(".panel:not(:first)").addClass("right");
+		function swipeScreen() {
+			$('.swipe').on('mousedown touchstart', function (e) {
 
-                var touch = e.originalEvent.touches;
-                var start = touch ? touch[0].pageX : e.pageX;
-                var difference;
-                $(this).on('mousemove touchmove', function (e) {
-                    var contact = e.originalEvent.touches,
-                        end = contact ? contact[0].pageX : e.pageX;
-                    difference = end - start;
-                });
-                $(window).one('mouseup touchend', function (e) {
-                    e.preventDefault();
-                    // Переход вправо:
-                    if (active < itemsLength && difference < -tolerance) {
-                        $(".panel:nth-child(" + active + ")").addClass("left");
-                        $(".panel:nth-child(" + (active + 1) + ")").removeClass("right");
-                        active += 1;
-                        btnDisable();
-                    };
-                    // Переход влево:
-                    if (active > 1 && difference > tolerance) {
-                        $(".panel:nth-child(" + (active - 1) + ")").removeClass("left");
-                        $(".panel:nth-child(" + active + ")").addClass("right");
-                        active -= 1;
-                        btnDisable();
-                    };
-                    $('.swipe').off('mousemove touchmove');
-                });
-            });
-        };
-        swipeScreen();
-        interactiveElements.on('touchstart touchend touchup', function (e) {
-            e.stopPropagation();
-        });
-        // Кнопки:
-        $(".btn-prev").click(function () {
-            // Переход влево:
-            if (active > 1) {
-                $(".panel:nth-child(" + (active - 1) + ")").removeClass("left");
-                $(".panel:nth-child(" + active + ")").addClass("right");
-                active -= 1;
-                btnDisable();
-            };
-        });
-        $(".btn-next").click(function () {
-            // Переход вправо:
-            if (active < itemsLength) {
-                $(".panel:nth-child(" + active + ")").addClass("left");
-                $(".panel:nth-child(" + (active + 1) + ")").removeClass("right");
-                active += 1;
-                btnDisable();
-            };
-        });
-        function btnDisable() {
-            if (active >= itemsLength) {
-                $(".btn-next").prop("disabled", true);
-                $(".btn-prev").prop("disabled", false);
-            }
-            else if (active <= 1) {
-                $(".btn-prev").prop("disabled", true);
-                $(".btn-next").prop("disabled", false);
-            }
-            else {
-                $(".btn-prev, .btn-next").prop("disabled", false);
-            };
-        };
-    });
-
-
+				var touch = e.originalEvent.touches;
+				var start = touch ? touch[0].pageX : e.pageX;
+				var difference;
+				$(this).on('mousemove touchmove', function (e) {
+					var contact = e.originalEvent.touches,
+						end = contact ? contact[0].pageX : e.pageX;
+					difference = end - start;
+				});
+				$(window).one('mouseup touchend', function (e) {
+					e.preventDefault();
+					// Переход вправо:
+					if (active < itemsLength && difference < -tolerance) {
+						$(".panel:nth-child(" + active + ")").addClass("left");
+						$(".panel:nth-child(" + (active + 1) + ")").removeClass("right");
+						active += 1;
+						btnDisable();
+					};
+					// Переход влево:
+					if (active > 1 && difference > tolerance) {
+						$(".panel:nth-child(" + (active - 1) + ")").removeClass("left");
+						$(".panel:nth-child(" + active + ")").addClass("right");
+						active -= 1;
+						btnDisable();
+					};
+					$('.swipe').off('mousemove touchmove');
+				});
+			});
+		};
+		swipeScreen();
+		interactiveElements.on('touchstart touchend touchup', function (e) {
+			e.stopPropagation();
+		});
+		// Кнопки:
+		$(".btn-prev").click(function () {
+			// Переход влево:
+			if (active > 1) {
+				$(".panel:nth-child(" + (active - 1) + ")").removeClass("left");
+				$(".panel:nth-child(" + active + ")").addClass("right");
+				active -= 1;
+				btnDisable();
+			};
+		});
+		$(".btn-next").click(function () {
+			// Переход вправо:
+			if (active < itemsLength) {
+				$(".panel:nth-child(" + active + ")").addClass("left");
+				$(".panel:nth-child(" + (active + 1) + ")").removeClass("right");
+				active += 1;
+				btnDisable();
+			};
+		});
+		function btnDisable() {
+			if (active >= itemsLength) {
+				$(".btn-next").prop("disabled", true);
+				$(".btn-prev").prop("disabled", false);
+			}
+			else if (active <= 1) {
+				$(".btn-prev").prop("disabled", true);
+				$(".btn-next").prop("disabled", false);
+			}
+			else {
+				$(".btn-prev, .btn-next").prop("disabled", false);
+			};
+		};
+	});
 
 
 
@@ -212,16 +216,18 @@
 
 
 
-    $('#pagination-demo').twbsPagination({
-        totalPages: 16,
-        visiblePages: 6,
-        next: 'Next',
-        prev: 'Prev',
-        onPageClick: function (event, page) {
-            //fetch content and render here
-            $('#page-content').text('Page ' + page) + ' content here';
-        }
-    });
+
+
+	$('#pagination-demo').twbsPagination({
+		totalPages: 16,
+		visiblePages: 6,
+		next: 'Next',
+		prev: 'Prev',
+		onPageClick: function (event, page) {
+			//fetch content and render here
+			$('#page-content').text('Page ' + page) + ' content here';
+		}
+	});
 
 
 </script>

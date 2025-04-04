@@ -55,6 +55,7 @@ span {
     position: relative;
     overflow: hidden;
     height: 500px;
+    width:350px
 }
 
 .home-box h3 {

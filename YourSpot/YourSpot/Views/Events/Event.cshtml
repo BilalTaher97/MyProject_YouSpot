@@ -1,4 +1,4 @@
-﻿@model YourSpot.Models.EventsViewModel
+﻿@model IEnumerable<YourSpot.Models.EventViewModel>
 
 @section Style {
 
@@ -39,16 +39,16 @@
     <div class="container-withArrow">
         <button class="arrow prev" id="prevBtn">❮</button>
         <div class="offers arrows-Home">
-            @foreach (var item in Model.Event)
+            @foreach (var item in Model)
             {
-                if (item.EstablishmentType == "Study House")
+                if (item.EstablishmentType == "Study House" && item.Status == "Accepted")
                 {
                     <div class="home-box offer-box">
-                        <img src="~/images/fstViDQUANlIjV5C.jpeg" alt="" />
+                        <img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-Event.jpg" : item.FirstImagePath)" alt="@item.Name" />
                         <h3>@item.Name</h3>
                         <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
                         <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
-                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue">
                             <button class="learn-more">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -73,17 +73,17 @@
     <div class="container-withArrow">
         <button class="arrow prev" id="prevBtn">❮</button>
         <div class="offers arrows-Home">
-            @foreach (var item in Model.Event)
+            @foreach (var item in Model)
             {
-                if (item.EstablishmentType == "Birthday party")
+                if (item.EstablishmentType == "Birthday party" && item.Status == "Accepted")
                 {
                     <div class="home-box offer-box">
-                        <img src="~/images/bourj-al-hamam-amman.jpg" alt="" />
+                        <img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-Event.jpg" : item.FirstImagePath)" alt="@item.Name" />
                         <h3>@item.Name</h3>
                         <i class="fa-solid fa-user"></i> <span>@item.Capacity</span>
                         <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
                         <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
-                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue">
                             <button class="learn-more">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -107,17 +107,17 @@
     <div class="container-withArrow">
         <button class="arrow prev" id="prevBtn">❮</button>
         <div class="offers arrows-Home">
-            @foreach (var item in Model.Event)
+            @foreach (var item in Model)
             {
-                if (item.EstablishmentType == "Meetings and seminars")
+                if (item.EstablishmentType == "Meetings and seminars" && item.Status == "Accepted")
                 {
                     <div class="home-box offer-box">
-                        <img src="~/images/bourj-al-hamam-amman.jpg" alt="" />
+                        <img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-Event.jpg" : item.FirstImagePath)" alt="@item.Name" />
                         <h3>@item.Name</h3>
                         <i class="fa-solid fa-user"></i> <span>@item.Capacity</span>
                         <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
                         <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
-                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue">
                             <button class="learn-more">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -139,33 +139,6 @@
 
 </section>
 
-<div class="main">
-    <h1 class="End-Text">The highest-rated.</h1>
-    <div class="cards">
-        @foreach (var item in Model.SpecialEvent)
-        {
-            <div class="card">
-                <div class="card-img" style="background-image:url(../images/WhatsApp\ Image\ 2025-01-01\ at\ 13.25.16_a80d5a5b.jpg);">
-                    <div class="overlay">
-                        <div class="overlay-content">
-                            <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">Show Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card-content">
-                    <a href="#!">
-                        <h2>@item.Name</h2>
-                        <p>@item.Description</p>
-                    </a>
-                </div>
-            </div>
-
-        }
-
-    </div>
-
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>

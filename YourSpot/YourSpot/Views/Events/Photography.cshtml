@@ -1,120 +1,53 @@
-﻿@model YourSpot.Models.PhotographerViewModel
+﻿@model IEnumerable<YourSpot.Models.PhotographerViewModel>
 
 @section Style {
-
-    <link rel="stylesheet" href="/css/Photography.css" asp-append-version="true" />
-
+	<link rel="stylesheet" href="/css/Photography.css" asp-append-version="true" />
 }
 
-
-
-
-
-
-
 <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Find the best photographer</h1>
-        <p class="Text-Hero">Choose the right photographer for your event with the best price and minimal effort.</p>
-    </div>
+	<div class="container">
+		<h1 class="display-4">Find the best photographer</h1>
+		<p class="Text-Hero">Choose the right photographer for your event with the best price and minimal effort.</p>
+	</div>
 </div>
 
-<!-- Hero Section -->
-<!-- ----------------------------------------------- -->
+<div class="A3-Cards">
+	@foreach (var item in Model)
+	{
+		if (item.Status == "Accepted")
+		{
+			<div class="card">
+				<div class="card-image">
+					<img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-photographer.jpg" : item.FirstImagePath)" alt="@item.Name">
+				</div>
+				<p class="card-title">@item.Name</p>
+				<p class="card-title">$@item.Price min spend</p>
+				<p class="card-body">One of our best photographers</p>
+				<a asp-action="Details_Phtotography" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Photogeapher">
+					<button class="btn_Click">
+						<span class="transition"></span>
+						<span class="gradient"></span>
 
-<div class="All-sliders">
+						<span class="label">Show Details</span>
 
-    <div class="Sladers">
-        <div class="Slader">
-
-            <h2>Photographers</h2>
-
-            <ul class="Photo_Cards">
-                @foreach (var item in Model.AllPhoto)
-                {
-                    <li class="booking-card"
-                    style="background-image: url(../images/4e47c04ce7cc85c2ef7c308df0d1eac9.jpg)">
-                        <div class="book-container">
-                            <div class="content">
-                                <a asp-action="Details_Phtotography" asp-controller="Transactions" asp-route-id="@item.Id"><button class="btn">Show Details</button></a>
-                            </div>
-                        </div>
-                        <div class="informations-container">
-                            <h2 class="title" style="left:16%;">@item.Name</h2>
-                            <p class="sub-title">$@item.Price min spend</p>
-
-
-                        </div>
-                    </li>
-                }
-
-
-            </ul>
-        </div>
-    </div>
-
-
-
-</div>
-
-
-<!-- ----------------------------------------------- -->
-<!-- Last Section -->
-
-<br>
-<br>
-<br>
-<div class="content">
-
-    <div>
-        <h2 class="Main-Title">The highest-rated</h2>
-    </div>
-
-    <div class="A3-Cards">
-        @foreach (var item in Model.SpecialPhoto)
-        {
-            <div class="card">
-                <div class="card-image"><img src="~/images/e223a7283d3dfb5a656d2bb2053dfdd6.jpg" alt=""></div>
-                <p class="card-title">@item.Name</p>
-                <p class="card-title">$@item.Price min spend</p>
-                <p class="card-body">
-                    One of our best photographers
-                </p>
-
-                <button class="btn_Click">
-                    <span class="transition"></span>
-                    <span class="gradient"></span>
-                    <a asp-action="Details_Phtotography" asp-controller="Transactions" asp-route-id="@item.Id"><span class="label">Show Details</span></a>
-
-                </button>
-
-            </div>
-        }
-
-
-    </div>
-
+					</button>
+				</a>
+			</div>
+		}
+	}
 </div>
 
 
 
 <section class="registration-section">
-
-    
-    <div class="registration-container">
-        <div class="registration-circle registration-circle-1"></div>
-
-        <div class="registration-content">
-            <h2 class="registration-title">Join our family now</h2>
-            <h3 class="registration-subtitle">Register Now!</h3>
-            <a asp-action="Reg_Photography" asp-controller="Events" class="registration-btn">Register Now</a>
-        </div>
-
-        <div class="registration-icon"></div>
-
-        <div class="registration-circle registration-circle-2"></div>
-    </div>
-   
-
-
+	<div class="registration-container">
+		<div class="registration-circle registration-circle-1"></div>
+		<div class="registration-content">
+			<h2 class="registration-title">Join our family now</h2>
+			<h3 class="registration-subtitle">Register Now!</h3>
+			<a asp-action="Reg_Photography" asp-controller="Events" class="registration-btn">Register Now</a>
+		</div>
+		<div class="registration-icon"></div>
+		<div class="registration-circle registration-circle-2"></div>
+	</div>
 </section>

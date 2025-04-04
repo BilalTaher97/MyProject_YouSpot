@@ -1,4 +1,4 @@
-﻿@model IEnumerable<YourSpot.Models.Venue>
+﻿@model IEnumerable<YourSpot.Models.WeddingViewModel>
 
 @section Style {
 
@@ -50,15 +50,15 @@
         <div class="offers arrows-Home">
             @foreach(var item in Model)
             {
-                if (item.WeddingVenueType == "Hotel")
+                if (item.WeddingVenueTypeice == "Hotel" && item.Status == "Accepted")
                 {
                     <div class="home-box offer-box">
-                        <img src="~/images/le-royal-hotel-amman.jpg" alt="" />
+                        <img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-Wedding.jpg" : item.FirstImagePath)" alt="@item.Name" />
                         <h3>@item.Name</h3>
                         <i class="fa-solid fa-user"></i> <span>@item.Capacity</span>
                         <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
                         <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
-                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue">
                             <button class="learn-more" style="margin-top: 30px;">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -87,15 +87,15 @@
         <div class="offers arrows-Home">
             @foreach (var item in Model)
             {
-                if (item.WeddingVenueType == "Hall")
+                if (item.WeddingVenueTypeice == "Hall" && item.Status == "Accepted")
                 {
                     <div class="home-box offer-box">
-                        <img src="~/images/le-royal-hotel-amman.jpg" alt="" />
+                        <img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-Wedding.jpg" : item.FirstImagePath)" alt="@item.Name" />
                         <h3>@item.Name</h3>
-                        <i class="fa-solid fa-user"></i> <span>>@item.Capacity</span>
+                        <i class="fa-solid fa-user"></i> <span>@item.Capacity</span>
                         <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
                         <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
-                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue">
                             <button class="learn-more" style="margin-top: 30px;">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -126,15 +126,15 @@
 
             @foreach (var item in Model)
             {
-                if (item.WeddingVenueType == "Farm")
+                if (item.WeddingVenueTypeice == "Farm" && item.Status == "Accepted")
                 {
                     <div class="home-box offer-box">
-                        <img src="~/images/le-royal-hotel-amman.jpg" alt="" />
+                        <img src="@(string.IsNullOrEmpty(item.FirstImagePath) ? "/images/default-Wedding.jpg" : item.FirstImagePath)" alt="@item.Name" />
                         <h3>@item.Name</h3>
-                        <i class="fa-solid fa-user"></i> <span>>@item.Capacity</span>
-                        <div class="location"><i class="fa-solid fa-dollar"></i> <span>@item.Price min spend </span></div>
+                        <i class="fa-solid fa-user"></i> <span>@item.Capacity</span>
+                        <div class="location"><i class="fa-solid fa-dollar"></i><span>@item.Price min spend</span></div>
                         <div class="location"><i class="fa-solid fa-location"></i> <span>@item.Address</span></div>
-                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id">
+                        <a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue">
                             <button class="learn-more" style="margin-top: 30px;">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
