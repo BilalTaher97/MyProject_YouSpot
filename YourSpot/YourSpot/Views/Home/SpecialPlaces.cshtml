@@ -1,0 +1,68 @@
+﻿@model IEnumerable<YourSpot.Models.Venue>
+
+
+@{
+	Layout = "~/Views/Shared/_SuperAdmin.cshtml";
+}
+
+
+
+
+<div class="container mt-4">
+
+	<div class="row justify-content-center">
+		<div class="col-lg-10">
+			<div class="card shadow-sm p-3">
+
+
+				<div class="table-responsive">
+
+				
+
+
+					<table class="table table-sm table-bordered text-center">
+						<thead class="thead-dark">
+							<tr>
+								<th>#</th>
+								<th>Name</th>
+								<th>Email</th>
+								<th>Phone</th>
+								<th>Address</th>
+								<th>Price</th>
+								<th>Capacity</th>
+								<th>Establishment</th>
+								<th>Type</th>
+								<th>Venue Type</th>
+								<th colspan="2">Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							@{
+								int counter_TopVenue = 1;
+							}
+							@foreach (var item in Model)
+							{
+								<tr>
+									<td>@counter_TopVenue</td>
+									<td>@item.Name</td>
+									<td>@item.Email</td>
+									<td>@item.Phone</td>
+									<td>@item.Address</td>
+									<td>@item.Price</td>
+									<td>@item.Capacity</td>
+									<td>@item.EstablishmentName</td>
+									<td>@item.EstablishmentType</td>
+									<td>@(item.WeddingVenueType ?? "N/A")</td>	
+									
+									<td><a asp-action="RemoveTopVenue" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Remove</a></td>
+										
+								</tr>
+								counter_TopVenue++;
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

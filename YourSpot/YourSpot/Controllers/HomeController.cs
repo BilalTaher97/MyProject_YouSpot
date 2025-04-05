@@ -779,5 +779,62 @@ namespace YourSpot.Controllers
             _context.SaveChanges();
             return RedirectToAction("User_Management", ven);
         }
+
+        public IActionResult SpecialPlaces()
+        {
+            var specialItems = _context.FeaturedItems.ToList();
+
+            var topVenues = new List<Venue>();
+
+            foreach (var item in specialItems)
+            {
+                var venue = _context.Venues.FirstOrDefault(v => v.Id == item.ItemId);
+                if (venue != null)
+                {
+                    topVenues.Add(venue);
+                }
+            }
+
+            return View(topVenues);
+        }
+
+
+        public IActionResult HandelAddToFeature(int id)
+        {
+            var Feature = _context.FeaturedItems.FirstOrDefault(F => F.ItemId == id);
+
+            if (Feature != null)
+            {
+                TempData["Msg"] = "The item is already installed, please choose another item.";
+                return RedirectToAction("Venue_Management");
+            }
+
+            var NewFeature = new FeaturedItem();
+
+            NewFeature.ItemId = id;
+            NewFeature.ItemType = "Special";
+            _context.FeaturedItems.Add(NewFeature);
+            _context.SaveChanges();
+
+            TempData["Msg"] = "The item was Pin successfully.";
+            return RedirectToAction("Venue_Management");
+        }
+
+
+        public IActionResult RemoveTopVenue(int id)
+        {
+            var specialItems = _context.FeaturedItems.FirstOrDefault(s => s.ItemId == id);
+
+
+            if(specialItems == null)
+            {
+                return RedirectToAction("SpecialPlaces");
+            }
+            
+            _context.FeaturedItems.Remove(specialItems);
+            _context.SaveChanges();
+            return RedirectToAction("SpecialPlaces");
+        }
+
     }
 }
