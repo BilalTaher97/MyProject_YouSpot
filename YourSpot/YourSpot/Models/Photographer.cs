@@ -19,5 +19,7 @@ public partial class Photographer
 
     public string? Status { get; set; }
 
+    public string? Type { get; set; }
+
     public bool? IsActive { get; set; }
 }

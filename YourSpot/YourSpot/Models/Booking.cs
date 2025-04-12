@@ -27,8 +27,6 @@ public partial class Booking
 
     public int? DressesId { get; set; }
 
-    public virtual ICollection<Cancellation> Cancellations { get; set; } = new List<Cancellation>();
-
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual User User { get; set; } = null!;

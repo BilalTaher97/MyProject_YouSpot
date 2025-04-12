@@ -1,107 +1,119 @@
 ﻿@model IEnumerable<YourSpot.Models.Venue>
 
 @{
-	Layout = "~/Views/Shared/_SuperAdmin.cshtml";
+    Layout = "~/Views/Shared/_SuperAdmin.cshtml";
+    var msg = TempData["Msg"] as string;
+    int counter_Venue = 1;
 }
 
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-11 mt-5">
+            <div class="card shadow-sm p-4" style="margin-left: 80px;">
+                @if (!string.IsNullOrEmpty(msg))
+                {
+                    <div class="alert @(msg.Contains("successfully") ? "alert-success" : "alert-danger") text-center">
+                        @msg
+                    </div>
+                }
 
-@{
-	var msg = TempData["Msg"] as string;
-}
+                <div class="table-responsive">
+                    <table class="table table-bordered table-sm text-center">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Address</th>
+                                <th>Price</th>
+                                <th>Capacity</th>
+                                <th>Establishment</th>
+                                <th>Type</th>
+                                <th>Venue Type</th>
+                                <th>Active</th>
+                                <th>Status</th>
+                                <th colspan="2">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@counter_Venue</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.Phone</td>
+                                    <td>@item.Address</td>
+                                    <td>@item.Price</td>
+                                    <td>@item.Capacity</td>
+                                    <td>@item.EstablishmentName</td>
+                                    <td>@item.EstablishmentType</td>
+                                    <td>@(item.WeddingVenueType ?? "N/A")</td>
+                                    <td>@(item.IsActive == true ? "Yes" : "No")</td>
+                                    <td style="font-weight: bold; color: @(item.Status == "Pending" ? "sandybrown" : item.Status == "Accepted" ? "forestgreen" : "red")">
+                                        @item.Status
+                                    </td>
 
-<div class="container mt-4">
-
-	<div class="row justify-content-center">
-		<div class="col-lg-10">
-			<div class="card shadow-sm p-3">
-
-				   
-				<div class="table-responsive">
-		
-					@if (msg == "The item was Pin successfully.")
-					{
-						<p style="color:green">@msg</p>
-					}
-					else if (!string.IsNullOrEmpty(msg))
-					{
-						<p style="color:red">@msg</p>
-					}
-
-
-					<table class="table table-sm table-bordered text-center">
-						<thead class="thead-dark">
-							<tr>
-								<th>#</th>
-								<th>Name</th>
-								<th>Email</th>
-								<th>Phone</th>
-								<th>Address</th>
-								<th>Price</th>
-								<th>Capacity</th>
-								<th>Establishment</th>
-								<th>Type</th>
-								<th>Venue Type</th>
-								<th>Description</th>
-								<th>Active</th>
-								<th>Status</th>
-								<th colspan="2">Actions</th>
-							</tr>
-						</thead>
-						<tbody>
-							@{
-								int counter_Venue = 1;
-							}
-							@foreach (var item in Model)
-							{
-								<tr>
-									<td>@counter_Venue</td>
-									<td>@item.Name</td>
-									<td>@item.Email</td>
-									<td>@item.Phone</td>
-									<td>@item.Address</td>
-									<td>@item.Price</td>
-									<td>@item.Capacity</td>
-									<td>@item.EstablishmentName</td>
-									<td>@item.EstablishmentType</td>
-									<td>@(item.WeddingVenueType ?? "N/A")</td>
-									<td>@item.Description</td>
-									<td>@(item.IsActive == true ? "Yes" : "No")</td>
-									<td style="font-weight:bold; color: @(item.Status == "Pending" ? "sandybrown"  : item.Status == "Accepted" ? "forestgreen" : "red")">
-										@item.Status
-									</td>
-									@if (item.Status == "Pending")
-									{
-										<td><a asp-action="HandelAcceptVenue" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-success btn-sm">Approve</a></td>
-										<td><a asp-action="HandelRejectVenue" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Reject</a></td>
-									}
-
-									@if (item.Status == "Accepted" && item.IsActive == true)
-									{
-										<td><a asp-action="HandelBlockVenue" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Block</a></td>
-										<td><a asp-action="HandelAddToFeature" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-success btn-sm">Pin</a></td>
-									}
-								</tr>
-								counter_Venue++;
-							}
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-	</div>
+                                    @* Actions *@
+                                    @if (item.Status == "Pending")
+                                    {
+                                        <td>
+                                            <a asp-action="HandelAcceptVenue" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-success btn-sm">Approve</a>
+                                        </td>
+                                        <td>
+                                            <a asp-action="HandelRejectVenue" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Reject</a>
+                                        </td>
+                                    }
+                                    else if (item.Status == "Accepted" && item.IsActive == true)
+                                    {
+                                        <td>
+                                            <a asp-action="HandelBlockVenue" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Block</a>
+                                        </td>
+                                        <td>
+                                            <a asp-action="HandelAddToFeature" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-success btn-sm">Pin</a>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td colspan="2">-</td>
+                                    }
+                                </tr>
+                                counter_Venue++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <style>
-	.container {
-		max-width: 80%;
-	}
+    .container {
+        max-width: 100%;
+    }
 
-	.table {
-		font-size: 0.85rem;
-	}
+    .table {
+        font-size: 0.85rem;
+    }
 
-	.btn-sm {
-		padding: 2px 10px;
-		font-size: 0.75rem;
-	}
+    .btn-sm {
+        padding: 3px 12px;
+        font-size: 0.75rem;
+    }
+
+    .alert {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+
+
+
 </style>

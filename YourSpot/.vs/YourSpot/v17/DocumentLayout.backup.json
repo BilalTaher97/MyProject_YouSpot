@@ -1,12 +1,133 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\user\\log_reg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\user\\log_reg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\home\\superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\home\\superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\home\\showallfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\home\\showallfeedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\shared\\_superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\shared\\_superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Log_Reg.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\User\\Log_Reg.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\User\\Log_Reg.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\User\\Log_Reg.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\User\\Log_Reg.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T18:06:35.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkBAAAAAAAAAAAWwEgBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T18:02:04.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SuperAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T17:57:06.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T17:57:01.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_SuperAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T17:52:40.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowAllFeedBack.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\ShowAllFeedBack.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Home\\ShowAllFeedBack.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\ShowAllFeedBack.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Home\\ShowAllFeedBack.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T17:43:50.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "YourSpot\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "YourSpot\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADwDAAAAAAAAAAAewEsDAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:43:03.743Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -17,10 +17,6 @@ public partial class MyDbContext : DbContext
 
     public virtual DbSet<Booking> Bookings { get; set; }
 
-    public virtual DbSet<Cancellation> Cancellations { get; set; }
-
-    public virtual DbSet<Discount> Discounts { get; set; }
-
     public virtual DbSet<Dress> Dresses { get; set; }
 
     public virtual DbSet<Favorite> Favorites { get; set; }
@@ -30,8 +26,6 @@ public partial class MyDbContext : DbContext
     public virtual DbSet<Feedback> Feedbacks { get; set; }
 
     public virtual DbSet<Image> Images { get; set; }
-
-    public virtual DbSet<Notification> Notifications { get; set; }
 
     public virtual DbSet<Payment> Payments { get; set; }
 
@@ -77,41 +71,6 @@ public partial class MyDbContext : DbContext
                 .HasConstraintName("FK__Bookings__venue___3E52440B");
         });
 
-        modelBuilder.Entity<Cancellation>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Cancella__3213E83FFD2C5125");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.BookingId).HasColumnName("booking_id");
-            entity.Property(e => e.CancellationDate).HasColumnName("cancellation_date");
-            entity.Property(e => e.CancellationStatus)
-                .HasMaxLength(50)
-                .HasColumnName("cancellation_status");
-            entity.Property(e => e.Reason).HasColumnName("reason");
-
-            entity.HasOne(d => d.Booking).WithMany(p => p.Cancellations)
-                .HasForeignKey(d => d.BookingId)
-                .HasConstraintName("FK__Cancellat__booki__47DBAE45");
-        });
-
-        modelBuilder.Entity<Discount>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Discount__3213E83F0E8726EF");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.DiscountPercentage)
-                .HasColumnType("decimal(5, 2)")
-                .HasColumnName("discount_percentage");
-            entity.Property(e => e.DiscountStatus)
-                .HasMaxLength(50)
-                .HasColumnName("discount_status");
-            entity.Property(e => e.DiscountType)
-                .HasMaxLength(50)
-                .HasColumnName("discount_type");
-            entity.Property(e => e.EndDate).HasColumnName("end_date");
-            entity.Property(e => e.StartDate).HasColumnName("start_date");
-        });
-
         modelBuilder.Entity<Dress>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Dresses__3213E83F44103A56");
@@ -125,6 +84,7 @@ public partial class MyDbContext : DbContext
             entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.Size).HasMaxLength(50);
             entity.Property(e => e.Status).HasMaxLength(50);
+            entity.Property(e => e.Type).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Favorite>(entity =>
@@ -171,25 +131,6 @@ public partial class MyDbContext : DbContext
                 .HasColumnName("service_type");
         });
 
-        modelBuilder.Entity<Notification>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Notifica__3213E83F35C1AA5B");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.NotificationDate)
-                .HasColumnType("datetime")
-                .HasColumnName("notification_date");
-            entity.Property(e => e.NotificationMessage).HasColumnName("notification_message");
-            entity.Property(e => e.NotificationType)
-                .HasMaxLength(50)
-                .HasColumnName("notification_type");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Notifications)
-                .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__Notificat__user___4AB81AF0");
-        });
-
         modelBuilder.Entity<Payment>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Payments__3213E83F86823995");
@@ -222,6 +163,7 @@ public partial class MyDbContext : DbContext
             entity.Property(e => e.Phone).HasMaxLength(255);
             entity.Property(e => e.Price).HasColumnName("price");
             entity.Property(e => e.Status).HasMaxLength(50);
+            entity.Property(e => e.Type).HasMaxLength(50);
         });
 
         modelBuilder.Entity<Review>(entity =>
@@ -286,6 +228,7 @@ public partial class MyDbContext : DbContext
                 .HasColumnType("decimal(18, 2)")
                 .HasColumnName("price");
             entity.Property(e => e.Status).HasMaxLength(50);
+            entity.Property(e => e.Type).HasMaxLength(50);
             entity.Property(e => e.WeddingVenueType).HasMaxLength(255);
         });
 

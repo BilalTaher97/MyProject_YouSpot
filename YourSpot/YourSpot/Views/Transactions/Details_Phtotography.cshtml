@@ -35,7 +35,7 @@
                 @foreach(var item in Model.images){
                 <div class="swiper-slide">
                         <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "/images/default-Photogeapher.jpg" : item.ImageUrl)"
-                             alt="Photogeapher Image" class="swiper-slide-image">
+                             alt="Photogeapher Image" class="swiper-slide-image" style="width: 545px; height: 370px;">
                 </div>
                 }
             </div>

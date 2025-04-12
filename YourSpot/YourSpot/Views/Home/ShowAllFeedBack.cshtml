@@ -1,0 +1,56 @@
+﻿@model IEnumerable<YourSpot.Models.Feedback>
+
+
+
+@{
+	Layout = "~/Views/Shared/_SuperAdmin.cshtml";
+}
+
+
+
+
+
+<div class="tab-pane" id="billing" style="margin-left: 230px;margin-top: 150px;">
+
+	<hr>
+
+	<table class="table">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Full Name</th>
+				<th scope="col">Email</th>
+				<th scope="col">Description</th>
+			</tr>
+		</thead>
+		<tbody>
+
+			@{
+				int counter_FeedBack = 1;
+			}
+			@foreach (var item in Model)
+			{
+
+
+				<tr>
+					<th scope="row">@counter_FeedBack</th>
+					<td>@item.FirstName @item.LastName</td>
+					<td>@item.Email</td>
+					<td>@item.Description</td>
+
+					
+					
+				</tr>
+
+				counter_FeedBack++;
+
+
+
+
+			}
+
+
+		</tbody>
+	</table>
+
+</div>

@@ -23,8 +23,6 @@ public partial class User
 
     public virtual ICollection<Favorite> Favorites { get; set; } = new List<Favorite>();
 
-    public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
-
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();

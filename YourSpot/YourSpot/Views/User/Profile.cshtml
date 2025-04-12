@@ -320,7 +320,7 @@
 									<th scope="col">Address</th>
 									<th scope="col">Min Spend</th>
 									<th scope="col">Capacity</th>
-									<th scope="col"></th>
+									<th scope="col" colspan="2"></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -339,7 +339,10 @@
 										<td>@item.Address</td>
 										<td>@item.Price</td>
 										<td>@item.Capacity</td>
-										<td><a asp-action="DeleteVenuesFav" asp-controller="User" asp-route-id="@item.Id" class="btn btn-danger">Remove</a></td>
+										<td>
+											<a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue" style="font-size: 12px; position: relative;left: 55px;" class="btn btn-success">Show Details</a>
+										</td>
+										<td><a asp-action="DeleteVenuesFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 20%;font-size: 12px;" class="btn btn-danger">Remove</a></td>
 
 									</tr>
 
@@ -363,7 +366,7 @@
 									<th scope="col">Email</th>
 									<th scope="col">Phone</th>
 									<th scope="col">Min Spend</th>
-									<th scope="col"></th>
+									<th scope="col" colspan="2"></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -378,8 +381,9 @@
 										<td>@item.Name</td>
 										<td>@item.Email</td>
 										<td>@item.Phone</td>
-										<td>@item.Price</td>>
-										<td><a asp-action="DeletePhotoFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 20%;" class="btn btn-danger">Remove</a></td>
+										<td>@item.Price</td>
+										<td><a asp-action="Details_Phtotography" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Photogeapher" style="font-size: 12px; position: relative;left: 40px;" class="btn btn-success">Show Details</a></td>
+										<td><a asp-action="DeletePhotoFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 20%;font-size: 12px;" class="btn btn-danger">Remove</a></td>
 
 									</tr>
 
@@ -421,11 +425,11 @@
 										<td>@item.Name</td>
 										<td>@item.Email</td>
 										<td>@item.Phone</td>
-										<td>@item.Price</td>>
-										<td>@item.Size</td>>
-										<td>@item.Brand</td>>
-										<td>
-										<td><a asp-action="DeleteDressesFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 2%;" class="btn btn-danger">Remove</a></td>
+										<td>@item.Price</td>
+										<td>@item.Size</td>
+										<td>@item.Brand</td>
+										<td><a asp-action="Details_Dresses" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Dress" class="btn btn-success" style="font-size: 12px;">Show Details</a></td>
+										<td><a asp-action="DeleteDressesFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 2%;font-size: 12px;" class="btn btn-danger">Remove</a></td>
 									
 
 									</tr>

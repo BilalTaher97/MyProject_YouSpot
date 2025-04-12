@@ -836,5 +836,13 @@ namespace YourSpot.Controllers
             return RedirectToAction("SpecialPlaces");
         }
 
+
+        public IActionResult ShowAllFeedBack()
+        {
+            var FeedBack = _context.Feedbacks.ToList();
+
+            return View(FeedBack);
+        }
+
     }
 }

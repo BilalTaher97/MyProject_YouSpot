@@ -31,6 +31,8 @@ public partial class Venue
 
     public string? Status { get; set; }
 
+    public string? Type { get; set; }
+
     public bool? IsActive { get; set; }
 
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();

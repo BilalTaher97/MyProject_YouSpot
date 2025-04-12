@@ -35,7 +35,7 @@
                 {
                     <div class="swiper-slide">
                         <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "/images/default-Venue.jpg" : item.ImageUrl)"
-                             alt="Venue Image" class="swiper-slide-image">
+                             alt="Venue Image" class="swiper-slide-image" style="width: 545px; height: 370px;">
                     </div>
                 }
             </div>
@@ -53,7 +53,7 @@
 </div>
 
 <div class="container_1">
-    <h1>@Model.venue.Name</h1>
+    <h1>@Model.venue.EstablishmentName</h1>
     <p class="address">📍 @Model.venue.Address <a href="#Maps">Show map</a></p>
     <p><strong>Email: <span style="color:#5bc1ac">@Model.venue.Email</span></strong></p>
     <div class="info-cards">
@@ -129,7 +129,7 @@
         // تحديث الخريطة
         function updateMap() {
             var address = "@Model.venue.Address";
-            var name = "@Model.venue.Name";
+            var name = "@Model.venue.EstablishmentName";
             var encodedAddress = encodeURIComponent(address + " " + name);
             var apiKey = "AIzaSyBUFGpqa49WjY-FrcMFY-TC1BW_br6xumU";
             var mapUrl = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${encodedAddress}`;
