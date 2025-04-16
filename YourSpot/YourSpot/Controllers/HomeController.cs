@@ -830,7 +830,7 @@ namespace YourSpot.Controllers
             {
                 return RedirectToAction("SpecialPlaces");
             }
-            
+           
             _context.FeaturedItems.Remove(specialItems);
             _context.SaveChanges();
             return RedirectToAction("SpecialPlaces");
