@@ -403,92 +403,104 @@ body {
     margin: 0 auto;
 }
 
-.ys-service-item {
-    background-color: white;
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 3px 15px rgba(0,0,0,0.05);
-}
-
-    .ys-service-item h3 {
-        color: #4AC0A4;
-        margin-bottom: 15px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-.ys-why-us {
-    padding: 60px 5%;
-}
-
-    .ys-why-us h2 {
-        text-align: center;
-        font-size: 32px;
-        margin-bottom: 40px;
-    }
-
-.ys-features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.ys-feature-item {
-    text-align: center;
-    padding: 30px;
-}
-
-.ys-feature-icon {
-    font-size: 40px;
-    color: #4AC0A4;
-    margin-bottom: 20px;
-}
-
-.ys-contact-section {
-    padding: 60px 5%;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-    .ys-contact-section h2 {
-        font-size: 32px;
-        margin-bottom: 30px;
-    }
-
-.ys-contact-methods {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.ys-contact-method {
-    flex: 1;
-    min-width: 200px;
-    padding: 20px;
-}
-
-.ys-contact-icon {
-    font-size: 30px;
-    color: #4AC0A4;
-    margin-bottom: 15px;
-}
 
 @media (max-width: 768px) {
-    .ys-features-section {
-        flex-direction: column;
+    .ys-services-grid {
+        grid-template-columns: repeat(1, minmax(250px, 1fr));
     }
 
-    .ys-vision-mission {
-        flex-direction: column;
-    }
+    .gallery {
 
-    .ys-services-container {
-        flex-direction: column;
+        display:none;
     }
 }
+
+    .ys-service-item {
+        background-color: white;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+    }
+
+        .ys-service-item h3 {
+            color: #4AC0A4;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+    .ys-why-us {
+        padding: 60px 5%;
+    }
+
+        .ys-why-us h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+    .ys-features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .ys-feature-item {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .ys-feature-icon {
+        font-size: 40px;
+        color: #4AC0A4;
+        margin-bottom: 20px;
+    }
+
+    .ys-contact-section {
+        padding: 60px 5%;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+        .ys-contact-section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+    .ys-contact-methods {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .ys-contact-method {
+        flex: 1;
+        min-width: 200px;
+        padding: 20px;
+    }
+
+    .ys-contact-icon {
+        font-size: 30px;
+        color: #4AC0A4;
+        margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .ys-features-section {
+            flex-direction: column;
+        }
+
+        .ys-vision-mission {
+            flex-direction: column;
+        }
+
+        .ys-services-container {
+            flex-direction: column;
+        }
+    }

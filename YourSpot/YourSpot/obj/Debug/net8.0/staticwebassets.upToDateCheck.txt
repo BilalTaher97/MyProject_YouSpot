@@ -284,43 +284,172 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\00908c80-683d-49d2-92ba-0e2cf95d2c17_Amman-Rotana-Hotel-Exterior.jpeg
 wwwroot\uploads\05143c6c-a5ea-4374-9e40-ac2d669a1c32_360_F_966250839_jBhNnhyGs4wbtxXeBEsgFGu4dxhCrdjn.jpg
+wwwroot\uploads\0710fa16-e7d5-4e81-88d7-c9dec55be81c_498853532.jpg
+wwwroot\uploads\076e5850-6079-4499-86ed-72dc6fbe2dfc_1.jpg
+wwwroot\uploads\0788705d-4639-497f-8c07-0137dd092513_477568437_949158303975818_4675296802936461262_n.jpg
+wwwroot\uploads\0aa9b993-690e-44b6-89bf-6f8aefe3df64_484969432_1095227232637452_4201038661790030043_n.jpg
+wwwroot\uploads\0d530915-e3f2-4756-aa72-38eb2be9f668_338021192.jpg
+wwwroot\uploads\0e68487c-b22b-4942-b675-10cbd8544b02_amman_wedding_venues_4.jpg
+wwwroot\uploads\0ebe4999-bac5-43aa-8f8b-f2a544e53158_al_numan_halls.jpg
+wwwroot\uploads\1174709d-101f-4d8a-99d4-38fa1e2ce654_dda19790205f409ebc6c234fa8159888.jpg
+wwwroot\uploads\11fbc046-082f-46c8-8d6e-279e3778ed3b_rovan_wedding_hall.jpeg
+wwwroot\uploads\1439820f-ff4c-4392-bd62-b0101c4afa12_204687284_102430048769335_2266409599042546227_n.png
 wwwroot\uploads\14a14c75-7f00-4df3-9df6-4848c2f303ee_Screenshot 2025-01-12 171524.png
 wwwroot\uploads\1612f261-5f52-4f1e-8b84-4938c575f357_Screenshot 2024-12-08 192246.png
 wwwroot\uploads\1640c859-72a7-4b5f-9f9a-77da47bdbf72_Screenshot 2024-12-15 093619.png
 wwwroot\uploads\16784537-27eb-4b27-8c71-539a173adc02_66c750603dab981ce0630932-gowntown-womens-dresses-party-dresses.jpg
+wwwroot\uploads\169b5d95-f37d-48aa-8808-9fdd439bf684_hotel-exterior.jpg
+wwwroot\uploads\17cf87f9-c9b0-42b9-b9a0-c3068e6f941c_crowne-plaza-amman-5890815863-4x3.jpeg
+wwwroot\uploads\1806c912-863a-47dd-a7f5-3c07d6df8c73_intercontinental-amman-9862705083-2x1.jpeg
 wwwroot\uploads\181c568d-e505-416c-8450-7d42cf964875_AboutUs1.png
 wwwroot\uploads\189ef332-bcdc-4813-b035-0b1527b3773c_Screenshot 2024-12-18 230927.png
+wwwroot\uploads\1b0d4239-ef9e-4e90-9ad2-d888029bd7f7_macmagic_hall.jpg
+wwwroot\uploads\1ca2e2df-64ea-4b38-95fc-a084eaa44dd5_KWK-study-lounge-1170x878.png
+wwwroot\uploads\1cc05913-6fc2-40c1-a070-3c71764ee296_images (1).jpeg
 wwwroot\uploads\1f495717-0154-4cbb-91c0-b8cc28540839_Screenshot 2024-12-06 201127.png
+wwwroot\uploads\1fa211a1-0c41-4723-a8c4-627977ca2846_images (2).jpeg
 wwwroot\uploads\23b22830-587c-443d-a7c6-69cfc5faef0a_Screenshot 2024-12-15 093643.png
+wwwroot\uploads\2557cf61-ad5f-4b25-8722-e90e6515ef1b_55802331.jpg
 wwwroot\uploads\279c7de6-7e24-43e3-8c79-d62afbd6bb54_Natural-Light-1200x800-1741180102.jpg
+wwwroot\uploads\27a54bd9-f036-4262-91d2-2ed991651090_مطعم-ريكاردو-الإيطالي-يحتفل-بالذكرى-الـ-45-لتأسيسه-1728482194244_large.jpeg
+wwwroot\uploads\28a7a1ca-c7e7-40b7-b9a2-ce4f8b4568c1_restaurant-bar-coffee-shop.jpg
+wwwroot\uploads\2d4e9af9-54c3-4941-a4d3-c2b417455a2b_475151652_1381123363237227_1864659242344803939_n.jpg
+wwwroot\uploads\2efdfc8a-2c3b-4927-b81f-255e3e3ebf3c_amman-grand-millennium-hotel-photo-7.jpeg
 wwwroot\uploads\2fbf04aa-5ea5-4fc5-a8ca-bbcdab4a32c8_Screenshot 2024-12-13 171530.png
 wwwroot\uploads\2fdcd983-0694-4d2b-bd1c-220b48231d79_Screenshot 2025-01-12 172051.png
+wwwroot\uploads\3035f5eb-53fc-4378-a39e-4debe4603100_475286618_938646595083462_5095645486370249048_n.jpg
+wwwroot\uploads\31311bcc-d338-4810-afc3-ed6513cd46e1_the-regency-palace-hotel.jpg
+wwwroot\uploads\328a0a7e-1dbd-4fdf-8731-63f02418b9bf_alali_1.jpg
 wwwroot\uploads\34f1aa75-f53f-40bc-bf60-8211dfb8f650_w-amman-hotel.jpg
+wwwroot\uploads\36122023-a7e1-4b2d-a6f4-048cdd5f584a_pngtree-an-old-coffee-shop-with-very-dark-walls-picture-image_2652909.jpg
+wwwroot\uploads\3a76ef2c-0984-422d-a5f7-17a92f528af5_490447798_2344676805948421_1283783965313499820_n.jpg
+wwwroot\uploads\3bba8dfa-af3b-4733-9bca-b5ff49213d31_CjNeiDwXAAAijxY.jpg
 wwwroot\uploads\3df575f7-a618-4ea9-90ac-1945bd202720_Screenshot 2025-01-27 002029.png
+wwwroot\uploads\3f20e98b-2d7f-4a09-97c4-f7e69fc62288_84325566_114786140125472_1758545677555597312_n.jpg
+wwwroot\uploads\42eef30a-dfaf-409b-a5f1-45392b4febd2_كمبوند-لا-كابيتال-العاصمة-الجديدة.jpg
+wwwroot\uploads\467ea0e1-28fd-47f0-b424-a4b2726373ed_ASH1.webp
+wwwroot\uploads\46f8841b-2d3e-4d3c-a42f-b02bf0b0b41c_204f30db424f1a52a89524371887951f.jpg
+wwwroot\uploads\47c02591-dee8-41c6-bc02-7b398c7ccc10_mallol-s-unique-dining.jpg
 wwwroot\uploads\48ddbb81-2045-4ae8-bf8d-0590e41058d2_Screenshot 2024-12-05 124325.png
+wwwroot\uploads\48f15a66-8708-4845-b529-7100e9608434_36279749_250185365533830_1175011084050890752_n.jpg
+wwwroot\uploads\49d6f88e-39ca-4e80-8605-b154105ec195_panorama-hotel-suites-amman-pic-25.jpeg
+wwwroot\uploads\4ba38f47-e228-4302-b681-d823adc6a84d_148053681_335539084462332_2671245929593539755_n.jpg
+wwwroot\uploads\4c6af9d0-c8e9-445a-a91a-4b53f6ad5c9e_csm_07-IMG_9132-A_ff49a267a6.jpg
+wwwroot\uploads\4d766d5a-9987-446a-a9ed-513143589eea_fairmont-amman-building-2.jpg
 wwwroot\uploads\4f4b30c5-ecf4-4cde-be29-30bb3500312a_Screenshot 2024-12-05 142212.png
+wwwroot\uploads\4f99b229-6109-4d52-b62a-cc7c32c89444_49368817.jpg
+wwwroot\uploads\50934e09-f90f-412b-a0ec-ac06ff97f70b_Be-Our-Guest-Interior-Magic-Kingdom-Judd-Helms-FI.webp
+wwwroot\uploads\51bbd968-08c5-4f69-80e0-2236c520f27b_coffee-shop-indoors-cafe-restaurant.jpg
+wwwroot\uploads\527522f2-e2c4-4680-a7e5-b187d35c72ac_481068593_623010913994241_7710338966425590540_n.jpg
+wwwroot\uploads\537abc77-1f5b-4ea3-9343-60b07f5b0c7e_img-20140331-wa0001.jpg
+wwwroot\uploads\5405b907-29d6-44ba-886d-53b425f7496f_485037776_957622306562630_648897739705957267_n.jpg
 wwwroot\uploads\58160917-2111-4a82-b374-0ffc24ceaedd_Screenshot 2024-12-05 142311.png
+wwwroot\uploads\5bd94b38-a322-458e-9176-848c54612c0a_823161147.jpeg
+wwwroot\uploads\5d0d2bef-c6c7-4254-8948-282257dd977b_قاعات-بانوراما-بلو.jpg
 wwwroot\uploads\5dbe94e7-e18d-4d2f-a741-ac5403a677f0_MESH.jpg
+wwwroot\uploads\5dc04e95-423b-408c-83e9-395e3c02d245_291554543.jpg
 wwwroot\uploads\5ea2bbe9-0bd5-4b87-b674-1576c6a704a3_Screenshot 2024-12-05 142311.png
+wwwroot\uploads\616e9d80-3ca1-49c3-b988-d9ac50e6b92d_475027056_938646708416784_7018992148983428544_n.jpg
+wwwroot\uploads\61dcff1e-d6fc-4194-9984-b340d24b910f_20160428-071342-largejpg.jpg
+wwwroot\uploads\62bcc4c2-7702-477b-b29a-6714ee716638_486445031_9339530002768136_6815736772670106772_n.jpg
 wwwroot\uploads\639bed80-d428-4be4-84b4-cb226ece2095_wedding-photographers-good-decision-photography-pre-wedding-shot-2_15_415138-165701936321085.jpeg
+wwwroot\uploads\66a31082-260c-41a1-bcb4-5f1bcecb083a_83378943_2693211284049106_3535227756461686784_n.jpg
+wwwroot\uploads\684a858c-7c1d-4f9a-a4c2-7b7c3acc0692_480807989_623011013994231_3270870775958832187_n.jpg
+wwwroot\uploads\69f2f83e-8384-47ea-9664-be0c4871d5b0_71ogAu9TWZL._AC_UF894,1000_QL80_.jpg
+wwwroot\uploads\6aaf6320-40e2-4512-9f68-dbe5e56e810b_architecturestudio_AMN1_5.jpg
+wwwroot\uploads\6c18a840-946d-46ef-9b87-76ee2771cecc_MW-GO103_wework_ZG_20180809173319-jpg.webp
+wwwroot\uploads\6ec7464f-2b30-4eec-a020-c26d674458ed_484151704_684377600586618_6869356562036677069_n.jpg
+wwwroot\uploads\6ec8ba2c-3a33-495d-b10f-b64a32d1f978_intercontinental-amman-9862762352-2x1.jpeg
+wwwroot\uploads\6ef49e5b-0a91-48f8-a1db-d8852771c0da_floor-3.jpg
 wwwroot\uploads\7186f4ef-a31c-4bf9-bd64-9031f5faed83_Screenshot 2024-12-12 150408.png
+wwwroot\uploads\71d1f28f-6785-4c7f-9055-6f28304415c0_71953552.jpg
+wwwroot\uploads\72c5624d-4d24-4321-b107-af93868abfaf_630009672.jpg
+wwwroot\uploads\73f369a8-7a18-4148-a1cb-0278dca02265_mac_magic.jpg
 wwwroot\uploads\7425f2a9-986b-416d-a2c0-91204eb0dd1c_Screenshot 2024-12-28 155832.png
+wwwroot\uploads\7582d9a8-daeb-4c7c-9df5-68e1cee71749_654124590.jpg
+wwwroot\uploads\764bde6c-792e-44f1-a526-87284f35a291_Gee-University-Lounge-Furniture-Balance-Graphic-PB.jpg
+wwwroot\uploads\765b9e66-a32a-4583-ade5-d277fe3d5b1a_mac_magic (1).jpg
+wwwroot\uploads\773791c3-a3ac-402a-ac87-2b0acbd85456_59a8bb06-f0b1-4351-b7a6-2f8f9d47d468_lg.jpg
 wwwroot\uploads\7830f9c0-d06f-435d-afcb-28b90dfcd814_AboutUs1.png
+wwwroot\uploads\7e887a3c-89f3-4daf-914e-89eb4f85d1ac_34887993_238188143400219_8761658766157414400_n.jpg
+wwwroot\uploads\80558f7e-4e2a-4733-96db-72b9e67861b0_Spa_1__O.webp
+wwwroot\uploads\82597a2a-63ec-41d5-9808-939d7f9e7a58_wild-jordan-center-2.jpg
+wwwroot\uploads\84ac188e-a56b-455e-8afb-655368ee514d_485401131_959695479688646_4679703741326168975_n.jpg
+wwwroot\uploads\883fdaf6-7dff-4918-8718-2779acf9ef38_lounge-3.webp
+wwwroot\uploads\8b3457a4-f58d-4122-9a72-8ebdde3c6350_481169288_1080981147395394_4626224877970263076_n.jpg
+wwwroot\uploads\8c49c70f-e25a-4ef6-b075-c7a73804821b_nayrouz_halls_for_celebrations.jpg
+wwwroot\uploads\8c5e139c-b1e1-448f-a74f-91ab9ad0076e_lobby.jpg
+wwwroot\uploads\8cedac75-6dd4-4c23-aa34-c6bea9e7ce4d_475121932_938647078416747_2317136038290866091_n.jpg
 wwwroot\uploads\8e2a693d-f9fa-4a0c-bebe-a237ab90fdef_Screenshot 2024-12-16 214420.png
+wwwroot\uploads\8e4c5e73-bd28-470a-915b-4c6c07c2aa08_1370794655840800-7fc4b31b_z.jpg
+wwwroot\uploads\9624459f-f53d-4dab-af3d-c4d274dbb2ce_pool-at-fairmont-amman.jpg
 wwwroot\uploads\971ecfa4-5fa7-4d32-a4c0-aa76d19a8bd1_61fKjsC3E4L._AC_UY1000_ (1).jpg
 wwwroot\uploads\980f562b-099e-4306-8285-f3ab32e7e39f_Screenshot 2024-12-05 114910.png
+wwwroot\uploads\988383f7-cbe6-4041-bdeb-6309e7d75396_475121932_938647078416747_2317136038290866091_n (1).jpg
+wwwroot\uploads\98ef9a93-b5dc-4b5c-9dc8-404f800b44ae_unnamed.webp
+wwwroot\uploads\997420d6-b114-4c89-9d86-5ee4fa5b5edf_600062433.jpg
+wwwroot\uploads\999ed29a-8a5e-4ec1-8be7-a108f38d3e6b_gustomanchester-restaurant1300.jpg
 wwwroot\uploads\9bc43358-38cf-4578-94c6-ddbc459436f3_Screenshot 2025-03-28 004219.png
+wwwroot\uploads\9e21e7a3-30e9-48b1-aef1-90b9b5cdbdcf_485386222_9320599021327901_765879715037175915_n.jpg
+wwwroot\uploads\9ef67e2a-bc7e-49d6-b52c-6496a75853f7_2c44fcb3-060d-41a2-94b7-cd6bf081c77b.jpg
+wwwroot\uploads\9f36fe2e-afe4-47d5-bed7-bd1d18a2e41f_329191878.jpg
+wwwroot\uploads\a0542ef2-3f36-4609-891c-bc68d2c89fbf_90s2kcafe-014_900x506x6616-3722-0-344.jpg
 wwwroot\uploads\a2970df6-3c69-461d-887c-4d4fdf6dd718_popular-types-of-photography.jpg
 wwwroot\uploads\a6a73e5d-eeb8-4cac-8fe6-32e678dbad1a_Screenshot 2025-02-27 205934.png
+wwwroot\uploads\a8d711e9-4b20-439d-87f2-cf79dd86b8cb_654119457.jpg
+wwwroot\uploads\a9432ea4-5c5d-4124-9bbe-f7999c1f9c8d_488694039_9428239117230557_3676850191546600501_n.jpg
 wwwroot\uploads\aa683dbe-64e6-416c-9eda-431c05c2b92c_AboutUs1.png
+wwwroot\uploads\ac497068-576a-4c48-a49e-65d414694b4d_preview_ajda-kosuyolu_5MI1bS1r.webp
+wwwroot\uploads\ad760e21-d6c9-4311-922e-f2ffbd308bf8_expedia_group-681189-64d8e4-245407.jpg
+wwwroot\uploads\aeed6271-7b12-4097-9a72-e6088d7a281a_654123224.jpg
 wwwroot\uploads\af2fc35e-e3ee-4a08-b0c6-8e9ac210be0d_W-Amman-Hotel-Exterior.jpeg
+wwwroot\uploads\b237f661-da6c-49b1-82a1-9406ce38b36c_462471581_2703089186553649_4441256548123589435_n.jpg
+wwwroot\uploads\b3b9f782-9a6b-458c-993b-5b4637b2b840_leonardo-115667-146998908-996445.jpg
 wwwroot\uploads\b57f4969-c8a8-4835-b828-727a9999c4f5_Screenshot 2024-12-12 130839.png
+wwwroot\uploads\b59a44cb-6c48-48cb-b0cd-19f70691c399_490421654_2344677465948355_7669514009297902032_n.jpg
 wwwroot\uploads\b897aea1-7372-497d-a74d-a9e54f4bcf94_images.jpeg
+wwwroot\uploads\bcad7428-1fe3-4b0b-94f3-db82a980fef3_49314303.jpg
 wwwroot\uploads\bcd77cc2-f3a5-4e23-9f64-a8f7215d1bed_1 copy_Easy-Resize.com_.jpg
 wwwroot\uploads\bf2f7e20-6a03-45ec-adf2-f61964ce91b1_61rQ6HVCfyL._AC_UY1000_.jpg
+wwwroot\uploads\bfc6e14f-0835-41f9-85ad-55171809e2af_Ritz-Carlton_Amman_parquet-Listone-Giordano_2.jpg
+wwwroot\uploads\bffc3a54-c861-48aa-beda-7914db5f4344_538345724.jpg
+wwwroot\uploads\c097190c-fbd1-43fe-b2ae-7e5206ffd367_Gusto_Italian_1_1248916963.jpeg
 wwwroot\uploads\c3ec56ac-a08b-48a5-95f7-c10d120a52ca_choosing_photography_style_beginner_guide.jpg
+wwwroot\uploads\c45a86ff-935f-44cb-a748-9f4904bf5ccf_a459863b-ab22-4b48-8daa-892059531309.jpg
+wwwroot\uploads\c7963223-9694-485b-b9c4-673ec67938f9_486316715_9339530009434802_2742121281903865821_n.jpg
 wwwroot\uploads\c9385071-f4a1-48da-aed1-b4ec617b6adf_81gBffm4HiL._AC_SX342_.jpg
+wwwroot\uploads\cac599d6-31a3-46da-8c13-3cf8d436bb3e_654123212.jpg
+wwwroot\uploads\cb8040ca-e2ba-45d3-9c8a-c54cb34b33fd_219565539.jpg
+wwwroot\uploads\cc9a3f10-77ae-4ad1-b57f-926d43288e45_2-authentic-jordanian-dining-experience-main-page-2-scaled.jpg
+wwwroot\uploads\ccaec767-c98e-422a-b80d-948c11ed27f6_491275147_684320680919656_9101186426211901676_n.jpg
+wwwroot\uploads\cecd3d29-3804-4114-bcc0-3a031a7c0b27_1300x820.webp
+wwwroot\uploads\d24eb095-50c2-418e-9a40-78a5b209531c_463961aa-3a7a-4980-b811-3f243e57a92d.jpg
+wwwroot\uploads\d3d3934d-664e-417f-bbeb-499fe2650db6_la-capitale-by-night.jpg
+wwwroot\uploads\d5733621-3328-49d6-9121-c843137c8b65_472994865_898790372466628_8010964887714260211_n.jpg
 wwwroot\uploads\da1a025f-d358-42e6-9237-972542821ca3_Screenshot 2024-12-20 170208.png
+wwwroot\uploads\dd131923-605b-41c4-9446-0b280c314cf1_rz-ammrz-hotel-exterior-26652_Feature-Hor.jpeg
+wwwroot\uploads\de0a10d5-19a3-4e0e-b6db-4b089a2b657a_462799871_2707972009398700_4658025620334968347_n.jpg
 wwwroot\uploads\de5366bf-7b5c-4219-b32d-81f9532ebb04_w-hotel-amman-pic-4.jpeg
+wwwroot\uploads\df17d67c-9eec-4532-b69d-cedfdb1fd216_173_1.jpg
+wwwroot\uploads\e5dab3f7-f955-4f88-8595-cb98946bc54b_245762869.jpg
+wwwroot\uploads\e73cf903-8b58-4cc2-949e-f6164dd34985_480807643_623011130660886_4054933608536116215_n.jpg
+wwwroot\uploads\e7f63238-ddb8-4d91-9fdb-006b1cdd46e7_ad881b_565dd0f9afe749ca8a95ed309a1688dd~mv2.jpg
+wwwroot\uploads\e83bd836-31d9-4239-a270-8516bbc5315d_photo0jpg.jpg
+wwwroot\uploads\e90626c1-9591-4d2c-95ec-6562961ec8a0_l1.png
+wwwroot\uploads\eaaafea7-9c32-4f06-b2b7-7b4d80eaab88_img-20140331-wa0003.jpg
+wwwroot\uploads\eeaa2fa2-4474-45fd-8383-da559d15b31e_7q0a7362.jpg
+wwwroot\uploads\eed751ff-bee4-480a-83b4-74568b5bd3cc_rovan_wedding_hall.jpeg
+wwwroot\uploads\f22ed2c7-70e1-4a98-aa87-98c404b95d0a_734685468.jpeg
+wwwroot\uploads\f275eb61-98ba-4c78-8637-168d303f04c1_490783083_684317667586624_3199873693117400572_n.jpg
+wwwroot\uploads\f27855a1-5374-4402-b512-1b720ce4de6e_WIld_Jordan_Amman_.jpg
+wwwroot\uploads\f70425e9-b617-4ca4-a950-888db06bfc9a_643119108.jpg
+wwwroot\uploads\f73ffc67-1ff2-45d3-9d70-01702abf8907_La Capitale Image.jpg
+wwwroot\uploads\f90a7522-c952-4d59-998d-4e707c6af7b4_490295733_975952931396234_851833130238959531_n.jpg
+wwwroot\uploads\fa4e2641-ae13-4f0c-bb73-a56b40e11498_Grand-Ballroom-Blog-Image-1080x675.jpg
 wwwroot\uploads\fb54ea1c-0c7b-4b38-a576-703cea09144e_Screenshot 2025-04-01 190819.png
+wwwroot\uploads\fde3bfbe-2418-4be9-94d0-dd6a1ffe505b_481242465_623011197327546_6439960040826335171_n.jpg
+wwwroot\uploads\fdf7d872-baaf-4b31-99bf-3fd92147735e_blue_haven_farm.png
+wwwroot\uploads\fe38319f-e01b-47cf-acdb-2a7b8550cea2_panorama_blue_venues.jpeg
+wwwroot\uploads\fefc9653-ab5f-4df5-9d3e-deaa169ff96c_the-ritz-carlton-amman-pic-99.jpeg

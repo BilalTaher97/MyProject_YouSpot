@@ -213,27 +213,6 @@
 
     
 
-        document.addEventListener("DOMContentLoaded", function () {
-        var successMessage = '@TempData.Peek("SuccessMessage_P")';
-        var errorMessage = '@TempData.Peek("ErrorMessage_P")';
-
-        if (successMessage && successMessage !== '') {
-            Swal.fire({
-                title: 'Payment success!',
-                text: successMessage,
-                icon: 'success',
-                confirmButtonText: 'OK'
-            });
-        }
-
-        if (errorMessage && errorMessage !== '') {
-            Swal.fire({
-                title: 'Booking Failed!',
-                text: errorMessage,
-                icon: 'error',
-                confirmButtonText: 'Try Again'
-            });
-        }
-    });
+   
 
 </script>

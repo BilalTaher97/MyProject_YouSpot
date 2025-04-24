@@ -151,30 +151,36 @@
     margin-top: 20px;
     width: 735px;
 }
+
+
+@media (max-width: 768px) {
+    #Description {
+        width: 319px;
+        margin-left: 339px;
+    }
+}
+
+
     .register-left p {
-
-    font-size: 15px;
-    font-weight: bold;
-    color: rgba(91, 193, 173, 0.722);
-}
-
-
-.btnRegister:hover {
-
-  background-color: #5a6f80;
-}
+        font-size: 15px;
+        font-weight: bold;
+        color: rgba(91, 193, 173, 0.722);
+    }
 
 
-.List_1 {
-
-    padding: 8px 33px;
-    border: 1px solid #ced4da;
-    color: #6c757d;
-    margin-bottom: 20px;
-}
+    .btnRegister:hover {
+        background-color: #5a6f80;
+    }
 
 
-.form-control {
+    .List_1 {
+        padding: 8px 33px;
+        border: 1px solid #ced4da;
+        color: #6c757d;
+        margin-bottom: 20px;
+    }
 
-    margin-bottom: 20px ;
-}
+
+    .form-control {
+        margin-bottom: 20px;
+    }

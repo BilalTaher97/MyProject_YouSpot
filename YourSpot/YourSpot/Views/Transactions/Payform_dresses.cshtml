@@ -6,7 +6,7 @@
 
 
 <div class="donation-container">
-    <h1 class="donation-title">Make a Donation</h1>
+
 
     <form id="donationForm" asp-action="HandelPayform_dress" method="post">
 
@@ -34,8 +34,8 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            var successMessage = '@TempData.Peek("SuccessMessage_5")';
-            var errorMessage = '@TempData.Peek("ErrorMessage_5")';
+            var successMessage = '@TempData["SuccessMessage_5"]';
+            var errorMessage = '@TempData["ErrorMessage_5"]';
 
             if (successMessage && successMessage !== '') {
                 Swal.fire({

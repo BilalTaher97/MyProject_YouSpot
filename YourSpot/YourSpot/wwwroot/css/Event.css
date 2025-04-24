@@ -12,13 +12,20 @@ h1,h2 {
 
     font-size: 35px !important;
 }
+
+
+.Name_Est {
+    font-size: 24px;
+}
+
+
 .offers-container {
     width: 100%;
     margin: auto;
     overflow: hidden;
     position: relative;
-    
 }
+
 
 .container-withArrow {
     display: flex;
@@ -62,6 +69,19 @@ h1,h2 {
     overflow: hidden;
     width: 1400px;
 }
+
+@media (max-width: 768px) {
+    .home-box {
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .home-box {
+        flex: 0 0 50%;
+    }
+}
+
 
 .home-box h3 {
 

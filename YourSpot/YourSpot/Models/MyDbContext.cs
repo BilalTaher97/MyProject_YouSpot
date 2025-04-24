@@ -49,10 +49,10 @@ public partial class MyDbContext : DbContext
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.BookingDate).HasColumnName("booking_date");
-            entity.Property(e => e.DressesId).HasColumnName("Dresses_id");
+            entity.Property(e => e.DressId).HasColumnName("Dresses_id");
             entity.Property(e => e.EndTime).HasColumnName("endTime");
             entity.Property(e => e.Message).HasColumnName("message");
-            entity.Property(e => e.PhotographersId).HasColumnName("Photographers_id");
+            entity.Property(e => e.PhotographerId).HasColumnName("Photographers_id");
             entity.Property(e => e.StartTime).HasColumnName("startTime");
             entity.Property(e => e.Status).HasMaxLength(50);
             entity.Property(e => e.TypeBook)

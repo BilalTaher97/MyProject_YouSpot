@@ -306,12 +306,59 @@ namespace YourSpot.Controllers
                             BookingDate = b.BookingDate,
                             StartTime = b.StartTime,
                             EndTime = b.EndTime,
+                            NumberOfAttendees = b.NumberOfAttendees ?? 0, 
                             Message = b.Message,
                             Status = b.Status,
                             VenueId = b.VenueId,
                             UserId = b.UserId,
-                            PhotographersId = b.PhotographersId,
-                            DressesId = b.DressesId,
+                            PhotographersId = b.PhotographerId,
+                            DressesId = b.DressId,
+                            TypeBook = b.TypeBook
+                        };
+
+
+            switch (typeBook)
+            {
+                case "Venue":
+                    query = query.Where(b => b.VenueId == id);
+                    break;
+                case "Photogeapher":
+                    query = query.Where(b => b.PhotographersId == id);
+                    break;
+                case "Dress":
+                    query = query.Where(b => b.DressesId == id);
+                    break;
+                default:
+                    return BadRequest("Invalid Type_Book value");
+            }
+
+            var result = query.ToList();
+            return View(result);
+        }
+
+        public IActionResult Manage_Requests_2()
+        {
+            int id = Convert.ToInt32(HttpContext.Session.GetInt32("id"));
+            string typeBook = HttpContext.Session.GetString("Role");
+
+
+            var query = from b in _context.Bookings
+                        join u in _context.Users on b.UserId equals u.Id
+                        select new BookingViewModel
+                        {
+                            BookingId = b.Id,
+                            Name = u.Name,
+                            Email = u.Email,
+                            Phone = u.Phone,
+                            BookingDate = b.BookingDate,
+                            StartTime = b.StartTime,
+                            EndTime = b.EndTime,
+                            Message = b.Message,
+                            Status = b.Status,
+                            VenueId = b.VenueId,
+                            UserId = b.UserId,
+                            PhotographersId = b.PhotographerId,
+                            DressesId = b.DressId,
                             TypeBook = b.TypeBook
                         };
 
@@ -334,8 +381,21 @@ namespace YourSpot.Controllers
             return View(result);
         }
 
+        [HttpPost]
+        public IActionResult AcceptRequest(int id,int Price)
+        {
+            var booking = _context.Bookings.FirstOrDefault(b => b.Id == id);
+            if (booking != null)
+            {
+                booking.Status = "Approved";
+                booking.Price = Price;
+                _context.SaveChanges();
+            }
+            return RedirectToAction("Manage_Requests");
+        }
 
-        public IActionResult AcceptRequest(int id)
+
+        public IActionResult AcceptRequest_2(int id)
         {
             var booking = _context.Bookings.FirstOrDefault(b => b.Id == id);
             if (booking != null)
@@ -343,7 +403,7 @@ namespace YourSpot.Controllers
                 booking.Status = "Approved";
                 _context.SaveChanges();
             }
-            return RedirectToAction("Manage_Requests");
+            return RedirectToAction("Manage_Requests_2");
         }
 
         public IActionResult CancelRequest(int id)
@@ -357,6 +417,16 @@ namespace YourSpot.Controllers
             return RedirectToAction("Manage_Requests");
         }
 
+        public IActionResult CancelRequest_2(int id)
+        {
+            var booking = _context.Bookings.FirstOrDefault(b => b.Id == id);
+            if (booking != null)
+            {
+                booking.Status = "Cancelled";
+                _context.SaveChanges();
+            }
+            return RedirectToAction("Manage_Requests_2");
+        }
 
         public IActionResult ChangePasswordAdmin()
         {
@@ -843,6 +913,34 @@ namespace YourSpot.Controllers
 
             return View(FeedBack);
         }
+
+
+        public IActionResult ShowAllPayment()
+        {
+            var bookings = _context.Bookings
+                .Include(b => b.User)
+                .Include(b => b.Venue)
+                .Include(b => b.Photographer)
+                .Include(b => b.Dress)
+                .Select(b => new BookingDetailsViewModel
+                {
+                    Id = b.Id,
+                    BookingDate = b.BookingDate.ToDateTime(TimeOnly.MinValue),
+                    Price = b.Price,
+                    Message = b.Message,
+                    TypeBook = b.TypeBook,
+                    Status = b.Status,
+                    UserName = b.User != null ? b.User.Name : "N/A",
+                    VenueName = b.Venue != null ? b.Venue.Name : "N/A",
+                    PhotographerName = b.Photographer != null ? b.Photographer.Name : "N/A",
+                    DressName = b.Dress != null ? b.Dress.Name : "N/A"
+                })
+                .ToList();
+
+            return View(bookings);
+        }
+
+
 
     }
 }

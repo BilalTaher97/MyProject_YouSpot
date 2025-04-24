@@ -1,4 +1,4 @@
-* {
+﻿* {
     box-sizing: border-box;
 }
 
@@ -317,3 +317,78 @@ button {
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .form-container {
+        position: relative;
+        width: 100%;
+        left: 0;
+        height: auto;
+        transition: none;
+    }
+
+    .overlay-container {
+        display: none; /* نلغي الـ overlay بالموبايل */
+    }
+
+    .sign-in-container,
+    .sign-up-container {
+        width: 100%;
+        opacity: 1;
+        z-index: 1;
+        transform: translateX(0) !important;
+    }
+
+    .container.right-panel-active .sign-up-container {
+        display: none; /* نخفي واحدة وقت ما تكون الثانية مفعلة */
+    }
+
+    .container.right-panel-active .sign-in-container {
+        display: none;
+    }
+
+    .home-button {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .form-container form {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .role-select-container {
+        margin-bottom: 10px;
+    }
+}

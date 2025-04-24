@@ -302,4 +302,54 @@ h1 {
     width: 1.25rem;
     height: 1.25rem;
   }
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .btn-Request {
+        left: 0;
+        text-align: center;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .Maps {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+        .Maps iframe {
+            width: 100% !important;
+            height: auto;
+        }
+
+    .Fav {
+        left: 0;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .container_1 {
+        padding: 10px;
+    }
+
+
+    .Favourit {
+        margin-left: 20px;
+    }
+
+    .button_1 {
+        margin-left: 120px;
+    }
+}

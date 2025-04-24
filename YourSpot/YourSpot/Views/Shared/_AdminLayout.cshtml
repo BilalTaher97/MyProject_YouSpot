@@ -47,9 +47,18 @@
 						<a asp-action="Gallery" asp-controller="Home">Image Management</a>
 					</li>
 
-					<li>
-						<a asp-action="Manage_Requests" asp-controller="Home">Manage Requests</a>
-					</li>
+					@if (Context.Session.GetString("Role") == "Venue"){
+						<li>
+							<a asp-action="Manage_Requests" asp-controller="Home">Manage Requests</a>
+						</li>
+					}
+					else
+					{
+						<li>
+							<a asp-action="Manage_Requests_2" asp-controller="Home">Manage Requests</a>
+						</li>
+					}
+					
 					
 					<li>
 						<a asp-action="ChangePasswordAdmin" asp-controller="Home">Change Password</a>

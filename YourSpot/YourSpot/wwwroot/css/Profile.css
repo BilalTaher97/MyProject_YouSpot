@@ -139,3 +139,82 @@ body {
 .Title_Table {
     color: #5bc1ac !important;
 }
+
+
+
+
+
+
+@media (max-width: 768px) {
+    table td, table th {
+        white-space: nowrap; /* Prevent text from wrapping */
+        overflow: hidden; /* Hide overflow text */
+        text-overflow: ellipsis; /* Show ellipsis if the text overflows */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Table Wrapper */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+    table th,
+    table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border: 1px solid #dee2e6;
+        text-align: left;
+    }
+
+    /* Optional: zebra striping for rows */
+    table tbody tr:nth-child(odd) {
+        background-color: #f8f9fa;
+    }
+
+    /* Make sure text wraps inside cells on smaller screens */
+    table td {
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

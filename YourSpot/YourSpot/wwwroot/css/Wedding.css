@@ -14,12 +14,7 @@ span {
     transform: none;
 }
 
-.offers-container {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-}
+
 
 .container-withArrow {
     display: flex;
@@ -33,13 +28,23 @@ span {
 }
 
 .arrows-Home {
-    overflow: hidden;
+    overflow-x: auto;
     display: flex;
     flex-wrap: nowrap;
-
-    flex-wrap: nowrap;
+    scroll-behavior: smooth;
     transition: transform 0.1s ease-in-out;
     will-change: transform;
+    gap: 20px; 
+}
+
+.offer-box {
+    min-width: 300px;
+    flex-shrink: 0;
+}
+
+.Name_Est{
+
+    font-size:24px;
 }
 
 .home-box {
@@ -55,7 +60,7 @@ span {
     position: relative;
     overflow: hidden;
     height: 500px;
-    width:350px
+    width: 350px
 }
 
 .home-box h3 {

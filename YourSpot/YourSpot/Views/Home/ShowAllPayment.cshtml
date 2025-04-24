@@ -1,0 +1,44 @@
+﻿@model IEnumerable<YourSpot.Models.BookingDetailsViewModel>
+
+
+
+
+@{
+	Layout = "~/Views/Shared/_SuperAdmin.cshtml";
+}
+
+
+
+
+
+<table class="table" style="margin-left: 150px;margin-top: 150px;">
+    <thead class="thead-dark">
+        <tr>
+            <th>#</th>
+            <th>Booking Date</th>
+            <th>Price</th>
+            <th>Message</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th>User</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int counter = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@counter</td>
+                <td>@item.BookingDate.ToShortDateString()</td>
+                <td>@item.Price</td>
+                <td>@item.Message</td>
+                <td>@item.TypeBook</td>
+                <td>@item.Status</td>
+                <td>@item.UserName</td>
+            </tr>
+            counter++;
+        }
+    </tbody>
+</table>

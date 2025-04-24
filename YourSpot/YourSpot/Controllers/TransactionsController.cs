@@ -160,24 +160,24 @@ namespace YourSpot.Controllers
                     _context.Bookings.Update(UpBooking); 
                     if (_context.SaveChanges() > 0)
                     {
-                        TempData["SuccessMessage_P"] = "🎉 Thank you! Your transaction was successful. We are happy to serve you and wish you a wonderful day! 😊";
+                        
                         return RedirectToAction("SuccessPage");
                     }
                     else
                     {
-                        TempData["ErrorMessage_P"] = "❌ Failed to update booking status. Please try again!";
+                        
                         return RedirectToAction("Payment", new { id = bookingId });
                     }
                 }
                 else
                 {
-                    TempData["ErrorMessage_P"] = "❌ Booking not found.";
+                   
                     return RedirectToAction("Payment", new { id = bookingId });
                 }
             }
             else
             {
-                TempData["ErrorMessage_P"] = "❌ Payment failed. Please try again!";
+                
                 return RedirectToAction("Payment", new { id = bookingId });
             }
 
@@ -197,7 +197,7 @@ namespace YourSpot.Controllers
         }
 
         [HttpPost]
-        public IActionResult HandelPayform(TimeOnly startTime, TimeOnly endTime, DateOnly eventDate, string message)
+        public IActionResult HandelPayform(TimeOnly startTime, TimeOnly endTime, DateOnly eventDate,int NumberOfAttendees, string message)
         {
             if (HttpContext.Session.GetInt32("id") == null)
             {
@@ -210,6 +210,7 @@ namespace YourSpot.Controllers
                 booking.BookingDate = eventDate;
                 booking.StartTime = startTime;
                 booking.EndTime = endTime;
+                booking.NumberOfAttendees = NumberOfAttendees;
                 booking.Message = message;
                 booking.VenueId = Convert.ToInt32(TempData["VenId"]);
                 booking.UserId = HttpContext.Session.GetInt32("id").Value;
@@ -239,17 +240,29 @@ namespace YourSpot.Controllers
         [HttpPost]
         public IActionResult HandelPayform_photo(DateOnly bookingDate , string message)
         {
+            int Price = 0;
             if (HttpContext.Session.GetInt32("id") == null)
             {
                 return RedirectToAction("Log_Reg", "User");
             }
+            int Ph_ID = Convert.ToInt32(TempData["photoId"]);
+            var photo = _context.Photographers.Find(Ph_ID);
 
+            if (photo == null)
+            {
+                Price = 0;
+            }
+            else
+            {
+                Price = Convert.ToInt32(photo.Price);
+            }
             var booking = new Booking();
             if (ModelState.IsValid)
             {
                 booking.BookingDate = bookingDate;
+                booking.Price = Price;
                 booking.Message = message;
-                booking.PhotographersId = Convert.ToInt32(TempData["photoId"]);
+                booking.PhotographerId = Ph_ID;
                 booking.UserId = HttpContext.Session.GetInt32("id").Value;
                 booking.Status = "Pending";
                 booking.TypeBook = "Photographers";
@@ -274,17 +287,31 @@ namespace YourSpot.Controllers
         [HttpPost]
         public IActionResult HandelPayform_dress(DateOnly bookingDate, string message)
         {
+            int Price = 0;
             if (HttpContext.Session.GetInt32("id") == null)
             {
                 return RedirectToAction("Log_Reg", "User");
+            }
+            int Dres_ID = Convert.ToInt32(TempData["dressId"]);
+
+            var Dress = _context.Dresses.Find(Dres_ID);
+
+            if(Dress == null)
+            {
+                Price = 0;
+            }
+            else
+            {
+                Price = Convert.ToInt32(Dress.Price);
             }
 
             var booking = new Booking();
             if (ModelState.IsValid)
             {
                 booking.BookingDate = bookingDate;
+                booking.Price = Price;
                 booking.Message = message;
-                booking.DressesId = Convert.ToInt32(TempData["dressId"]);
+                booking.DressId = Dres_ID;
                 booking.UserId = HttpContext.Session.GetInt32("id").Value;
                 booking.Status = "Pending";
                 booking.TypeBook = "Dresses";

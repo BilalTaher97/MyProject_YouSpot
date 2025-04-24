@@ -33,8 +33,8 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            var successMessage = '@TempData.Peek("SuccessMessage_4")';
-            var errorMessage = '@TempData.Peek("ErrorMessage_4")';
+            var successMessage = '@TempData["SuccessMessage_4"]';
+            var errorMessage = '@TempData["ErrorMessage_4"]';
 
             if (successMessage && successMessage !== '') {
                 Swal.fire({

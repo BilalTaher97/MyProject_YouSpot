@@ -9,6 +9,8 @@
         public DateOnly BookingDate { get; set; }
         public TimeOnly? StartTime { get; set; }
         public TimeOnly? EndTime { get; set; }
+        public int Price { get; set; }
+        public int NumberOfAttendees { get; set; }
         public string Message { get; set; }
         public string Status { get; set; }
         public int? VenueId { get; set; }

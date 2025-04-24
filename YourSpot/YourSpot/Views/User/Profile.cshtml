@@ -20,6 +20,17 @@
 		</ol>
 	</nav> *@
 	<!-- /Breadcrumb -->
+	<!-- Horizontal nav for small screens -->
+	<div class="d-md-none mb-3">
+		<div class="nav nav-pills flex-nowrap overflow-auto">
+			<a href="#profile" data-toggle="tab" class="nav-item nav-link active">Profile</a>
+			<a href="#account" data-toggle="tab" class="nav-item nav-link">Account</a>
+			<a href="#security" data-toggle="tab" class="nav-item nav-link">Security</a>
+			<a href="#billing" data-toggle="tab" class="nav-item nav-link">Bookings</a>
+			<a href="#Favourit" data-toggle="tab" class="nav-item nav-link">Favorites</a>
+		</div>
+	</div>
+
 
 	<div class="row gutters-sm">
 		<div class="col-md-4 d-none d-md-block">
@@ -58,7 +69,7 @@
 								<line x1="1" y1="10" x2="23" y2="10"></line>
 							</svg>My Bookings
 						</a>
-						<a href="#Favourit" data-toggle="tab" class="nav-item nav-link has-icon nav-link-faded">
+						<a href="#Favourit" data-toggle="tab" class="nav-item nav-link d-inline-block text-nowrap">
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
 								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
 								 class="feather feather-settings mr-2">
@@ -181,7 +192,7 @@
 
 						<hr>
 					</div>
-					<div class="tab-pane" id="billing">
+					<div class="tab-pane table-responsive" id="billing">
 						
 						<hr>
 						<h6 class="Title_Table">Venue Reservations</h6>
@@ -192,6 +203,8 @@
 									<th scope="col">Booking Date</th>
 									<th scope="col">Start Time</th>
 									<th scope="col">End Date</th>
+									<th scope="col">Price</th>
+									<th scope="col">Attendees</th>
 									<th scope="col">Type Booking</th>
 									<th scope="col">Status</th>
 									<th scope="col" colspan="2"></th>
@@ -212,6 +225,12 @@
 											<td>@item.BookingDate</td>
 											<td>@item.StartTime</td>
 											<td>@item.EndTime</td>
+											@if (item.Price != null){
+												<td>@item.Price</td>
+											}else{
+												<td>N/A</td>
+											}											
+											<td>@item.NumberOfAttendees</td>
 											<td>@item.TypeBook</td>
 											@if (item.Status == "Pending")
 											{
@@ -229,7 +248,7 @@
 											
 											@if (item.Status == "Approved")
 											{
-												<td><a asp-action="Payment" asp-controller="Transactions" asp-route-id="@item.Id" class="btn btn-success">Confirm Payment</a></td>
+												<td><a asp-action="Payment" asp-controller="Transactions" asp-route-id="@item.Id" class="btn btn-success" style="white-space: nowrap;">Confirm Payment</a></td>
 												<td><a asp-action="DeleteBooking" asp-controller="User" asp-route-id="@item.Id" class="btn btn-danger">Cancel</a></td>
 											}
 										</tr>
@@ -251,6 +270,7 @@
 									<th scope="col">#</th>
 									<th scope="col">Booking Date</th>
 									<th scope="col">Type Booking</th>
+									<th scope="col">Price</th>
 									<th scope="col">Status</th>
 									<th scope="col" colspan="2"></th>
 								</tr>
@@ -269,6 +289,7 @@
 											<th scope="row">@counter_1</th>
 											<td>@item.BookingDate</td>
 											<td>@item.TypeBook</td>
+											<td>@item.Price</td>
 											@if (item.Status == "Pending")
 											{
 												<td style="color:sandybrown;font-weight:bold">@item.Status</td>
@@ -303,7 +324,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="tab-pane" id="Favourit">
+					<div class="tab-pane table-responsive" id="Favourit">
 						
 						<hr>
 
@@ -340,9 +361,9 @@
 										<td>@item.Price</td>
 										<td>@item.Capacity</td>
 										<td>
-											<a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue" style="font-size: 12px; position: relative;left: 55px;" class="btn btn-success">Show Details</a>
+											<a asp-action="Details" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Venue" style="font-size: 12px;" class="btn btn-success">Show Details</a>
 										</td>
-										<td><a asp-action="DeleteVenuesFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 20%;font-size: 12px;" class="btn btn-danger">Remove</a></td>
+										<td><a asp-action="DeleteVenuesFav" asp-controller="User" asp-route-id="@item.Id" style="font-size: 12px;" class="btn btn-danger">Remove</a></td>
 
 									</tr>
 
@@ -382,8 +403,8 @@
 										<td>@item.Email</td>
 										<td>@item.Phone</td>
 										<td>@item.Price</td>
-										<td><a asp-action="Details_Phtotography" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Photogeapher" style="font-size: 12px; position: relative;left: 40px;" class="btn btn-success">Show Details</a></td>
-										<td><a asp-action="DeletePhotoFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 20%;font-size: 12px;" class="btn btn-danger">Remove</a></td>
+										<td><a asp-action="Details_Phtotography" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Photogeapher" style="font-size: 12px;" class="btn btn-success">Show Details</a></td>
+										<td><a asp-action="DeletePhotoFav" asp-controller="User" asp-route-id="@item.Id" style="font-size: 12px;" class="btn btn-danger">Remove</a></td>
 
 									</tr>
 
@@ -429,7 +450,7 @@
 										<td>@item.Size</td>
 										<td>@item.Brand</td>
 										<td><a asp-action="Details_Dresses" asp-controller="Transactions" asp-route-id="@item.Id" asp-route-type="Dress" class="btn btn-success" style="font-size: 12px;">Show Details</a></td>
-										<td><a asp-action="DeleteDressesFav" asp-controller="User" asp-route-id="@item.Id" style="position: relative; left: 2%;font-size: 12px;" class="btn btn-danger">Remove</a></td>
+										<td><a asp-action="DeleteDressesFav" asp-controller="User" asp-route-id="@item.Id" style="font-size: 12px;" class="btn btn-danger">Remove</a></td>
 									
 
 									</tr>

@@ -10,7 +10,7 @@
 
 
 
-<div class="tab-pane" id="billing" style="margin-left: 130px; margin-top: 120px;margin-right: 50px">
+<div class="tab-pane" id="billing" style="margin-left: 100px; margin-top: 120px;margin-right: 50px">
 
 	<hr>
 	<h6 class="Title_Table">Manage Requests</h6>
@@ -24,9 +24,10 @@
 				<th scope="col">Date</th>
 				<th scope="col">Start Time</th>
 				<th scope="col">End Date</th>
+                <th scope="col">Attendees</th>
 				<th scope="col">Description</th>
 				<th scope="col">Status</th>
-				<th scope="col" colspan="2"></th>
+				<th scope="col" colspan="3"></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -34,57 +35,54 @@
 			@{
 				int counter_R = 1;
 			}
-			@foreach (var item in Model)
-			{
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@counter_R</th>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.Phone</td>
+                    <td>@item.BookingDate</td>
+                    <td>@item.StartTime</td>
+                    <td>@item.EndTime</td>
+                    <td>@item.NumberOfAttendees</td>
+                    <td>@item.Message</td>
+
+                    @if (item.Status == "Pending")
+                    {
+                        <td style="color:burlywood;font-weight:bold">@item.Status</td>
+                    }
+                    else if (item.Status == "Approved")
+                    {
+                        <td style="color:#5bc1ac;font-weight:bold">@item.Status</td>
+                    }
+                    else if (item.Status == "Completed")
+                    {
+                        <td style="color:forestgreen;font-weight:bold">@item.Status</td>
+                    }
+                    else
+                    {
+                        <td style="color:red;font-weight:bold">@item.Status</td>
+                    }
+
+                    @if (item.Status == "Pending")
+                    {
+                        <td colspan="2">
+                            <form id="confirmForm-@item.BookingId" method="post" asp-action="AcceptRequest" asp-controller="Home" asp-route-id="@item.BookingId" class="d-flex">
+                                <input type="hidden" name="BookingId" value="@item.BookingId" />
+                                <input type="number" step="0.01" name="Price" class="form-control" placeholder="Enter Price" style="width: 120px; margin-right: 10px;" required />
+                                <button type="submit" class="btn btn-success" style="position: relative;top: 46px;left: -37px;">
+                                    Confirm
+                                </button>
+                            </form>
+                            <a asp-action="CancelRequest" asp-controller="Home" asp-route-id="@item.BookingId" class="btn btn-danger mt-2">Cancel</a>
+                        </td>
+                    }
+                </tr>
+                counter_R++;
+            }
 
 
-				<tr>
-					<th scope="row">@counter_R</th>
-					<td>@item.Name</td>
-					<td>@item.Email</td>
-					<td>@item.Phone</td>
-					<td>@item.BookingDate</td>
-					@if (item.StartTime == null || item.StartTime == null){
-						<td>N/A</td>
-						<td>N/A</td>
-					}else{
-						<td>@item.StartTime</td>
-						<td>@item.EndTime</td>
-					}
-					
-					<td>@item.Message</td>
-					
-					@if (item.Status == "Pending")
-					{
-						<td style="color:burlywood;font-weight:bold">@item.Status</td>
-						
-					}
-					else if (item.Status == "Approved")
-					{
-						<td style="color:#5bc1ac;font-weight:bold">@item.Status</td>
-					}
-					else if (item.Status == "Completed")
-					{
-						<td style="color:forestgreen;font-weight:bold">@item.Status</td>
-					}
-					else
-					{
-						<td style="color:red;font-weight:bold">@item.Status</td>
-					}
-
-					@if (item.Status == "Pending")
-					{
-						<td><a asp-action="AcceptRequest" asp-controller="Home" asp-route-id="@item.BookingId" class="btn btn-success">Confirm</a></td>
-						<td><a asp-action="CancelRequest" asp-controller="Home" asp-route-id="@item.BookingId" class="btn btn-danger">Cancel</a></td>
-					}
-				</tr>
-
-				counter_R++;
-
-
-
-
-			}
 
 
 		</tbody>
