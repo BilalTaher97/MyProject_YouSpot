@@ -455,13 +455,12 @@ body {
 
 @media (max-width: 768px) {
     .registration-container {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        padding: 40px 20px;
     }
 
     .registration-content {
-        width: 100%;
+        width: 50%;
         margin-bottom: 30px;
     }
 
@@ -483,3 +482,34 @@ body {
             width: 95px;
             height: 95px;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 1000px) {
+        .Cards {
+            grid-template-columns: repeat(2, 45%);
+        }
+    }
+
+    @media (max-width: 600px) {
+        .Cards {
+            grid-template-columns: 1fr;
+        }
+
+        .wd-card-container {
+            width: 240px;
+        }
+    }

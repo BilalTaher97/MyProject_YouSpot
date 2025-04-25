@@ -707,13 +707,13 @@ h2 {
 
 @media (max-width: 768px) {
     .registration-container {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
-        padding: 40px 20px;
+  
     }
 
     .registration-content {
-        width: 100%;
+        width: 50%;
         margin-bottom: 30px;
     }
 

@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\home\\admindresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\home\\admindresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\wwwroot\\css\\templatemo-kind-heart-charity.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\wwwroot\\css\\templatemo-kind-heart-charity.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\home\\superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\home\\superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\transactions\\details_dresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\transactions\\details_dresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\shared\\_superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\shared\\_superadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\transactions\\details_phtotography.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\transactions\\details_phtotography.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\events\\photography.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\events\\photography.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\wwwroot\\css\\donationstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\wwwroot\\css\\donationstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\transactions\\payform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\transactions\\payform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|c:\\users\\orange\\desktop\\myproject_youspot\\yourspot\\yourspot\\views\\home\\dress_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4031D79-95EC-497F-8FEB-E7AAA5667D8D}|YourSpot\\YourSpot.csproj|solutionrelative:yourspot\\views\\home\\dress_management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Profile.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Profile.css",
-              "RelativeDocumentMoniker": "YourSpot\\wwwroot\\css\\Profile.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\Profile.css",
-              "RelativeToolTip": "YourSpot\\wwwroot\\css\\Profile.css",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-24T15:17:46.986Z",
+              "DocumentIndex": 0,
+              "Title": "AdminDresses.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\AdminDresses.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Home\\AdminDresses.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\AdminDresses.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Home\\AdminDresses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T21:52:13.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\User\\Profile.cshtml",
-              "RelativeDocumentMoniker": "YourSpot\\Views\\User\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\User\\Profile.cshtml*",
-              "RelativeToolTip": "YourSpot\\Views\\User\\Profile.cshtml*",
-              "ViewState": "AgIAAFgBAAAAAAAAAAAAAGsBAACHAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T15:16:30.624Z",
+              "WhenOpened": "2025-04-25T21:52:01.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "templatemo-kind-heart-charity.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\templatemo-kind-heart-charity.css",
-              "RelativeDocumentMoniker": "YourSpot\\wwwroot\\css\\templatemo-kind-heart-charity.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\templatemo-kind-heart-charity.css",
-              "RelativeToolTip": "YourSpot\\wwwroot\\css\\templatemo-kind-heart-charity.css",
-              "ViewState": "AgIAAMEGAAAAAAAAAAAqwNQGAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-24T15:04:57.441Z",
+              "Title": "SuperAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Home\\SuperAdmin.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T21:51:13.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Details_Dresses.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Transactions\\Details_Dresses.cshtml",
-              "RelativeDocumentMoniker": "YourSpot\\Views\\Transactions\\Details_Dresses.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Transactions\\Details_Dresses.cshtml",
-              "RelativeToolTip": "YourSpot\\Views\\Transactions\\Details_Dresses.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEgAAAAHAAAAAAAAAA==",
+              "Title": "_SuperAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Shared\\_SuperAdmin.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T15:00:25.534Z",
+              "WhenOpened": "2025-04-25T21:51:01.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Details_Phtotography.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Transactions\\Details_Phtotography.cshtml",
-              "RelativeDocumentMoniker": "YourSpot\\Views\\Transactions\\Details_Phtotography.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Transactions\\Details_Phtotography.cshtml",
-              "RelativeToolTip": "YourSpot\\Views\\Transactions\\Details_Phtotography.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
+              "Title": "Dress_Management.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\Dress_Management.cshtml",
+              "RelativeDocumentMoniker": "YourSpot\\Views\\Home\\Dress_Management.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Home\\Dress_Management.cshtml",
+              "RelativeToolTip": "YourSpot\\Views\\Home\\Dress_Management.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T15:00:10.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Photography.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Events\\Photography.cshtml",
-              "RelativeDocumentMoniker": "YourSpot\\Views\\Events\\Photography.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Events\\Photography.cshtml",
-              "RelativeToolTip": "YourSpot\\Views\\Events\\Photography.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T14:59:51.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DonationStyle.css",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\DonationStyle.css",
-              "RelativeDocumentMoniker": "YourSpot\\wwwroot\\css\\DonationStyle.css",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\wwwroot\\css\\DonationStyle.css",
-              "RelativeToolTip": "YourSpot\\wwwroot\\css\\DonationStyle.css",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAqwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-24T14:56:02.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Payform.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Transactions\\Payform.cshtml",
-              "RelativeDocumentMoniker": "YourSpot\\Views\\Transactions\\Payform.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\MyProject_YouSpot\\YourSpot\\YourSpot\\Views\\Transactions\\Payform.cshtml",
-              "RelativeToolTip": "YourSpot\\Views\\Transactions\\Payform.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T14:55:38.602Z",
+              "WhenOpened": "2025-04-25T21:50:37.6Z",
               "EditorCaption": ""
             }
           ]
